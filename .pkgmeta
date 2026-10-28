@@ -10,7 +10,7 @@ ignore:
   - CURSEFORGE.md
   - sound_registration.ps1
   - sound_registration.bat
-  - sorts.txt
+  - tts
   - "*.slnx"
   - "*.sln"
 

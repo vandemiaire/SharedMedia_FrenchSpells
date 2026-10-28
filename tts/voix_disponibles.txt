@@ -1,0 +1,52 @@
+# Voix ElevenLabs compatibles avec le français
+# Format: Nom - ID - Description
+
+// Utilisation dans ce projet
+Emily
+LcfcDJNUP1GQjkzn1xUU
+
+=== VOIX RECOMMANDÉES POUR LE FRANÇAIS ===
+
+Rachel - 21m00Tcm4TlvDq8ikWAM - Féminine, claire, américaine (PAR DÉFAUT)
+Adam - pNInz6obpgDQGcFmaJgB - Masculine, profonde, multilingue
+Antoni - ErXwobaYiN019PkySvjV - Masculine, jeune, claire
+Bella - EXAVITQu4vr4xnSDxMaL - Féminine, douce, américaine
+Elli - MF3mGyEYCl7XYWbV9V6O - Féminine, jeune, énergique
+Josh - TxGEqnHWrfWFTfGW9XjX - Masculine, profonde, américaine
+Arnold - VR6AewLTigWG4xSOukaG - Masculine, forte, américaine
+Charlotte - XB0fDUnXU5powFXDhCwa - Féminine, anglaise, élégante
+Clyde - 2EiwWnXFnvU5JabPnv8n - Masculine, âgée, américaine
+Dorothy - ThT5KcBeYPX3keUQqHPh - Féminine, britannique, âgée
+Emily - LcfcDJNUP1GQjkzn1xUU - Féminine, calme, américaine
+Ethan - g5CIjZEefAph4nQFvHAz - Masculine, jeune, américaine
+Freya - jsCqWAovK2LkecY7zXl4 - Féminine, jeune, multilingue
+George - JBFqnCBsd6RMkjVDRZzb - Masculine, britannique, narration
+Gigi - jBpfuIE2acCO8z3wKNLl - Féminine, jeune, américaine
+Grace - oWAxZDx7w5VEj9dCyTzz - Féminine, jeune, multilingue
+Harry - SOYHLrjzK2X1ezoPC6cr - Masculine, anxieuse, américaine
+James - ZQe5CZNOzWyzPSCn5a3c - Masculine, âgée, australienne
+Liam - TX3LPaxmHKxFdv7VOQHJ - Masculine, américaine
+Nicole - piTKgcLEGmPE4e6mEKli - Féminine, murmure, américaine
+Patrick - ODq5zmih8GrVes37Dizd - Masculine, américaine, narration
+Sarah - EXAVITQu4vr4xnSDxMaL - Féminine, douce, américaine
+
+=== VOIX MULTILINGUES (IDÉALES POUR FRANÇAIS) ===
+
+Adam (Multilingual) - pNInz6obpgDQGcFmaJgB - Excellente prononciation française
+Freya (Multilingual) - jsCqWAovK2LkecY7zXl4 - Voix féminine douce
+Grace (Multilingual) - oWAxZDx7w5VEj9dCyTzz - Voix féminine claire
+
+=== COMMENT TESTER UNE VOIX ===
+
+1. Allez sur: https://elevenlabs.io/app/speech-synthesis
+2. Tapez un sort en français (ex: "Courroux bestial")
+3. Sélectionnez différentes voix pour écouter
+4. Notez l'ID de la voix qui vous plaît
+5. Utilisez cet ID dans le script PowerShell
+
+=== POUR OBTENIR LA LISTE COMPLÈTE ===
+
+Dans PowerShell:
+curl -H "xi-api-key: VOTRE_CLE_API" https://api.elevenlabs.io/v1/voices
+
+Ou sur le site: https://elevenlabs.io/app/voice-library

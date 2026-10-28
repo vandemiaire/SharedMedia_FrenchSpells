@@ -1,0 +1,24 @@
+name: Release to CurseForge
+
+on:
+  push:
+    tags:
+      - 'v*'  # Déclenché par les tags comme v1.0.0, v1.1.0, etc.
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Nécessaire pour le changelog
+      
+      - name: Package and release
+        uses: BigWigsMods/packager@v2
+        with:
+          args: -p 1234567  # REMPLACER par ton Project ID CurseForge
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

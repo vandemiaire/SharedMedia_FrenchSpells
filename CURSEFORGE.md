@@ -6,11 +6,10 @@
 
 Ajoute des sons de sorts en **français** pour LibSharedMedia. Compatible avec WeakAuras, DBM, BigWigs, EllesmereUI, et tous les addons utilisant LibSharedMedia.
 
-## 🎵 Sons disponibles (237 sorts)
+## 🎵 Sons disponibles (226 sorts)
 
-Bibliothèque complète de sons de sorts en français pour toutes les classes :
+Bibliothèque complète de sons de sorts en français pour toutes les classes WoW :
 
-### Toutes les classes WoW
 - **Chevalier de la mort** (15 sorts) - Armée des morts, Gargouille, Changeliche...
 - **Chasseur de démons** (11 sorts) - Métamorphose, La Traque, Ténèbres...
 - **Druide** (29 sorts) - Incarnation, Tranquillité, Berserk...
@@ -22,11 +21,8 @@ Bibliothèque complète de sons de sorts en français pour toutes les classes :
 - **Prêtre** (23 sorts) - Gardien spirituel, Ange gardien, Hymne d'espoir...
 - **Voleur** (13 sorts) - Vendetta, Lames d'ombre, Danse macabre...
 - **Chaman** (25 sorts) - Loup fantomatique, Totem lien terrestre, Ascendance...
-- **Démoniste** (16 sorts) - Tyran démoniaque, Infernal, Pierre de soins...
+- **Démoniste** (16 sorts) - Tyran démoniaque, Infernal, Malédiction de faiblesse...
 - **Guerrier** (15 sorts) - Avatar, Charge, Cri de guerre...
-
-### Sons généraux (28 notifications)
-Interruptions, potions, buffs expirés, sorts puissants disponibles, et plus encore...
 
 ## 📥 Installation
 
@@ -72,9 +68,9 @@ Signalez les bugs ou proposez des sorts sur :
 ## 📝 Changelog
 
 ### Version 1.1.0
-- **237 sons de sorts en français** (toutes les classes WoW)
+- **226 sons de sorts en français** (toutes les classes WoW)
 - Génération TTS haute qualité via ElevenLabs
-- Support complet de 13 classes + 28 sons généraux
+- Support complet de 13 classes (Chevalier de la mort, Chasseur de démons, Druide, Évocateur, Chasseur, Mage, Moine, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier)
 
 ### Version 1.0.0
 - Release initiale

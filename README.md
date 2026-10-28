@@ -8,9 +8,9 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
 3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, etc.)
 
-## 🎵 Sons disponibles (237 sorts)
+## 🎵 Sons disponibles (226 sorts)
 
-Bibliothèque complète de sons de sorts en français couvrant :
+Bibliothèque complète de sons de sorts en français couvrant toutes les classes WoW :
 
 - **Chevalier de la mort** (15 sorts)
 - **Chasseur de démons** (11 sorts)
@@ -25,7 +25,6 @@ Bibliothèque complète de sons de sorts en français couvrant :
 - **Chaman** (25 sorts)
 - **Démoniste** (16 sorts)
 - **Guerrier** (15 sorts)
-- **Sons généraux** (28 notifications)
 
 📄 Liste complète disponible dans `tts/sorts.txt`
 

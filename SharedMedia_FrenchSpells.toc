@@ -2,7 +2,7 @@
 ## Title: SharedMedia: French Spells
 ## Notes: French spell sounds for SharedMedia
 ## Version: 1.0.0
-## Author: Syltharion
+## Author: Vandémiaire
 ## X-Category: Audio
 ## RequiredDeps: LibSharedMedia-3.0
 

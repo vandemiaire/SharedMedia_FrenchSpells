@@ -1,7 +1,9 @@
 # Script to generate SharedMedia sound registrations from files in sounds folder
 
-$soundsFolder = Join-Path $PSScriptRoot "sounds"
-$outputFile = Join-Path $PSScriptRoot "SoundRegistrations.lua"
+# Script is in tools/, so go up one level to find sounds/ and root
+$rootFolder = Split-Path $PSScriptRoot -Parent
+$soundsFolder = Join-Path $rootFolder "sounds"
+$outputFile = Join-Path $rootFolder "SoundRegistrations.lua"
 
 # Check if sounds folder exists
 if (-not (Test-Path $soundsFolder)) {

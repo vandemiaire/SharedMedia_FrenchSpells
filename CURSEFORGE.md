@@ -1,87 +1,130 @@
-# SharedMedia: French Spells
-
-> **English**: This addon provides French spell sounds for LibSharedMedia. If you're looking for French audio notifications for your WeakAuras, DBM, or other addons, this is for you! Documentation below is in French.
+![SharedMedia French Spells Logo](https://raw.githubusercontent.com/vandemiaire/SharedMedia_FrenchSpells/main/logo.png)
 
 ---
 
-Ajoute des sons de sorts en **français** pour LibSharedMedia. Compatible avec WeakAuras, DBM, BigWigs, EllesmereUI, et tous les addons utilisant LibSharedMedia.
+## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
-## 🎵 Sons disponibles (237 sorts)
+> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Documentation below is in French.
 
-Bibliothèque complète de sons de sorts en français :
+Bibliothèque complète de **237 sons de sorts en français** pour LibSharedMedia.  
+Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
 
-### Classes WoW (233 sorts)
-- **Chevalier de la mort** (15 sorts) - Armée des morts, Gargouille, Changeliche...
-- **Chasseur de démons** (11 sorts) - Métamorphose, La Traque, Ténèbres...
-- **Druide** (29 sorts) - Incarnation, Tranquillité, Berserk...
-- **Évocateur** (20 sorts) - Souffle de feu, Envol profond, Furie d'écailles...
-- **Chasseur** (25 sorts) - Courroux bestial, Trait mortel, Appel de la nature...
-- **Mage** (17 sorts) - Combustion, Évocation, Miroir temporel...
-- **Moine** (17 sorts) - Sérénité, Statue de jade, Brume vivifiante...
-- **Paladin** (23 sorts) - Croisade divine, Marteau de courroux, Ailes divines...
-- **Prêtre** (23 sorts) - Gardien spirituel, Ange gardien, Hymne d'espoir...
-- **Voleur** (13 sorts) - Vendetta, Lames d'ombre, Danse macabre...
-- **Chaman** (25 sorts) - Loup fantomatique, Totem lien terrestre, Ascendance...
-- **Démoniste** (16 sorts) - Tyran démoniaque, Infernal, Malédiction de faiblesse...
-- **Guerrier** (15 sorts) - Avatar, Charge, Cri de guerre...
+---
 
-### Sons généraux (4 notifications)
-Debuff expiré, Interrompre, Potion de soins, Sort puissant disponible
+## 🎵 237 sons disponibles
+
+### 🛡️ Classes WoW (233 sorts)
+
+| Classe | Sorts | Exemples |
+|--------|-------|----------|
+| ⚔️ **Chevalier de la mort** | 15 | Armée des morts, Gargouille, Changeliche |
+| 😈 **Chasseur de démons** | 11 | Métamorphose, La Traque, Ténèbres |
+| 🌿 **Druide** | 29 | Incarnation, Tranquillité, Berserk |
+| 🐉 **Évocateur** | 20 | Souffle profond, Fureur draconique |
+| 🏹 **Chasseur** | 25 | Courroux bestial, Trait mortel |
+| ✨ **Mage** | 17 | Combustion, Évocation, Miroir temporel |
+| 🐼 **Moine** | 17 | Sérénité, Statue de jade, Tempête terre et feu |
+| 🛡️ **Paladin** | 23 | Croisade divine, Marteau de courroux |
+| 🙏 **Prêtre** | 23 | Gardien spirituel, Ange gardien |
+| 🗡️ **Voleur** | 13 | Vendetta, Lames d'ombre, Danse macabre |
+| ⚡ **Chaman** | 25 | Loup fantomatique, Totem lien terrestre |
+| 👹 **Démoniste** | 16 | Tyran démoniaque, Infernal |
+| ⚔️ **Guerrier** | 15 | Avatar, Charge, Cri de guerre |
+
+### 🔔 Sons généraux (4 notifications)
+
+Debuff expiré • Interrompre • Potion de soins • Sort puissant disponible
+
+---
 
 ## 📥 Installation
 
-1. **Téléchargez** l'addon via CurseForge ou WowUp
-2. **Extrayez** dans `World of Warcraft\_retail_\Interface\AddOns\`
-3. Les sons apparaîtront dans tous les addons utilisant LibSharedMedia
+### Installation automatique (recommandé)
+Installez via **CurseForge App** ou **WowUp** — l'addon sera automatiquement placé au bon endroit et les sons seront immédiatement disponibles !
 
-## 🔧 Utilisation
+### Installation manuelle
+1. Téléchargez le fichier ZIP
+2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
+3. Redémarrez WoW
 
-### Avec WeakAuras
-1. Créez ou éditez une WeakAura
+✅ Les sons apparaîtront automatiquement dans tous les addons compatibles LibSharedMedia.
+
+---
+
+## 🔧 Comment utiliser les sons
+
+### 🎯 Avec WeakAuras
+1. Créez ou éditez une **WeakAura**
 2. Onglet **Actions** → **Sound**
 3. Type : **SharedMedia**
-4. Les sorts français apparaissent dans la liste (ex: "Chasseur: Courroux Bestial")
+4. Sélectionnez un son français (ex: _"Chasseur: Courroux Bestial"_)
 
-### Avec DBM/BigWigs
-1. Options → Sons personnalisés
-2. Sélectionnez un son de la catégorie **SharedMedia**
+### ⚔️ Avec DBM / BigWigs
+1. Ouvrez les **Options** de DBM/BigWigs
+2. Section **Sons personnalisés**
+3. Sélectionnez un son de la catégorie **SharedMedia**
 
-## 🤝 Contribution
+### 🎨 Avec EllesmereUI
+Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
 
-Vous voulez ajouter d'autres sorts ? Le projet est open-source !
-
-👉 **GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
-
-Les contributions sont les bienvenues :
-- Ajout de nouveaux sorts
-- Amélioration de la qualité audio
-- Traductions / corrections
+---
 
 ## 📋 Dépendances
 
-- **LibSharedMedia-3.0** (inclus dans WeakAuras, DBM, EllesmereUI, etc.)
+**Aucune dépendance manuelle requise !**
 
-Pas besoin de télécharger LibSharedMedia séparément si vous utilisez déjà WeakAuras, DBM ou EllesmereUI.
+LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
 
-## 🐛 Bugs & Suggestions
+---
 
-Signalez les bugs ou proposez des sorts sur :
-- [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
-- [CurseForge Comments](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
+## 🐛 Support & Suggestions
 
-## 📝 Changelog
+**Besoin d'aide ou envie de proposer des sorts ?**
 
-### Version 1.1.0
-- **237 sons de sorts en français** (233 sorts de classe + 4 sons généraux)
-- Génération TTS haute qualité via ElevenLabs
-- Support complet de 13 classes (Chevalier de la mort, Chasseur de démons, Druide, Évocateur, Chasseur, Mage, Moine, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier)
+- 💬 [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
+- 🐛 [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
+- ⭐ [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
-### Version 1.0.0
-- Release initiale
-- 18 sons de sorts en français
+---
+
+## 🤝 Contribution
+
+Le projet est **open-source** ! Les contributions sont les bienvenues :
+
+- ✨ Proposer de nouveaux sorts
+- 🎵 Améliorer la qualité audio
+- 📝 Corriger des erreurs
+- 🌍 Aider à la documentation
+
+👉 **GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
+
+---
+
+## 📝 Notes de version
+
+### 🎉 Version 1.1.0 (Actuelle)
+- ✅ **237 sons de sorts en français** (233 sorts de classe + 4 généraux)
+- ✅ Génération TTS haute qualité via **ElevenLabs**
+- ✅ Support complet des **13 classes** de WoW
+- ✅ Accent français authentique et prononciation optimisée
+- ✅ Fichiers MP3 légers et performants
+
+### 🌱 Version 1.0.0
+- Release initiale avec 18 sons de sorts
 - Support de 5 classes + sons généraux
 
 ---
 
-**Auteur** : vandemiaire  
-**License** : Libre d'utilisation pour la communauté WoW
+## ℹ️ Informations
+
+**Auteur** : [vandemiaire](https://github.com/vandemiaire)  
+**Licence** : Libre d'utilisation pour la communauté WoW  
+**Langage** : Français 🇫🇷  
+**Format audio** : MP3 (haute qualité, optimisé)
+
+---
+
+<p align="center">
+  <strong>Merci d'utiliser SharedMedia: French Spells !</strong><br>
+  Si cet addon vous est utile, n'hésitez pas à laisser un commentaire ou une note ⭐
+</p>

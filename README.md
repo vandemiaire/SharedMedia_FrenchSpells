@@ -27,7 +27,7 @@ Bibliothèque complète de sons de sorts en français couvrant :
 - **Guerrier** (15 sorts)
 - **Sons généraux** (28 notifications)
 
-📄 Liste complète disponible dans `tools/sorts.txt`
+📄 Liste complète disponible dans `tts/sorts.txt`
 
 ## 🛠️ Développement - Ajout de nouveaux sons
 
@@ -61,11 +61,10 @@ SharedMedia_FrenchSpells/
 ├── tools/                          # Scripts de développement
 │   ├── sound_registration.ps1      # Script de génération
 │   ├── sound_registration.bat      # Lanceur Windows
-│   ├── commit.bat                  # Raccourci Git
-│   └── sorts.txt                   # Liste des sorts (référence)
+│   └── commit.bat                  # Raccourci Git
 ├── tts/                            # Génération TTS (dev only)
 │   ├── generate_tts_elevenlabs.ps1 # Script ElevenLabs
-│   └── sorts.txt                   # Liste pour génération
+│   └── sorts.txt                   # Liste des 226 sorts
 ├── .pkgmeta                        # Config CurseForge
 └── README.md
 ```

@@ -3,7 +3,7 @@
 param(
     [string]$ApiKey = "",
     [string]$VoiceId = "",
-    [int]$MaxCount = 999
+    [int]$MaxCount = 1
 )
 
 # Configuration ElevenLabs

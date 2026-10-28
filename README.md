@@ -2,33 +2,66 @@
 
 Addon World of Warcraft qui ajoute des sons de sorts en français pour LibSharedMedia.
 
-## Installation
+## 📥 Installation
 
-1. Téléchargez l'addon
+1. Téléchargez l'addon depuis [CurseForge](https://www.curseforge.com/) ou [GitHub Releases](https://github.com/vandemiaire/SharedMedia_FrenchSpells/releases)
 2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
-3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia
+3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, etc.)
 
-## Ajout de nouveaux sons
+## 🎵 Sons disponibles
+
+- **Chasseur** : Courroux Bestial, Soigner Le Familier
+- **Chasseur De Démons** : La Traque, Métamorphose
+- **Démoniste** : Garde Funeste, Malédiction Expirée, Pierre De Soins, Tyran Démoniaque
+- **Guerrier** : Avatar, Charge, Cri De Guerre
+- **Général** : Debuff Expire, Interrompre, Potion De Soins, Sort Puissant Disponible
+
+## 🛠️ Développement - Ajout de nouveaux sons
 
 1. Placez vos fichiers `.mp3` ou `.ogg` dans le dossier `sounds/`
 2. Nommez-les selon la convention : `classe-nom_du_sort.mp3`
-   - Exemple : `chasseur-courroux_bestial.mp3` → "Chasseur: Courroux Bestial"
-   - Sans classe : `potion_de_soins.mp3` → "Potion De Soins"
-3. Lancez `generate_sounds.bat` pour générer `SoundRegistrations.lua`
+   - Avec classe : `chasseur-courroux_bestial.mp3` → **"Chasseur: Courroux Bestial"**
+   - Sans classe : `potion_de_soins.mp3` → **"Potion De Soins"**
+   - Classe composée : `chasseur_de_demons-metamorphose.mp3` → **"Chasseur De Demons: Métamorphose"**
+3. Lancez `tools\generate_sounds.bat` pour régénérer `SoundRegistrations.lua`
 
-## Convention de nommage
+### Convention de nommage
 
-- `-` = séparateur entre classe et sort (une seule fois)
-- `_` = espaces dans les mots
+- **`-`** (tiret simple) = séparateur entre classe et sort (une seule fois)
+- **`_`** (underscore) = espaces dans les mots
 - Exemples :
-  - `chasseur-courroux_bestial.mp3`
-  - `chasseur_de_demons-metamorphose.mp3`
-  - `demoniste-tyran_demoniaque.mp3`
+  ```
+  chasseur-courroux_bestial.mp3
+  chasseur_de_demons-metamorphose.mp3
+  demoniste-tyran_demoniaque.mp3
+  potion_de_soins.mp3
+  ```
 
-## Structure
+## 📁 Structure du projet
 
-- `SharedMedia_FrenchSpells.lua` - Fichier principal de l'addon
-- `SharedMedia_FrenchSpells.toc` - Table of contents WoW
-- `SoundRegistrations.lua` - Enregistrements générés automatiquement
-- `generate_sounds.ps1` - Script de génération
-- `sounds/` - Fichiers audio
+```
+SharedMedia_FrenchSpells/
+├── SharedMedia_FrenchSpells.lua    # Fichier principal de l'addon
+├── SharedMedia_FrenchSpells.toc    # Table of contents WoW
+├── SoundRegistrations.lua          # Enregistrements auto-générés
+├── sounds/                         # Fichiers audio (.mp3, .ogg)
+├── tools/                          # Scripts de développement
+│   ├── generate_sounds.ps1         # Script de génération
+│   ├── generate_sounds.bat         # Lanceur Windows
+│   └── commit.bat                  # Raccourci Git
+├── .pkgmeta                        # Config CurseForge
+└── README.md
+```
+
+## 🚀 Contribution
+
+1. Fork le projet
+2. Crée une branche (`git checkout -b feature/nouveaux-sons`)
+3. Ajoute tes sons dans `sounds/`
+4. Génère les enregistrements (`tools\generate_sounds.bat`)
+5. Commit (`git acp "Ajout de nouveaux sons"`)
+6. Push et crée une Pull Request
+
+## 📝 Licence
+
+Libre d'utilisation pour la communauté WoW.

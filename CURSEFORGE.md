@@ -6,20 +6,27 @@
 
 Ajoute des sons de sorts en **français** pour LibSharedMedia. Compatible avec WeakAuras, DBM, BigWigs, EllesmereUI, et tous les addons utilisant LibSharedMedia.
 
-## 🎵 Sons disponibles (18 sorts)
+## 🎵 Sons disponibles (237 sorts)
 
-### Classes
-- **Chasseur** : Courroux Bestial, Soigner Le Familier
-- **Chasseur De Démons** : La Traque, Métamorphose
-- **Chevalier De La Mort** : Gargouille, Goule, Réanimation Morbide
-- **Démoniste** : Garde Funeste, Malédiction Expirée, Pierre De Soins, Tyran Démoniaque
-- **Guerrier** : Avatar, Charge, Cri De Guerre
+Bibliothèque complète de sons de sorts en français pour toutes les classes :
 
-### Sons généraux
-- Debuff Expire
-- Interrompre
-- Potion De Soins
-- Sort Puissant Disponible
+### Toutes les classes WoW
+- **Chevalier de la mort** (15 sorts) - Armée des morts, Gargouille, Changeliche...
+- **Chasseur de démons** (11 sorts) - Métamorphose, La Traque, Ténèbres...
+- **Druide** (29 sorts) - Incarnation, Tranquillité, Berserk...
+- **Évocateur** (20 sorts) - Souffle de feu, Envol profond, Furie d'écailles...
+- **Chasseur** (25 sorts) - Courroux bestial, Trait mortel, Appel de la nature...
+- **Mage** (17 sorts) - Combustion, Évocation, Miroir temporel...
+- **Moine** (17 sorts) - Sérénité, Statue de jade, Brume vivifiante...
+- **Paladin** (23 sorts) - Croisade divine, Marteau de courroux, Ailes divines...
+- **Prêtre** (23 sorts) - Gardien spirituel, Ange gardien, Hymne d'espoir...
+- **Voleur** (13 sorts) - Vendetta, Lames d'ombre, Danse macabre...
+- **Chaman** (25 sorts) - Loup fantomatique, Totem lien terrestre, Ascendance...
+- **Démoniste** (16 sorts) - Tyran démoniaque, Infernal, Pierre de soins...
+- **Guerrier** (15 sorts) - Avatar, Charge, Cri de guerre...
+
+### Sons généraux (28 notifications)
+Interruptions, potions, buffs expirés, sorts puissants disponibles, et plus encore...
 
 ## 📥 Installation
 
@@ -63,6 +70,11 @@ Signalez les bugs ou proposez des sorts sur :
 - [CurseForge Comments](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
 
 ## 📝 Changelog
+
+### Version 1.1.0
+- **237 sons de sorts en français** (toutes les classes WoW)
+- Génération TTS haute qualité via ElevenLabs
+- Support complet de 13 classes + 28 sons généraux
 
 ### Version 1.0.0
 - Release initiale

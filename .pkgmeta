@@ -1,0 +1,15 @@
+package-as: SharedMedia_FrenchSpells
+
+ignore:
+  - .git
+  - .gitignore
+  - .vs
+  - README.md
+  - generate_sounds.ps1
+  - generate_sounds.bat
+  - sorts.txt
+  - "*.slnx"
+  - "*.sln"
+
+# Le dossier sounds/ sera automatiquement inclus avec tous les fichiers
+# Pas besoin de le spécifier explicitement

@@ -1,0 +1,226 @@
+Chevalier de la mort:Armée des morts
+Chevalier de la mort:Carapace anti-magie
+Chevalier de la mort:Zone anti-magie
+Chevalier de la mort:Poigne de Fielsang
+Chevalier de la mort:Pilier de givre
+Chevalier de la mort:Arme runique dansante
+Chevalier de la mort:Invocation d'une gargouille
+Chevalier de la mort:Sombre transformation
+Chevalier de la mort:Pacte mortel
+Chevalier de la mort:Marche spectrale
+Chevalier de la mort:Avancée de la mort
+Chevalier de la mort:Renforcer l'arme runique
+Chevalier de la mort:Connexion runique
+Chevalier de la mort:Froid dévorant
+Chevalier de la mort:Changeliche
+Chasseur de démons:Métamorphose
+Chasseur de démons:Ténèbres
+Chasseur de démons:Marque enflammée
+Chasseur de démons:Dévastation gangrenée
+Chasseur de démons:Sigil de silence
+Chasseur de démons:Emprisonnement
+Chasseur de démons:Retraite vengeresse
+Chasseur de démons:La Traque
+Chasseur de démons:Nova du chaos
+Chasseur de démons:Marche du Néant
+Chasseur de démons:Immolation
+Druide:Incarnation : Arbre de vie
+Druide:Incarnation : Roi de la jungle
+Druide:Incarnation : Élu d'Élune
+Druide:Alignement céleste
+Druide:Berserk
+Druide:Tranquillité
+Druide:Écorce
+Druide:Instincts de survie
+Druide:Renaissance
+Druide:Innervation
+Druide:Célérité
+Druide:Typhon
+Druide:Rugissement incapacitant
+Druide:Rugissement puissant
+Druide:Balayage
+Druide:Convoquer les esprits
+Druide:Force de la nature
+Druide:Éruption stellaire
+Évocateur:Écailles d'obsidienne
+Évocateur:Communion d'émeraude
+Évocateur:Souffle profond
+Évocateur:Fureur draconique
+Évocateur:Retour en arrière
+Évocateur:Renouveau des flammes
+Évocateur:Anomalie temporelle
+Évocateur:Zéphyr
+Évocateur:Sauvetage
+Évocateur:Source de magie
+Mage:Pointe de glace
+Mage:Bloc de glace
+Mage:Veines glaciales
+Mage:Combustion
+Mage:Pouvoir des Arcanes
+Mage:Invisibilité supérieure
+Mage:Images miroir
+Mage:Altérer le temps
+Mage:Barrière temporelle
+Mage:Souffle du dragon
+Mage:Anneau de givre
+Mage:Nova de givre
+Mage:Orbe gelé
+Mage:Éclat prismatique
+Mage:Distorsion temporelle
+Mage:Invocation d'eau
+Chasseur:Tir rapide
+Chasseur:Courroux bestial
+Chasseur:Aspect de la tortue
+Chasseur:Aspect du guépard
+Chasseur:Aspect de l'aigle
+Chasseur:Aspect de la nature
+Chasseur:Dissuasion
+Chasseur:Feindre la mort
+Chasseur:Exaltation
+Chasseur:Piège givrant
+Chasseur:Piège de goudron
+Chasseur:Piège explosif
+Chasseur:Flèche gémissante
+Chasseur:Tir tranquillisant
+Chasseur:Tir de contre
+Chasseur:Intimidation
+Chasseur:Appel du maître
+Chasseur:Appel de la nature
+Chasseur:Piétinement
+Chasseur:Salve
+Chasseur:Flèche explosive
+Chasseur:Flèche noire
+Moine:Toucher du karma
+Moine:Toucher mortel
+Moine:Tempête, Terre et Feu
+Moine:Sérénité
+Moine:Invocation de Xuen, le Tigre blanc
+Moine:Invocation de Niuzao, le Buffle noir
+Moine:Invocation de Yu'lon, le Serpent de jade
+Moine:Invocation de Chi Ji, la Grue rouge
+Moine:Cocon de vie
+Moine:Regain
+Moine:Balayement de jambe
+Moine:Anneau de paix
+Moine:Diffusion de la magie
+Moine:Atténuation du mal
+Moine:Fortifiant
+Moine:Transcendance : Transfert
+Moine:Soif du tigre
+Moine:Tonneau explosif
+Paladin:Bouclier divin
+Paladin:Protection divine
+Paladin:Bénédiction de protection
+Paladin:Bénédiction de liberté
+Paladin:Bénédiction de sacrifice
+Paladin:Imposition des mains
+Paladin:Courroux vengeur
+Paladin:Destrier divin
+Paladin:Gardien des anciens rois
+Paladin:Aura de maîtrise
+Paladin:Bouclier du vengeur
+Paladin:Marteau de la justice
+Paladin:Repentir
+Paladin:Éclair lumineux
+Paladin:Réprimande
+Paladin:Réveil de cendres
+Paladin:Bouclier du vertueux
+Paladin:Lumière de l'aube
+Prêtre:Archange
+Prêtre:Dispersion
+Prêtre:Suppression de la douleur
+Prêtre:Mot de pouvoir : Barrière
+Prêtre:Mot de pouvoir : Robustesse
+Prêtre:Hymne divin
+Prêtre:Esprit gardien
+Prêtre:Symbole d'espoir
+Prêtre:Infusion de puissance
+Prêtre:Silence
+Prêtre:Torve-esprit
+Prêtre:Ombrefiel
+Prêtre:Étreinte vampirique
+Prêtre:Forme du Vide
+Prêtre:Ascension du Vide
+Prêtre:Cri psychique
+Prêtre:Saut de foi
+Prêtre:Mot de pouvoir : Bouclier
+Prêtre:Esprit de rédemption
+Prêtre:Apothéose
+Prêtre:Halo
+Prêtre:Étoile divine
+Voleur:Disparition
+Voleur:Évasion
+Voleur:Cape d'ombre
+Voleur:Sprint
+Voleur:Pas de l'ombre
+Voleur:Coup bas
+Voleur:Aiguillon perfide
+Voleur:Cécité
+Voleur:Distraction
+Voleur:Fumigène
+Voleur:Poussée d'adrénaline
+Voleur:Déluge de lames
+Voleur:Lames de l'ombre
+Voleur:Vendetta
+Voleur:Danse de l'ombre
+Voleur:Symboles de mort
+Voleur:Marque de mort
+Voleur:Tir au pistolet
+Voleur:Entre les deux yeux
+Guerrier:Tempête de lames
+Guerrier:Mur protecteur
+Guerrier:Dernier rempart
+Guerrier:Cri de ralliement
+Guerrier:Bond héroïque
+Guerrier:Charge
+Guerrier:Intervention
+Guerrier:Renvoi de sort
+Guerrier:Avatar
+Guerrier:Témérité
+Guerrier:Fureur d'Odyn
+Guerrier:Onde de choc
+Guerrier:Cri d'intimidation
+Guerrier:Coup de tonnerre
+Guerrier:Ravager
+Guerrier:Lancer fracassant
+Guerrier:Cri de guerre
+Chaman:Totem de lien d'esprit
+Chaman:Totem de marée de soins
+Chaman:Totem de protection ancestrale
+Chaman:Totem de purification du poison
+Chaman:Totem condensateur
+Chaman:Totem de marche-vent
+Chaman:Totem de bouffée de vent
+Chaman:Totem de poigne de terre
+Chaman:Totem de mur terrestre
+Chaman:Élémentaire de feu
+Chaman:Élémentaire de terre
+Chaman:Ascendance
+Chaman:Furie sanguinaire
+Chaman:Héroïsme
+Chaman:Esprit farouche
+Chaman:Gardien de la nature
+Chaman:Transfert astral
+Chaman:Orage
+Chaman:Totem de séisme
+Chaman:Explosion élémentaire
+Chaman:Tempête élémentaire
+Démoniste:Invocation : infernal
+Démoniste:Invocation : garde funeste
+Démoniste:Âme sombre : Instabilité
+Démoniste:Résolution interminable
+Démoniste:Pacte sombre
+Démoniste:Voile mortel
+Démoniste:Furie de l'ombre
+Démoniste:Cercle démoniaque : Téléportation
+Démoniste:Portail démoniaque
+Démoniste:Invocation : tyran démoniaque
+Démoniste:Regard noir
+Démoniste:Affliction instable
+Démoniste:Trait du chaos
+Démoniste:Cataclysme
+Démoniste:Invocation : gangregarde
+Démoniste:Sacrifice démoniaque
+Démoniste:Malédiction de faiblesse
+Démoniste:Malédiction des langages
+Démoniste:Malédiction d'épuisement

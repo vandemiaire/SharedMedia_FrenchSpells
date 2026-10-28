@@ -8,8 +8,8 @@ ignore:
   - .vs
   - README.md
   - CURSEFORGE.md
-  - generate_sounds.ps1
-  - generate_sounds.bat
+  - sound_registration.ps1
+  - sound_registration.bat
   - sorts.txt
   - "*.slnx"
   - "*.sln"

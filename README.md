@@ -24,7 +24,7 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
    - Avec classe : `chasseur-courroux_bestial.mp3` → **"Chasseur: Courroux Bestial"**
    - Sans classe : `potion_de_soins.mp3` → **"Potion De Soins"**
    - Classe composée : `chasseur_de_demons-metamorphose.mp3` → **"Chasseur De Demons: Métamorphose"**
-3. Lancez `tools\generate_sounds.bat` pour régénérer `SoundRegistrations.lua`
+3. Lancez `tools\sound_registration.bat` pour régénérer `SoundRegistrations.lua`
 
 ### Convention de nommage
 
@@ -47,8 +47,8 @@ SharedMedia_FrenchSpells/
 ├── SoundRegistrations.lua          # Enregistrements auto-générés
 ├── sounds/                         # Fichiers audio (.mp3, .ogg)
 ├── tools/                          # Scripts de développement
-│   ├── generate_sounds.ps1         # Script de génération
-│   ├── generate_sounds.bat         # Lanceur Windows
+│   ├── sound_registration.ps1      # Script de génération
+│   ├── sound_registration.bat      # Lanceur Windows
 │   └── commit.bat                  # Raccourci Git
 ├── .pkgmeta                        # Config CurseForge
 └── README.md
@@ -59,7 +59,7 @@ SharedMedia_FrenchSpells/
 1. Fork le projet
 2. Crée une branche (`git checkout -b feature/nouveaux-sons`)
 3. Ajoute tes sons dans `sounds/`
-4. Génère les enregistrements (`tools\generate_sounds.bat`)
+4. Génère les enregistrements (`tools\generate_sound_registrations.bat`)
 5. Commit (`git acp "Ajout de nouveaux sons"`)
 6. Push et crée une Pull Request
 

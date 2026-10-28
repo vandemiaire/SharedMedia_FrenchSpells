@@ -1,5 +1,5 @@
 ﻿-- Auto-generated file - DO NOT EDIT MANUALLY
--- Run generate_sounds.bat to regenerate this file
+-- Run tools\sound_registration.bat to regenerate this file
 
 local LSM = LibStub("LibSharedMedia-3.0")
 LSM:Register("sound", "Chasseur De Demons: La Traque", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\chasseur_de_demons-la_traque.mp3]])

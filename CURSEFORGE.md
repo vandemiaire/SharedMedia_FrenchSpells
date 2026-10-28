@@ -1,6 +1,10 @@
 # SharedMedia: French Spells
 
-Ajoute des sons de sorts en **français** pour LibSharedMedia. Compatible avec WeakAuras, DBM, BigWigs, et tous les addons utilisant LibSharedMedia.
+> **English**: This addon provides French spell sounds for LibSharedMedia. If you're looking for French audio notifications for your WeakAuras, DBM, or other addons, this is for you! Documentation below is in French.
+
+---
+
+Ajoute des sons de sorts en **français** pour LibSharedMedia. Compatible avec WeakAuras, DBM, BigWigs, EllesmereUI, et tous les addons utilisant LibSharedMedia.
 
 ## 🎵 Sons disponibles (18 sorts)
 
@@ -48,9 +52,9 @@ Les contributions sont les bienvenues :
 
 ## 📋 Dépendances
 
-- **LibSharedMedia-3.0** (inclus dans WeakAuras, DBM, etc.)
+- **LibSharedMedia-3.0** (inclus dans WeakAuras, DBM, EllesmereUI, etc.)
 
-Pas besoin de télécharger LibSharedMedia séparément si vous utilisez déjà WeakAuras ou DBM.
+Pas besoin de télécharger LibSharedMedia séparément si vous utilisez déjà WeakAuras, DBM ou EllesmereUI.
 
 ## 🐛 Bugs & Suggestions
 

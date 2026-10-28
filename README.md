@@ -8,14 +8,26 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
 3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, etc.)
 
-## 🎵 Sons disponibles (18 sorts)
+## 🎵 Sons disponibles (237 sorts)
 
-- **Chasseur** : Courroux Bestial, Soigner Le Familier
-- **Chasseur De Démons** : La Traque, Métamorphose
-- **Chevalier De La Mort** : Gargouille, Goule, Réanimation Morbide
-- **Démoniste** : Garde Funeste, Malédiction Expirée, Pierre De Soins, Tyran Démoniaque
-- **Guerrier** : Avatar, Charge, Cri De Guerre
-- **Général** : Debuff Expire, Interrompre, Potion De Soins, Sort Puissant Disponible
+Bibliothèque complète de sons de sorts en français couvrant :
+
+- **Chevalier de la mort** (15 sorts)
+- **Chasseur de démons** (11 sorts)
+- **Druide** (29 sorts)
+- **Évocateur** (20 sorts)
+- **Chasseur** (25 sorts)
+- **Mage** (17 sorts)
+- **Moine** (17 sorts)
+- **Paladin** (23 sorts)
+- **Prêtre** (23 sorts)
+- **Voleur** (13 sorts)
+- **Chaman** (25 sorts)
+- **Démoniste** (16 sorts)
+- **Guerrier** (15 sorts)
+- **Sons généraux** (28 notifications)
+
+📄 Liste complète disponible dans `tools/sorts.txt`
 
 ## 🛠️ Développement - Ajout de nouveaux sons
 
@@ -49,7 +61,11 @@ SharedMedia_FrenchSpells/
 ├── tools/                          # Scripts de développement
 │   ├── sound_registration.ps1      # Script de génération
 │   ├── sound_registration.bat      # Lanceur Windows
-│   └── commit.bat                  # Raccourci Git
+│   ├── commit.bat                  # Raccourci Git
+│   └── sorts.txt                   # Liste des sorts (référence)
+├── tts/                            # Génération TTS (dev only)
+│   ├── generate_tts_elevenlabs.ps1 # Script ElevenLabs
+│   └── sorts.txt                   # Liste pour génération
 ├── .pkgmeta                        # Config CurseForge
 └── README.md
 ```

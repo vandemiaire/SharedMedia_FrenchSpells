@@ -8,10 +8,11 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
 3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, etc.)
 
-## 🎵 Sons disponibles
+## 🎵 Sons disponibles (18 sorts)
 
 - **Chasseur** : Courroux Bestial, Soigner Le Familier
 - **Chasseur De Démons** : La Traque, Métamorphose
+- **Chevalier De La Mort** : Gargouille, Goule, Réanimation Morbide
 - **Démoniste** : Garde Funeste, Malédiction Expirée, Pierre De Soins, Tyran Démoniaque
 - **Guerrier** : Avatar, Charge, Cri De Guerre
 - **Général** : Debuff Expire, Interrompre, Potion De Soins, Sort Puissant Disponible
@@ -66,4 +67,7 @@ SharedMedia_FrenchSpells/
 
 Libre d'utilisation pour la communauté WoW.
 
+---
 
+**Auteur** : [vandemiaire](https://github.com/vandemiaire)  
+**Repo** : [github.com/vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)

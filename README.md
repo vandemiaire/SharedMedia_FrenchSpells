@@ -65,3 +65,5 @@ SharedMedia_FrenchSpells/
 ## 📝 Licence
 
 Libre d'utilisation pour la communauté WoW.
+
+

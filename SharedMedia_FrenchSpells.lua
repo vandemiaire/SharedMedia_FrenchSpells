@@ -10,3 +10,4 @@
 
 -- https://luvvoice.com/language/french
 -- Vivienne
+-- https://github.com/vandemiaire/SharedMedia_FrenchSpells

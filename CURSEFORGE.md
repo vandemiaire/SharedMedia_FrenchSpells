@@ -106,10 +106,3 @@ Le projet est **open-source** ! Les contributions sont les bienvenues :
 **Langage** : Français 🇫🇷  
 **Format audio** : MP3 (haute qualité, optimisé)  
 **TTS** : LuvVoice API - Voix Denise (fr-FR)
-
----
-
-<p align="center">
-  <strong>Merci d'utiliser SharedMedia: French Spells !</strong><br>
-  Si cet addon vous est utile, n'hésitez pas à laisser un commentaire ou une note ⭐
-</p>

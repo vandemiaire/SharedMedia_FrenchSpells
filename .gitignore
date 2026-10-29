@@ -11,3 +11,7 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.log
+
+# Release files
+releases/
+*.zip

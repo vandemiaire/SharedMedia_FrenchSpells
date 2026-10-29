@@ -23,6 +23,8 @@ Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle pr
 
 **Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
 
+**Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez avoir une alerte quand ils sont disponibles.
+
 ---
 
 ## 📥 Installation

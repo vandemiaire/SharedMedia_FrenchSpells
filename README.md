@@ -27,6 +27,8 @@ Bibliothèque complète de **210 sons de sorts en français** générés avec TT
 
 **Note** : Sur Forever, seuls les sorts des 9 classes originales sont disponibles. Les sorts des classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) sont chargés mais non utilisables.
 
+**Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez avoir une alerte quand ils sont disponibles.
+
 📄 Liste complète disponible dans `tools/tts/alertes.txt`
 
 ## 🛠️ Développement - Génération des sons

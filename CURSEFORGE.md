@@ -1,15 +1,9 @@
-﻿## 🇫🇷 Sons de sorts en français pour LibSharedMedia
+﻿> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
 
-> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
+## 🇫🇷 Bibliothèque de sons de sorts en français pour EllesmereUI, DBM, Weaksauras, etc.
 
-Bibliothèque de **210 sons de sorts et alertes en français** pour LibSharedMedia.  
+Bibliothèque de **210 sons de sorts et alertes en français**.
 Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
-
-### 🎮 Support multi-version
-- **WoW Retail** : 210 sons (13 classes)
-- **WoW Forever** : 176 sons (9 classes Forever)
-
-Le même package fonctionne pour les deux versions !
 
 ---
 
@@ -49,6 +43,9 @@ Installez via **CurseForge App** — l'addon sera automatiquement placé au bon 
 
 ## 🔧 Comment utiliser les sons
 
+**Aucune dépendance manuelle requise !**
+LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
+
 ### 🎯 Avec WeakAuras
 1. Créez ou éditez une **WeakAura**
 2. Onglet **Actions** → **Sound**
@@ -62,14 +59,6 @@ Installez via **CurseForge App** — l'addon sera automatiquement placé au bon 
 
 ### 🎨 Avec EllesmereUI
 Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
-
----
-
-## 📋 Dépendances
-
-**Aucune dépendance manuelle requise !**
-
-LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
 
 ---
 
@@ -101,13 +90,11 @@ Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMe
 - 🐛 [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
 - ⭐ [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
-**Addons compatibles** : WeakAuras • DBM • BigWigs • EllesmereUI • Tous les addons utilisant LibSharedMedia
-
 ---
 
 ## 🤝 Contribution
 
-Le projet est **open-source** ! Les contributions sont les bienvenues :
+Le projet est **open-source** ! Les contributions ou suggestions sont les bienvenues :
 
 - ✨ Proposer de nouveaux sorts
 - 🎵 Améliorer la qualité audio
@@ -115,13 +102,3 @@ Le projet est **open-source** ! Les contributions sont les bienvenues :
 - 🌍 Aider à la documentation
 
 👉 **GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
-
----
-
-## ℹ️ Informations
-
-**Auteur** : [vandemiaire](https://github.com/vandemiaire)  
-**Licence** : Libre d'utilisation pour la communauté WoW  
-**Langage** : Français 🇫🇷  
-**Format audio** : MP3 (haute qualité, optimisé)  
-**TTS** : LuvVoice API - Voix Denise (fr-FR)

@@ -158,10 +158,41 @@ Guerrier:Exécution
 # ALERTES
 # **************************************************
 Interrompre
-Interruption prête
 Debuff expiré
 Malediction expirée
-Pierre de soins
-Potion prête
 Soigner le familier
-Soin du familier disponible
+Interruption prête
+Interruption ratée
+Interruption impossible
+Pierre de soins prête
+Potion disponible
+Familier faible
+Familier mort
+Défensif disponible
+Défensif terminé
+Dissipation prête
+Dissiper
+Purger
+Contrôle prêt
+Contrôle terminé
+Stun prêt
+Silence prêt
+Immunité prête
+Immunité terminée
+Trinket prêt
+Racial prêt
+Cooldown offensif prêt
+Burst prêt
+Mana faible
+Vie faible
+Menace élevée
+Aggro
+Hors de portée
+Écartez-vous
+Regroupez-vous
+Soin du familier prêt
+Bouclier prêt
+Purge prête
+# **************************************************
+# ALERTES-A-CREER
+# **************************************************

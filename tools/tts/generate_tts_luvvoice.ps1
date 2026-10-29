@@ -109,6 +109,9 @@ foreach ($line in $lines) {
     } elseif ($line -match "#\s*SORTS") {
         $currentSection = "SORTS"
         continue
+    } elseif ($line -match "#\s*ALERTES-A-CREER") {
+        $currentSection = "ALERTES-A-CREER"
+        continue
     } elseif ($line -match "#\s*ALERTES") {
         $currentSection = "ALERTES"
         continue
@@ -116,6 +119,11 @@ foreach ($line in $lines) {
 
     # Ignorer les lignes vides, commentaires (#) et lignes avec @
     if ([string]::IsNullOrWhiteSpace($line) -or $line.StartsWith("#") -or $line.StartsWith("@")) {
+        continue
+    }
+
+    # NE TRAITER QUE LA SECTION ALERTES-A-CREER
+    if ($currentSection -ne "ALERTES-A-CREER") {
         continue
     }
 
@@ -146,7 +154,7 @@ foreach ($line in $lines) {
         # Ajouter _(proc) si on est dans la section PROCS ou prefixe alerte- pour ALERTES
         if ($currentSection -eq "PROCS") {
             $filename = "$textNormalized`_(proc).mp3"
-        } elseif ($currentSection -eq "ALERTES") {
+        } elseif ($currentSection -eq "ALERTES" -or $currentSection -eq "ALERTES-A-CREER") {
             $filename = "alerte-$textNormalized.mp3"
         } else {
             $filename = "$textNormalized.mp3"

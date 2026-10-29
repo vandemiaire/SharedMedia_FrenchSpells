@@ -1,7 +1,3 @@
-![SharedMedia French Spells Logo](https://raw.githubusercontent.com/vandemiaire/SharedMedia_FrenchSpells/main/logo.png)
-
----
-
 ## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
 > **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Documentation below is in French.

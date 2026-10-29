@@ -31,6 +31,10 @@ Bibliothèque complète de **210 sons de sorts en français** générés avec TT
 
 📄 Liste complète disponible dans `tools/tts/alertes.txt`
 
+## Contribution
+
+Faites vos demandes de nouveaux sons via [Issues GitHub](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
+
 ## 🛠️ Développement - Génération des sons
 
 ### Génération TTS automatique
@@ -111,36 +115,6 @@ chevalier_de_la_mort-carapace_anti-magie.mp3
 chevalier_de_la_mort-machine_a_tuer_(proc).mp3
 alerte-interrompre.mp3
 ```
-
-## 📁 Structure du projet
-
-```
-SharedMedia_FrenchSpells/
-├── SharedMedia_FrenchSpells.lua         # Fichier principal de l'addon
-├── SharedMedia_FrenchSpells.toc         # TOC WoW Retail
-├── SharedMedia_FrenchSpells_Forever.toc # TOC WoW Forever
-├── SoundRegistrations.lua               # Enregistrements auto-générés (158 sons)
-├── sounds/                              # Fichiers audio MP3 (158 fichiers)
-├── tools/                               # Scripts de développement
-│   ├── sound_registration/
-│   │   ├── sound_registration.ps1       # Script de génération des registrations
-│   │   └── sound_registration.bat       # Lanceur Windows
-│   └── tts/                             # Génération TTS (dev only)
-│       ├── generate_tts_luvvoice.ps1    # Script LuvVoice
-│       ├── generate_tts_luvvoice.bat    # Lanceur Windows
-│       └── alertes.txt                  # Liste des 158 éléments
-├── .pkgmeta                             # Config CurseForge
-└── README.md
-```
-
-## 🚀 Contribution
-
-1. Fork le projet
-2. Crée une branche (`git checkout -b feature/nouveaux-sons`)
-3. Ajoute tes sons dans `sounds/`
-4. Génère les enregistrements (`tools\generate_sound_registrations.bat`)
-5. Commit (`git acp "Ajout de nouveaux sons"`)
-6. Push et crée une Pull Request
 
 ## 📝 Licence
 

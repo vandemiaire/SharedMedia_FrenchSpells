@@ -1,5 +1,5 @@
 ﻿# Configuration des versions WoW
-# Format: @retail @classic pour marquer la disponibilité
+# Format: @retail @forever pour marquer la disponibilité
 
 # Classes disponibles en Forever (Forever)
 # - Druide
@@ -59,22 +59,22 @@
 @retail Druide:Incarnation
 @retail Druide:Météores
 @retail Druide:Ruée rugissante
-@retail @classic Druide:Renaissance
-@retail @classic Druide:Tranquillité
-@retail @classic Druide:Force de la nature
-@retail @classic Druide:Écorce
-@retail @classic Druide:Innervation
+@retail @forever Druide:Renaissance
+@retail @forever Druide:Tranquillité
+@retail @forever Druide:Force de la nature
+@retail @forever Druide:Écorce
+@retail @forever Druide:Innervation
 
 @retail Chasseur:Aspect de la tortue
 @retail Chasseur:Désengagement
 @retail Chasseur:Tir de la chimère
 @retail Chasseur:Tir de lien
 @retail Chasseur:Détournement
-@retail @classic Chasseur:Tir tranquillisant
-@retail @classic Chasseur:Tir explosif
-@retail @classic Chasseur:Courroux bestial
-@retail @classic Chasseur:Salve
-@retail @classic Chasseur:Appel du maître
+@retail @forever Chasseur:Tir tranquillisant
+@retail @forever Chasseur:Tir explosif
+@retail @forever Chasseur:Courroux bestial
+@retail @forever Chasseur:Salve
+@retail @forever Chasseur:Appel du maître
 
 @retail Mage:Veines glaciales
 @retail Mage:Combustion
@@ -82,18 +82,18 @@
 @retail Mage:Altérer le temps
 @retail Mage:Barrière de glace
 @retail Mage:Souffle du dragon
-@retail @classic Mage:Bloc de glace
-@retail @classic Mage:Invisibilité
-@retail @classic Mage:Anneau de givre
-@retail @classic Mage:Contresort
+@retail @forever Mage:Bloc de glace
+@retail @forever Mage:Invisibilité
+@retail @forever Mage:Anneau de givre
+@retail @forever Mage:Contresort
 
-@retail @classic Paladin:Bouclier divin
-@retail @classic Paladin:Imposition des mains
+@retail @forever Paladin:Bouclier divin
+@retail @forever Paladin:Imposition des mains
 @retail Paladin:Courroux vengeur
 @retail Paladin:Gardien des anciens rois
-@retail @classic Paladin:Protection divine
-@retail @classic Paladin:Bénédiction de protection
-@retail @classic Paladin:Bénédiction de liberté
+@retail @forever Paladin:Protection divine
+@retail @forever Paladin:Bénédiction de protection
+@retail @forever Paladin:Bénédiction de liberté
 @retail Paladin:Maîtrise des auras
 
 @retail Prêtre:Suppression de la douleur
@@ -101,34 +101,34 @@
 @retail Prêtre:Barrière
 @retail Prêtre:Infusion de puissance
 @retail Prêtre:Hymne divin
-@retail @classic Prêtre:Dispersion
-@retail @classic Prêtre:Saut de foi
+@retail @forever Prêtre:Dispersion
+@retail @forever Prêtre:Saut de foi
 @retail Prêtre:Radiance
 
 @retail Voleur:Cape d'ombre
-@retail @classic Voleur:Disparition
-@retail @classic Voleur:Sprint
-@retail @classic Voleur:Évasion
-@retail @classic Voleur:Vendetta
+@retail @forever Voleur:Disparition
+@retail @forever Voleur:Sprint
+@retail @forever Voleur:Évasion
+@retail @forever Voleur:Vendetta
 @retail Voleur:Lames de l'ombre
 @retail Voleur:Danse de l'ombre
 @retail Voleur:Série meurtrière
-@retail @classic Voleur:Bombe fumigène
-@retail @classic Voleur:Cécité
+@retail @forever Voleur:Bombe fumigène
+@retail @forever Voleur:Cécité
 
 @retail Chaman:Furie sanguinaire
 @retail Chaman:Grâce du marcheur des esprits
 @retail Chaman:Totem de marée de soins
 @retail Chaman:Lien d'esprit
-@retail @classic Chaman:Ascendance
-@retail @classic Chaman:Élémentaire de feu
-@retail @classic Chaman:Élémentaire de terre
+@retail @forever Chaman:Ascendance
+@retail @forever Chaman:Élémentaire de feu
+@retail @forever Chaman:Élémentaire de terre
 @retail Chaman:Totem condensateur
-@retail @classic Chaman:Esprit farouche
+@retail @forever Chaman:Esprit farouche
 @retail Chaman:Totem de mur terrestre
 
 @retail Démoniste:Garde funeste
-@retail @classic Démoniste:Infernal
+@retail @forever Démoniste:Infernal
 @retail Démoniste:Cercle démoniaque
 @retail Démoniste:Porte démoniaque
 @retail Démoniste:Résolution interminable
@@ -136,16 +136,16 @@
 @retail Démoniste:Tyran démoniaque
 @retail Démoniste:Seigneur des diablotins
 @retail Démoniste:Ravageur gangrené
-@retail @classic Démoniste:Cataclysme
-@retail @classic Démoniste:Pluie de feu
+@retail @forever Démoniste:Cataclysme
+@retail @forever Démoniste:Pluie de feu
 
-@retail @classic Guerrier:Témérité
-@retail @classic Guerrier:Avatar
+@retail @forever Guerrier:Témérité
+@retail @forever Guerrier:Avatar
 @retail Guerrier:Régénération enragée
-@retail @classic Guerrier:Cri de ralliement
+@retail @forever Guerrier:Cri de ralliement
 @retail Guerrier:Bond héroïque
-@retail @classic Guerrier:Tempête de lames
+@retail @forever Guerrier:Tempête de lames
 @retail Guerrier:Cri intimidant
-@retail @classic Guerrier:Dernier rempart
-@retail @classic Guerrier:Mur protecteur
-@retail @classic Guerrier:Ravageur
+@retail @forever Guerrier:Dernier rempart
+@retail @forever Guerrier:Mur protecteur
+@retail @forever Guerrier:Ravageur

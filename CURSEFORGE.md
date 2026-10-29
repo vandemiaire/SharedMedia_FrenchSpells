@@ -73,6 +73,26 @@ LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereU
 
 ---
 
+## 💾 Impact mémoire
+
+**Empreinte RAM : Négligeable (~32 KB)**
+
+- 📁 **Taille sur disque** : 2.5 MB (199 fichiers MP3)
+- 💾 **Consommation RAM** : ~0.03 MB (32 KB)
+
+### ⚡ Comment ça fonctionne ?
+
+Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMedia enregistre uniquement les **chemins** des fichiers (~160 bytes par son).
+
+**Lors de la lecture d'un son :**
+1. WoW charge le MP3 temporairement
+2. Le son est joué
+3. Le son est déchargé automatiquement
+
+✅ **Aucun impact sur les performances** — les 199 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
+
+---
+
 ## 🐛 Support & Suggestions
 
 **Besoin d'aide ou envie de proposer des sorts ?**

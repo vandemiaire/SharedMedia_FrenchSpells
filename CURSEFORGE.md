@@ -37,7 +37,7 @@ Notifications d'actions et d'événements (préfixe `Alerte:`) :
 ## 📥 Installation
 
 ### Installation automatique (recommandé)
-Installez via **CurseForge App** ou **WowUp** — l'addon sera automatiquement placé au bon endroit et les sons seront immédiatement disponibles !
+Installez via **CurseForge App** — l'addon sera automatiquement placé au bon endroit et les sons seront immédiatement disponibles !
 
 ### Installation manuelle
 1. Téléchargez le fichier ZIP

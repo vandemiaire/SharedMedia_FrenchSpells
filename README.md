@@ -10,7 +10,7 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 
 ### 🎮 Support multi-version
 
-Cet addon supporte **WoW Retail** et **WoW Forever** (Classic) :
+Cet addon supporte **WoW Retail** et **WoW Forever** :
 
 - **Retail** : 158 sons (toutes les 13 classes)
 - **Forever** : 124 sons (9 classes Forever uniquement)
@@ -39,8 +39,30 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    - Section `#SORTS` : Sorts de classe
    - Section `#PROCS` : Procs (ajoute `_(proc)` au fichier)
    - Section `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
+   - Section `#ALERTES-A-CREER` : Nouvelles alertes à générer
 
-2. **Générer les MP3** :
+2. **Syntaxe de prononciation personnalisée** :
+
+   Pour franciser la prononciation des mots anglais, utilisez la syntaxe :
+   ```
+   Texte affiché[Prononciation TTS]
+   ```
+
+   **Exemples** :
+   ```
+   Trinket prêt[Trinequette prêt]
+   Cooldown offensif prêt[Couldaonne offensif prêt]
+   Burst prêt[Beurste prêt]
+   ```
+
+   **Comportement** :
+   - **Nom du fichier** : basé sur `Texte affiché` → `alerte-trinket_pret.mp3`
+   - **Affichage LSM** : `Texte affiché` → `"Alerte: Trinket Prêt"`
+   - **Audio généré** : `Prononciation TTS` → prononciation française correcte
+
+   📝 *Cette syntaxe est optionnelle. Les lignes sans `[...]` fonctionnent normalement.*
+
+3. **Générer les MP3** :
    ```bash
    cd tools\tts
    generate_tts_luvvoice.bat
@@ -49,7 +71,7 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    - Limite : 10 requêtes/minute (gestion automatique)
    - Voix : Denise (fr-FR)
 
-3. **Régénérer les enregistrements** :
+4. **Régénérer les enregistrements** :
    ```bash
    cd tools\sound_registration
    sound_registration.bat

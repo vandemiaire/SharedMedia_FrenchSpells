@@ -115,7 +115,7 @@ Guerrier:Dernier rempart
 Guerrier:Mur protecteur
 Guerrier:Ravageur
 # **************************************************
-#PROCS
+# PROCS
 # **************************************************
 Chevalier de la mort:Machine à tuer
 Chevalier de la mort:Frimas
@@ -179,9 +179,9 @@ Stun prêt
 Silence prêt
 Immunité prête
 Immunité terminée
-Trinket prêt
+Trinket prêt[Trinequette prêt]
 Racial prêt
-Cooldown offensif prêt
+Cooldown offensif prêt[Couldaonne offensif prêt]
 Burst prêt
 Mana faible
 Vie faible
@@ -195,4 +195,10 @@ Bouclier prêt
 Purge prête
 # **************************************************
 # ALERTES-A-CREER
+# **************************************************
+# **************************************************
+# SORTS-A-CREER
+# **************************************************
+# **************************************************
+# PROCS-A-CREER
 # **************************************************

@@ -103,8 +103,14 @@ foreach ($line in $lines) {
     $line = $line.Trim()
 
     # Detecter les sections
-    if ($line -match "#\s*PROCS") {
+    if ($line -match "#\s*PROCS-A-CREER") {
+        $currentSection = "PROCS-A-CREER"
+        continue
+    } elseif ($line -match "#\s*PROCS") {
         $currentSection = "PROCS"
+        continue
+    } elseif ($line -match "#\s*SORTS-A-CREER") {
+        $currentSection = "SORTS-A-CREER"
         continue
     } elseif ($line -match "#\s*SORTS") {
         $currentSection = "SORTS"
@@ -122,14 +128,23 @@ foreach ($line in $lines) {
         continue
     }
 
-    # NE TRAITER QUE LA SECTION ALERTES-A-CREER
-    if ($currentSection -ne "ALERTES-A-CREER") {
+    # NE TRAITER QUE LES SECTIONS *-A-CREER
+    if ($currentSection -notin @("ALERTES-A-CREER", "SORTS-A-CREER", "PROCS-A-CREER")) {
         continue
     }
 
-    if ($line.Contains(":")) {
+    # Extraire la prononciation si elle existe entre crochets [prononciation]
+    $displayText = $line
+    $ttsText = $line
+
+    if ($line -match '^(.+?)\[(.+?)\]$') {
+        $displayText = $matches[1].Trim()
+        $ttsText = $matches[2].Trim()
+    }
+
+    if ($displayText.Contains(":")) {
         # Format: Classe:Sort
-        $parts = $line.Split(":", 2)
+        $parts = $displayText.Split(":", 2)
         $classe = $parts[0].Trim()
         $sort = $parts[1].Trim()
 
@@ -137,24 +152,32 @@ foreach ($line in $lines) {
         $classeNormalized = Normalize-Filename $classe
         $sortNormalized = Normalize-Filename $sort
 
-        # Ajouter _(proc) si on est dans la section PROCS
-        if ($currentSection -eq "PROCS") {
+        # Ajouter _(proc) si on est dans la section PROCS ou PROCS-A-CREER
+        if ($currentSection -in @("PROCS", "PROCS-A-CREER")) {
             $filename = "$classeNormalized-$sortNormalized`_(proc).mp3"
-        } elseif ($currentSection -eq "ALERTES") {
+        } elseif ($currentSection -in @("ALERTES", "ALERTES-A-CREER")) {
             $filename = "alerte-$classeNormalized-$sortNormalized.mp3"
         } else {
             $filename = "$classeNormalized-$sortNormalized.mp3"
         }
         $text = $sort
+
+        # Si prononciation custom pour un sort avec ":", extraire juste le sort
+        if ($ttsText -ne $displayText -and $ttsText.Contains(":")) {
+            $ttsParts = $ttsText.Split(":", 2)
+            $ttsText = $ttsParts[1].Trim()
+        } elseif ($ttsText -eq $displayText) {
+            $ttsText = $sort
+        }
     } else {
         # Format simple: Texte
-        $text = $line
-        $textNormalized = Normalize-Filename $text
+        $text = $displayText
+        $textNormalized = Normalize-Filename $displayText
 
-        # Ajouter _(proc) si on est dans la section PROCS ou prefixe alerte- pour ALERTES
-        if ($currentSection -eq "PROCS") {
+        # Ajouter _(proc) si on est dans la section PROCS/PROCS-A-CREER ou prefixe alerte- pour ALERTES/ALERTES-A-CREER
+        if ($currentSection -in @("PROCS", "PROCS-A-CREER")) {
             $filename = "$textNormalized`_(proc).mp3"
-        } elseif ($currentSection -eq "ALERTES" -or $currentSection -eq "ALERTES-A-CREER") {
+        } elseif ($currentSection -in @("ALERTES", "ALERTES-A-CREER")) {
             $filename = "alerte-$textNormalized.mp3"
         } else {
             $filename = "$textNormalized.mp3"
@@ -163,6 +186,7 @@ foreach ($line in $lines) {
 
     $items += @{
         Text = $text
+        TTSText = $ttsText
         Filename = $filename
     }
 }
@@ -213,11 +237,16 @@ for ($i = 0; $i -lt $items.Count; $i++) {
 
     Write-Host "[$num/$total] Generation: $($item.Filename)" -ForegroundColor Cyan
     Write-Host "  Texte: $($item.Text)" -ForegroundColor Gray
+    if ($item.TTSText -ne $item.Text) {
+        Write-Host "  Prononciation TTS: $($item.TTSText)" -ForegroundColor Magenta
+    }
 
     try {
         # Preparer la requete avec encodage UTF-8 explicite
+        # Utiliser TTSText si disponible, sinon Text
+        $textToSpeak = if ($item.TTSText) { $item.TTSText } else { $item.Text }
         $body = @{
-            text = $item.Text
+            text = $textToSpeak
             voice_id = $VOICE_ID
             rate = 0
             pitch = 0

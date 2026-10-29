@@ -7,8 +7,8 @@ param(
 	[string]$soundsSubPath = "sounds"
 )
 
-# Script is in tools/, so go up one level to find sounds/ and root
-$rootFolder = Split-Path $PSScriptRoot -Parent
+# Script is in tools/sound_registration/, so go up two levels to find root
+$rootFolder = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
 
 # Use provided paths or defaults
 if ([string]::IsNullOrEmpty($soundsDir)) {

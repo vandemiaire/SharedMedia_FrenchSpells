@@ -12,7 +12,7 @@ $ErrorActionPreference = "Stop"
 $API_URL = "https://luvvoice.com/api/v1/text-to-speech"
 $VOICE_NAME = "Denise"
 $INPUT_FILE = "alertes.txt"
-$OUTPUT_DIR = "..\sounds"
+$OUTPUT_DIR = "..\..\sounds"
 $MAX_FILES = 999  # Limite de fichiers a generer (mettre 0 ou $null pour tous)
 
 # Headers pour l'API

@@ -1,13 +1,13 @@
 ﻿## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
-> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Supports both Retail (158 sounds) and Forever (124 sounds). Documentation below is in French.
+> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Supports both Retail (199 sounds) and Forever (165 sounds). Documentation below is in French.
 
-Bibliothèque de **sons de sorts et alertes en français** pour LibSharedMedia.  
+Bibliothèque de **199 sons de sorts et alertes en français** pour LibSharedMedia.  
 Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
 
 ### 🎮 Support multi-version
-- **WoW Retail** : 158 sons (13 classes)
-- **WoW Forever** : 124 sons (9 classes Forever)
+- **WoW Retail** : 199 sons (13 classes)
+- **WoW Forever** : 165 sons (9 classes Forever)
 
 Le même package fonctionne pour les deux versions !
 
@@ -15,17 +15,17 @@ Le même package fonctionne pour les deux versions !
 
 ## 🎵 Sons disponibles
 
-### **Retail** : 158 sons (13 classes)
-- 🛡️ **Sorts** : 108 sorts défensifs, offensifs et utilitaires
-- ⚡ **Procs** : 42 procs importants (suffixe `_(proc)`)
-- 🔔 **Alertes** : 8 notifications générales (préfixe `Alerte:`)
+### **Retail** : 199 sons (13 classes)
+- 🛡️ **Sorts** : 113 sorts défensifs, offensifs et utilitaires
+- ⚡ **Procs** : 37 procs importants (suffixe `_(proc)`)
+- 🔔 **Alertes** : 49 notifications générales (préfixe `Alerte:`)
 
 Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
 
-### **Forever** : 124 sons (9 classes Forever)
-- 🛡️ **Sorts** : 86 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
-- ⚡ **Procs** : 38 procs
-- 🔔 **Alertes** : 8 notifications générales
+### **Forever** : 165 sons (9 classes Forever)
+- 🛡️ **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
+- ⚡ **Procs** : 25 procs
+- 🔔 **Alertes** : 49 notifications générales
 
 **Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
 

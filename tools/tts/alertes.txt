@@ -1,198 +1,210 @@
-# **************************************************
+﻿# **************************************************
 #SORTS
 # **************************************************
-Chevalier de la mort:Carapace anti-magie
-Chevalier de la mort:Arme runique dansante
-Chevalier de la mort:Sang vampirique
-Chevalier de la mort:Zone anti-magie
-Chevalier de la mort:Hiver impitoyable
-Chevalier de la mort:Pilier de givre
-Chevalier de la mort:Apocalypse
-Chevalier de la mort:Armée des morts
-Chevalier de la mort:Réanimation morbide
-Chasseur de démons:Obscurité
-Chasseur de démons:Métamorphose
-Chasseur de démons:Rayon accablant
-Chasseur de démons:Sigil de chaînes
-Chasseur de démons:Sigil de misère
-Druide:Célérité
-Druide:Renaissance
-Druide:Incarnation
-Druide:Tranquillité
-Druide:Force de la nature
-Druide:Météores
-Druide:Ruée rugissante
-Druide:Écorce
-Druide:Innervation
-Évocateur:Souffle profond
-Évocateur:Sauvetage
-Évocateur:Volée de rêve
-Évocateur:Renaissance
-Évocateur:Éternité
-Évocateur:Frappe écrasante
-Chasseur:Aspect de la tortue
-Chasseur:Désengagement
-Chasseur:Tir tranquillisant
-Chasseur:Tir explosif
-Chasseur:Tir de la chimère
-Chasseur:Courroux bestial
-Chasseur:Salve
-Chasseur:Tir de lien
-Chasseur:Détournement
-Chasseur:Appel du maître
-Mage:Bloc de glace
-Mage:Invisibilité
-Mage:Veines glaciales
-Mage:Combustion
-Mage:Pouvoir des arcanes
-Mage:Altérer le temps
-Mage:Barrière de glace
-Mage:Souffle du dragon
-Mage:Anneau de givre
-Mage:Contresort
-Moine:Cocon de vie
-Moine:Réanimation
-Moine:Invocation de Xuen
-Moine:Toucher mortel
-Moine:Infusion fortifiante
-Moine:Diffusion de la magie
-Moine:Boisson céleste
-Paladin:Bouclier divin
-Paladin:Imposition des mains
-Paladin:Courroux vengeur
-Paladin:Gardien des anciens rois
-Paladin:Protection divine
-Paladin:Bénédiction de protection
-Paladin:Bénédiction de liberté
-Paladin:Maîtrise des auras
-Prêtre:Suppression de la douleur
-Prêtre:Esprit gardien
-Prêtre:Infusion de puissance
-Prêtre:Hymne divin
-Prêtre:Dispersion
-Prêtre:Saut de foi
-Prêtre:Radiance
-Prêtre:Barrière
-Voleur:Cape d’ombre
-Voleur:Disparition
-Voleur:Sprint
-Voleur:Évasion
-Voleur:Vendetta
-Voleur:Lames de l’ombre
-Voleur:Danse de l’ombre
-Voleur:Série meurtrière
-Voleur:Bombe fumigène
-Voleur:Cécité
-Chaman:Furie sanguinaire
-Chaman:Grâce du marcheur des esprits
-Chaman:Totem de marée de soins
-Chaman:Lien d’esprit
 Chaman:Ascendance
 Chaman:Élémentaire de feu
 Chaman:Élémentaire de terre
-Chaman:Totem condensateur
 Chaman:Esprit farouche
+Chaman:Furie sanguinaire
+Chaman:Grâce du marcheur des esprits
+Chaman:Lien d’esprit
+Chaman:Totem condensateur
+Chaman:Totem de marée de soins
 Chaman:Totem de mur terrestre
-Démoniste:Garde funeste
-Démoniste:Tyran démoniaque
-Démoniste:Infernal
-Démoniste:Cercle démoniaque
-Démoniste:Porte démoniaque
-Démoniste:Résolution interminable
-Démoniste:Sombre pacte
-Démoniste:Seigneur des diablotins
-Démoniste:Ravageur gangrené
+Chasseur de démons:Métamorphose
+Chasseur de démons:Obscurité
+Chasseur de démons:Rayon accablant
+Chasseur de démons:Sigil de chaînes
+Chasseur de démons:Sigil de misère
+Chasseur:Appel du maître
+Chasseur:Aspect de la tortue
+Chasseur:Courroux bestial
+Chasseur:Désengagement
+Chasseur:Détournement
+Chasseur:Salve
+Chasseur:Tir de la chimère
+Chasseur:Tir de lien
+Chasseur:Tir explosif
+Chasseur:Tir tranquillisant
+Chevalier de la mort:Apocalypse
+Chevalier de la mort:Arme runique dansante
+Chevalier de la mort:Armée des morts
+Chevalier de la mort:Carapace anti-magie
+Chevalier de la mort:Hiver impitoyable
+Chevalier de la mort:Pilier de givre
+Chevalier de la mort:Réanimation morbide
+Chevalier de la mort:Sang vampirique
+Chevalier de la mort:Zone anti-magie
 Démoniste:Cataclysme
+Démoniste:Cercle démoniaque
+Démoniste:Garde funeste
+Démoniste:Infernal
 Démoniste:Pluie de feu
-Guerrier:Témérité
+Démoniste:Porte démoniaque
+Démoniste:Ravageur gangrené
+Démoniste:Résolution interminable
+Démoniste:Seigneur des diablotins
+Démoniste:Sombre pacte
+Démoniste:Tyran démoniaque
+Druide:Célérité
+Druide:Écorce
+Druide:Force de la nature
+Druide:Incarnation
+Druide:Innervation
+Druide:Météores
+Druide:Renaissance
+Druide:Ruée rugissante
+Druide:Tranquillité
+Évocateur:Éternité
+Évocateur:Frappe écrasante
+Évocateur:Renaissance
+Évocateur:Sauvetage
+Évocateur:Souffle profond
+Évocateur:Volée de rêve
 Guerrier:Avatar
-Guerrier:Régénération enragée
-Guerrier:Cri de ralliement
 Guerrier:Bond héroïque
-Guerrier:Tempête de lames
+Guerrier:Cri de ralliement
 Guerrier:Cri intimidant
 Guerrier:Dernier rempart
 Guerrier:Mur protecteur
 Guerrier:Ravageur
+Guerrier:Régénération enragée
+Guerrier:Témérité
+Guerrier:Tempête de lames
+Mage:Altérer le temps
+Mage:Anneau de givre
+Mage:Barrière de glace
+Mage:Bloc de glace
+Mage:Combustion
+Mage:Contresort
+Mage:Invisibilité
+Mage:Pouvoir des arcanes
+Mage:Souffle du dragon
+Mage:Veines glaciales
+Moine:Boisson céleste
+Moine:Cocon de vie
+Moine:Diffusion de la magie
+Moine:Infusion fortifiante
+Moine:Invocation de Xuen
+Moine:Réanimation
+Moine:Toucher mortel
+Paladin:Bénédiction de liberté
+Paladin:Bénédiction de protection
+Paladin:Bouclier divin
+Paladin:Courroux vengeur
+Paladin:Gardien des anciens rois
+Paladin:Imposition des mains
+Paladin:Maîtrise des auras
+Paladin:Protection divine
+Prêtre:Barrière
+Prêtre:Dispersion
+Prêtre:Esprit gardien
+Prêtre:Hymne divin
+Prêtre:Infusion de puissance
+Prêtre:Radiance
+Prêtre:Saut de foi
+Prêtre:Suppression de la douleur
+Voleur:Bombe fumigène
+Voleur:Cape d’ombre
+Voleur:Cécité
+Voleur:Danse de l’ombre
+Voleur:Disparition
+Voleur:Évasion
+Voleur:Lames de l’ombre
+Voleur:Série meurtrière
+Voleur:Sprint
+Voleur:Vendetta
 # **************************************************
 # PROCS
 # **************************************************
-Chevalier de la mort:Machine à tuer
-Chevalier de la mort:Frimas
-Chevalier de la mort:Malédiction soudaine
-Chasseur de démons:Danse avec le destin
-Chasseur de démons:Dévastation
-Druide:Présage de clarté
-Druide:Idées claires
-Druide:Éclipse solaire
-Druide:Éclipse lunaire
-Évocateur:Surcharge
-Chasseur:Tirs mortels
-Chasseur:Frappes de cobra
-Mage:Doigts de givre
-Mage:Gel mental
-Mage:Chaleur continue
-Mage:Série de critiques
-Mage:Barrage des arcanes
-Moine:Frappes combo
-Paladin:Dessein divin
-Paladin:Art de la guerre
-Prêtre:Sursis
-Prêtre:Idées claires
-Voleur:Découverte de faiblesse
+Chaman:Afflux de tempête
 Chaman:Arme du Maelström
 Chaman:Déferlante de lave
 Chaman:Main brûlante
-Chaman:Afflux de tempête
-Démoniste:Coeur démoniaque
-Démoniste:Appel démoniaque
+Chasseur de démons:Danse avec le destin
+Chasseur de démons:Dévastation
+Chasseur:Frappes de cobra
+Chasseur:Tirs mortels
+Chevalier de la mort:Frimas
+Chevalier de la mort:Machine à tuer
+Chevalier de la mort:Malédiction soudaine
 Démoniste:Âme succulente
+Démoniste:Appel démoniaque
+Démoniste:Coeur démoniaque
+Démoniste:Échos de Sargeras
 Démoniste:Rituel diabolique
 Démoniste:Toucher de Rancora
-Démoniste:Échos de Sargeras
-Guerrier:Fulgurance
-Guerrier:Enrager
+Druide:Éclipse lunaire
+Druide:Éclipse solaire
+Druide:Idées claires
+Druide:Présage de clarté
+Évocateur:Surcharge
 Guerrier:Afflux de victoire
+Guerrier:Enrager
 Guerrier:Exécution
+Guerrier:Fulgurance
+Mage:Barrage des arcanes
+Mage:Chaleur continue
+Mage:Doigts de givre
+Mage:Gel mental
+Mage:Série de critiques
+Moine:Frappes combo
+Paladin:Art de la guerre
+Paladin:Dessein divin
+Prêtre:Idées claires
+Prêtre:Sursis
+Voleur:Découverte de faiblesse
 # **************************************************
 # ALERTES
 # **************************************************
-Interrompre
+Aggro
+Bouclier prêt
+Burst prêt[Beurstte prêt]
+Canalisation dangereuse
+Contrôle prêt
+Contrôle terminé
+Cooldown offensif prêt[Couldaonne offensif prêt]
 Debuff expiré[Déboeuf expiré]
-Malediction expirée
-Soigner le familier
-Interruption prête
-Interruption ratée
-Interruption impossible
-Pierre de soins prête
-Potion disponible
-Familier faible
-Familier mort
 Défensif disponible
 Défensif terminé
 Dissipation prête
 Dissiper
-Purger
-Contrôle prêt
-Contrôle terminé
-Stun prêt
-Silence prêt
+Écartez-vous
+Familier absent
+Familier faible
+Familier hors de portée
+Familier mort
+Hors de portée
 Immunité prête
 Immunité terminée
-Trinket prêt[Trinequette prêt]
-Racial prêt
-Cooldown offensif prêt[Couldaonne offensif prêt]
-Burst prêt
+Incantation dangereuse
+Interrompre
+Interruption impossible
+Interruption prête
+Interruption ratée
+Malediction expirée
 Mana faible
-Vie faible
 Menace élevée
-Aggro
-Hors de portée
-Écartez-vous
-Regroupez-vous
-Soin du familier prêt
-Bouclier prêt
+Pierre de soins prête
+Potion disponible
 Purge prête
+Purger
+Racial prêt
+Regroupez-vous
+Silence prêt
+Soigner le familier
+Soigneur en danger
+Soigneur hors de portée
+Soigneur mort
+Soin du familier prêt
+Sort dangereux
+Stop cast[Stop casste]
+Stop DPS
+Stun prêt[Stonne prêt]
+Tank en danger
+Tank mort
+Trinket prêt[Trinequette prêt]
+Vie faible
 # **************************************************
 # ALERTES-A-CREER
 # **************************************************

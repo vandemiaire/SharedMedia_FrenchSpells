@@ -99,29 +99,6 @@ Le projet est **open-source** ! Les contributions sont les bienvenues :
 
 ---
 
-## 📝 Notes de version
-
-### 🎉 Version 1.2.0 (Actuelle)
-- ✅ **158 sons en français** (108 sorts + 42 procs + 8 alertes)
-- ✅ Génération TTS haute qualité via **LuvVoice API**
-- ✅ Voix française **Denise** (fr-FR) pour une prononciation parfaite
-- ✅ Nouveau système de **procs** avec suffixe `_(proc)`
-- ✅ Nouvelles **alertes générales** avec préfixe `Alerte:`
-- ✅ Script de génération automatique avec gestion des limites API
-- ✅ Support complet des **13 classes** de WoW
-- ✅ Fichiers MP3 légers et optimisés
-
-### 🌱 Version 1.1.0
-- 237 sons de sorts en français
-- Génération TTS via ElevenLabs
-- Support de 13 classes
-
-### 🌱 Version 1.0.0
-- Release initiale avec 18 sons de sorts
-- Support de 5 classes + sons généraux
-
----
-
 ## ℹ️ Informations
 
 **Auteur** : [vandemiaire](https://github.com/vandemiaire)  

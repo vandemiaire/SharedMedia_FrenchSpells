@@ -6,52 +6,63 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 
 1. Téléchargez l'addon depuis [CurseForge](https://www.curseforge.com/) ou [GitHub Releases](https://github.com/vandemiaire/SharedMedia_FrenchSpells/releases)
 2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
-3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, etc.)
+3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, EllesmereUI, etc.)
 
-## 🎵 Sons disponibles (237 sorts)
+## 🎵 Sons disponibles (158 éléments)
 
-Bibliothèque complète de sons de sorts en français :
+Bibliothèque complète de sons de sorts en français générés avec TTS de haute qualité :
 
-### Classes WoW (233 sorts)
-- **Chevalier de la mort** (15 sorts)
-- **Chasseur de démons** (11 sorts)
-- **Druide** (29 sorts)
-- **Évocateur** (20 sorts)
-- **Chasseur** (25 sorts)
-- **Mage** (17 sorts)
-- **Moine** (17 sorts)
-- **Paladin** (23 sorts)
-- **Prêtre** (23 sorts)
-- **Voleur** (13 sorts)
-- **Chaman** (25 sorts)
-- **Démoniste** (16 sorts)
-- **Guerrier** (15 sorts)
+### 📜 Sorts de classe (108 sorts)
+Sorts défensifs, offensifs et utilitaires majeurs pour toutes les classes WoW
 
-### Sons généraux (4 notifications)
-Debuff expiré, Interrompre, Potion de soins, Sort puissant disponible
+### ⚡ Procs (42 procs)
+Notifications pour les procs importants de chaque classe (suffixe `_(proc)`)
 
-📄 Liste complète disponible dans `tts/sorts.txt`
+### 🔔 Alertes (8 notifications)
+Notifications générales : Interruption, Debuff expiré, Potion prête, etc. (préfixe `alerte-`)
 
-## 🛠️ Développement - Ajout de nouveaux sons
+📄 Liste complète disponible dans `tts/alertes.txt`
 
-1. Placez vos fichiers `.mp3` ou `.ogg` dans le dossier `sounds/`
-2. Nommez-les selon la convention : `classe-nom_du_sort.mp3`
-   - Avec classe : `chasseur-courroux_bestial.mp3` → **"Chasseur: Courroux Bestial"**
-   - Sans classe : `potion_de_soins.mp3` → **"Potion De Soins"**
-   - Classe composée : `chasseur_de_demons-metamorphose.mp3` → **"Chasseur De Demons: Métamorphose"**
-3. Lancez `tools\sound_registration.bat` pour régénérer `SoundRegistrations.lua`
+## 🛠️ Développement - Génération des sons
 
-### Convention de nommage
+### Génération TTS automatique
 
-- **`-`** (tiret simple) = séparateur entre classe et sort (une seule fois)
+Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise** :
+
+1. **Modifier la liste** : Éditez `tts/alertes.txt`
+   - Section `#SORTS` : Sorts de classe
+   - Section `#PROCS` : Procs (ajoute `_(proc)` au fichier)
+   - Section `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
+
+2. **Générer les MP3** :
+   ```bash
+   cd tts
+   generate_tts_luvvoice.bat
+   ```
+   - Nécessite un token API LuvVoice (plan payant)
+   - Limite : 10 requêtes/minute (gestion automatique)
+   - Voix : Denise (fr-FR)
+
+3. **Régénérer les enregistrements** :
+   ```bash
+   cd tools
+   sound_registration.bat
+   ```
+
+### Convention de nommage des fichiers
+
+- **Sorts** : `classe-nom_du_sort.mp3` → **"Classe: Nom Du Sort"**
+- **Procs** : `classe-nom_du_proc_(proc).mp3` → **"Classe: Nom Du Proc (Proc)"**
+- **Alertes** : `alerte-nom.mp3` → **"Alerte: Nom"**
+- **`-`** (tiret) = séparateur entre préfixe et nom
 - **`_`** (underscore) = espaces dans les mots
-- Exemples :
-  ```
-  chasseur-courroux_bestial.mp3
-  chasseur_de_demons-metamorphose.mp3
-  demoniste-tyran_demoniaque.mp3
-  potion_de_soins.mp3
-  ```
+
+Exemples :
+```
+chevalier_de_la_mort-carapace_anti-magie.mp3
+chevalier_de_la_mort-machine_a_tuer_(proc).mp3
+alerte-interrompre.mp3
+```
 
 ## 📁 Structure du projet
 
@@ -63,11 +74,14 @@ SharedMedia_FrenchSpells/
 ├── sounds/                         # Fichiers audio (.mp3, .ogg)
 ├── tools/                          # Scripts de développement
 │   ├── sound_registration.ps1      # Script de génération
-│   ├── sound_registration.bat      # Lanceur Windows
-│   └── commit.bat                  # Raccourci Git
+│   └── sound_registration.bat      # Lanceur Windows
 ├── tts/                            # Génération TTS (dev only)
-│   ├── generate_tts_elevenlabs.ps1 # Script ElevenLabs
-│   └── sorts.txt                   # Liste des 226 sorts
+│   ├── generate_tts_luvvoice.ps1   # Script LuvVoice
+│   ├── generate_tts_luvvoice.bat   # Lanceur Windows
+│   ├── test_voix_francaises.ps1    # Test des voix
+│   ├── test_voix_francaises.bat    # Lanceur de test
+│   ├── alertes.txt                 # Liste des 158 éléments
+│   └── README.md                   # Documentation TTS
 ├── .pkgmeta                        # Config CurseForge
 └── README.md
 ```

@@ -1,82 +1,70 @@
-# Génération TTS pour SharedMedia_FrenchSpells
+# Génération TTS avec LuvVoice
 
-Ce dossier contient les outils pour générer automatiquement les fichiers audio MP3 à partir de la liste de sorts.
+Ce script génère automatiquement les fichiers MP3 pour tous les sorts et alertes listés dans `alertes.txt` en utilisant l'API LuvVoice avec la voix française "Vivienne".
 
-## 📝 Fichiers
+## Prérequis
 
-- **sorts.txt** : Liste des sorts au format `Classe:Nom du sort`
-- **generate_tts_elevenlabs.ps1** : Script PowerShell pour ElevenLabs TTS
-- **generate_tts_elevenlabs.bat** : Lanceur Windows
+1. **Compte LuvVoice avec accès API**
+   - Créer un compte sur https://luvvoice.com
+   - Souscrire à un plan incluant l'accès API
+   - Obtenir un token API depuis le tableau de bord: https://luvvoice.com/dashboard (section API Tokens)
 
-## 🎙️ Utilisation avec ElevenLabs
+2. **PowerShell** (Windows)
 
-### 1. Créer un compte ElevenLabs
+## Utilisation
 
-1. Allez sur https://elevenlabs.io
-2. Créez un compte (plan gratuit : 10k caractères/mois)
-3. Allez dans **Profile → API Keys**
-4. Copiez votre clé API
+### 1. Obtenir votre Token API
 
-### 2. Obtenir un Voice ID
+1. Connectez-vous sur https://luvvoice.com
+2. Allez dans votre tableau de bord
+3. Section "API Tokens"
+4. Créez un nouveau token ou copiez-en un existant
 
-**Voix recommandées pour le français :**
-- **Rachel** (21m00Tcm4TlvDq8ikWAM) - Féminine, claire ⭐ Par défaut
-- **Adam** - Masculine, multilingue
-- **Freya** - Féminine, multilingue
-- **Antoni** - Masculine
+### 2. Lancer le script
 
-Pour voir toutes les voix disponibles :
 ```powershell
-curl -H "xi-api-key: VOTRE_CLE" https://api.elevenlabs.io/v1/voices
+cd tts
+.\generate_tts_luvvoice.ps1 -ApiToken "VOTRE_TOKEN_ICI"
 ```
 
-### 3. Lancer la génération
-
-Double-cliquez sur **`generate_tts_elevenlabs.bat`**
-
-Le script vous demandera :
-1. Votre clé API ElevenLabs
-2. Le Voice ID (ou Enter pour Rachel par défaut)
-
-Les MP3 seront créés dans le dossier `sounds/` avec la convention de nommage :
-- Avec classe : `classe-nom_du_sort.mp3`
-- Sans classe (Général) : `nom_du_sort.mp3`
-
-### 4. Regénérer les enregistrements
-
-Après génération des MP3, lancez :
-```
-..\tools\sound_registration.bat
-```
-
-## ✏️ Ajouter de nouveaux sorts
-
-1. Ouvrez **sorts.txt**
-2. Ajoutez une ligne au format : `Classe:Nom du sort`
-   - Exemple : `Mage:Bloc de glace`
-   - Exemple général : `Général:Cooldown prêt`
-3. Lancez **generate_tts_elevenlabs.bat**
-4. Lancez **sound_registration.bat**
-
-## 💡 Astuces
-
-- **Qualité** : ElevenLabs offre la meilleure qualité TTS du marché
-- **Coût** : ~3000 caractères pour tous les sorts actuels
-- **Voix** : Testez différentes voix pour trouver celle qui vous plaît
-- **Multilingue** : Le modèle `eleven_multilingual_v2` gère parfaitement le français
-
-## 🔧 Paramètres avancés
-
-Pour modifier la voix directement en ligne de commande :
+**Exemple:**
 ```powershell
-.\generate_tts_elevenlabs.ps1 -ApiKey "VOTRE_CLE" -VoiceId "21m00Tcm4TlvDq8ikWAM"
+.\generate_tts_luvvoice.ps1 -ApiToken "lvv_abc123xyz456"
 ```
 
-Pour générer seulement les 5 premiers sorts (test) :
-```powershell
-.\generate_tts_elevenlabs.ps1 -MaxCount 5
-```
+### 3. Résultat
 
----
+Les fichiers MP3 seront générés dans le répertoire `sounds/` avec le format:
+- Pour les sorts: `classe-nom_du_sort.mp3`
+- Pour les alertes: `nom_de_alerte.mp3`
 
-**Note** : Ce dossier `tts/` est exclu du package CurseForge (voir `.pkgmeta`). C'est normal, il est uniquement pour le développement.
+**Exemples:**
+- `Chevalier de la mort:Carapace anti-magie` → `chevalier_de_la_mort-carapace_anti-magie.mp3`
+- `Interrompre` → `interrompre.mp3`
+
+## Format du fichier alertes.txt
+
+- Lignes avec `:` → `Classe:Sort`
+- Lignes sans `:` → Alertes simples
+- Lignes commençant par `#` ou `@` → Ignorées (commentaires)
+- Lignes vides → Ignorées
+
+## Notes
+
+- Le script fait une pause de 500ms entre chaque requête pour ne pas surcharger l'API
+- Les crédits consommés sont affichés pour chaque fichier généré
+- Si la voix "Vivienne" n'est pas trouvée, le script affichera les voix françaises disponibles
+
+## Dépannage
+
+**Erreur d'authentification:**
+- Vérifiez que votre token API est valide
+- Vérifiez que votre plan inclut l'accès API
+
+**Voix "Vivienne" non trouvée:**
+- Le script affichera la liste des voix françaises disponibles
+- Vous pouvez modifier la variable `$VOICE_NAME` dans le script pour utiliser une autre voix
+
+**Limite de crédits atteinte:**
+- Vérifiez vos crédits restants sur https://luvvoice.com/dashboard
+- Le plan gratuit offre 10,000 caractères/mois

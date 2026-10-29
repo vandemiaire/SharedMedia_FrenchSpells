@@ -36,6 +36,9 @@ local LSM = LibStub("LibSharedMedia-3.0")
 
 "@
 
+# First pass: build array of sound entries
+$soundEntries = @()
+
 foreach ($file in $soundFiles | Sort-Object Name) {
 	# Convert filename to display name
 	# Remove extension
@@ -62,11 +65,21 @@ foreach ($file in $soundFiles | Sort-Object Name) {
 		$displayName = "$prefixCapitalized`: $displayName"
 	}
 
-	# Generate the LSM:Register line
-	$relativePath = "Interface\AddOns\SharedMedia_FrenchSpells\sounds\$($file.Name)"
-	$luaContent += "LSM:Register(`"sound`", `"$displayName`", [[$relativePath]])`r`n"
+	# Store the entry
+	$soundEntries += [PSCustomObject]@{
+		DisplayName = $displayName
+		FileName = $file.Name
+	}
+}
 
-	Write-Host "  + $displayName" -ForegroundColor Cyan
+# Sort by display name alphabetically
+$soundEntries = $soundEntries | Sort-Object DisplayName
+
+# Second pass: generate Lua registrations
+foreach ($entry in $soundEntries) {
+	$relativePath = "Interface\AddOns\SharedMedia_FrenchSpells\sounds\$($entry.FileName)"
+	$luaContent += "LSM:Register(`"sound`", `"$($entry.DisplayName)`", [[$relativePath]])`r`n"
+	Write-Host "  + $($entry.DisplayName)" -ForegroundColor Cyan
 }
 
 # Write to file

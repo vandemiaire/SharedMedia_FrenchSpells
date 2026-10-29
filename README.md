@@ -36,10 +36,18 @@ Bibliothèque complète de **201 sons de sorts en français** générés avec TT
 Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise** :
 
 1. **Modifier la liste** : Éditez `tools/tts/alertes.txt`
-   - Section `#SORTS` : Sorts de classe
-   - Section `#PROCS` : Procs (ajoute `_(proc)` au fichier)
-   - Section `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
-   - Section `#ALERTES-A-CREER` : Nouvelles alertes à générer
+
+   **Sections principales (existantes)** :
+   - `#SORTS` : Sorts de classe
+   - `#PROCS` : Procs (ajoute `_(proc)` au fichier)
+   - `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
+
+   **Sections de création (pour nouveaux sons)** :
+   - `#ALERTES-A-CREER` : Nouvelles alertes à générer (préfixe `alerte-`)
+   - `#SORTS-A-CREER` : Nouveaux sorts à générer
+   - `#PROCS-A-CREER` : Nouveaux procs à générer (suffixe `_(proc)`)
+
+   ⚠️ *Le script génère **uniquement** les sons dans les sections `*-A-CREER`*
 
 2. **Syntaxe de prononciation personnalisée** :
 
@@ -70,12 +78,22 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    - Nécessite un token API LuvVoice (plan payant)
    - Limite : 10 requêtes/minute (gestion automatique)
    - Voix : Denise (fr-FR)
+   - Les MP3 sont créés dans `sounds/`
 
-4. **Régénérer les enregistrements** :
+4. **Valider et déplacer** :
+
+   Une fois les MP3 générés et validés :
+   - Déplacez **manuellement** les lignes de `alertes.txt` depuis les sections `*-A-CREER` vers les sections principales
+   - Exemple : `#ALERTES-A-CREER` → `#ALERTES`
+   - Exemple : `#SORTS-A-CREER` → `#SORTS`
+   - Cela permet de garder une trace des sons à générer vs ceux déjà générés
+
+5. **Régénérer les enregistrements** :
    ```bash
    cd tools\sound_registration
    sound_registration.bat
    ```
+   - Met à jour `SoundRegistrations.lua` avec tous les MP3 du dossier `sounds/`
 
 ### Convention de nommage des fichiers
 

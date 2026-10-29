@@ -1,7 +1,10 @@
 ﻿-- Auto-generated file - DO NOT EDIT MANUALLY
 -- Run generate_sounds.bat to regenerate this file
 
-local LSM = LibStub("LibSharedMedia-3.0")
+local LSM = LibStub and LibStub("LibSharedMedia-3.0", true)
+if not LSM then
+	return
+end
 LSM:Register("sound", "Alerte: Aggro", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro.mp3]])
 LSM:Register("sound", "Alerte: Aggro Elevee", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro_elevee.mp3]])
 LSM:Register("sound", "Alerte: Aggro Perdue", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro_perdue.mp3]])

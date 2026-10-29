@@ -11,7 +11,7 @@ Addon World of Warcraft qui ajoute 210 sons d'alertes et de sorts en français �
 3. Vérifiez que les fichiers `.toc`, `.lua` et le dossier `sounds` se trouvent directement dans le dossier de l'addon.
 4. Relancez le jeu et activez l'addon dans la liste des addons.
 
-LibSharedMedia-3.0 doit être disponible. Il est généralement fourni par WeakAuras, DBM, BigWigs ou un autre addon compatible ; installez-le séparément si nécessaire.
+LibSharedMedia-3.0 doit être disponible pour afficher les sons. Il est généralement fourni par WeakAuras, DBM, BigWigs ou un autre addon compatible. Si aucun de ces addons n'est installé, installez l'addon autonome **LibSharedMedia-3.0** séparément.
 
 ## Utilisation
 

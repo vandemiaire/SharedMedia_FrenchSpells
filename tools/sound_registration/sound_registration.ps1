@@ -50,7 +50,10 @@ $luaContent = @"
 -- Auto-generated file - DO NOT EDIT MANUALLY
 -- Run generate_sounds.bat to regenerate this file
 
-local LSM = LibStub("LibSharedMedia-3.0")
+local LSM = LibStub and LibStub("LibSharedMedia-3.0", true)
+if not LSM then
+	return
+end
 
 "@
 

@@ -6,9 +6,7 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 
 1. Téléchargez l'addon depuis [CurseForge](https://www.curseforge.com/) ou [GitHub Releases](https://github.com/vandemiaire/SharedMedia_FrenchSpells/releases)
 2. Extrayez dans le dossier AddOns approprié :
-   - **Retail** : `World of Warcraft\_retail_\Interface\AddOns\`
-   - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
-3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, EllesmereUI, etc.)
+   3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, EllesmereUI, etc.)
 
 ### 🎮 Support multi-version
 

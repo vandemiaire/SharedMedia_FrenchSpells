@@ -3,16 +3,14 @@
 ## [1.3.0] - 2026-10-29
 
 ### Added
-- **Support multi-version** : WoW Retail ET WoW Forever (Classic)
-- **Retail** : 158 sons (toutes les 13 classes incluant Évocateur, Chasseur de démons, Moine, Chevalier de la mort)
-- **Forever** : 124 sons (9 classes Forever : Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier)
+- **Support multi-version** : WoW Retail ET WoW Forever
 - Fichiers TOC séparés : `SharedMedia_FrenchSpells.toc` (Retail) et `SharedMedia_FrenchSpells_Forever.toc` (Forever)
-- Structure organisée par version : `retail/` et `forever/`
+- **158 sons** compatibles avec les deux versions (les classes modernes ne sont simplement pas utilisées sur Forever)
 
 ### Changed
-- Réorganisation complète du projet avec dossiers `core/`, `retail/`, `forever/`
-- Sons séparés par version pour optimiser la taille du téléchargement
-- SoundRegistrations séparés pour chaque version
+- Structure simplifiée avec fichiers communs partagés entre les deux versions
+- Un seul `SoundRegistrations.lua` charge tous les sons pour les deux versions
+- Optimisation de la taille du package (pas de duplication de fichiers)
 
 ## [1.2.0] - 2026-10-29
 

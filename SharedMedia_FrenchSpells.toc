@@ -6,5 +6,5 @@
 ## X-Category: Audio
 ## RequiredDeps: LibSharedMedia-3.0
 
-core\SharedMedia_FrenchSpells.lua
-retail\SoundRegistrations_Retail.lua
+SharedMedia_FrenchSpells.lua
+SoundRegistrations.lua

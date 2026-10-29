@@ -19,21 +19,15 @@ Le même package ZIP fonctionne pour les deux versions grâce aux fichiers TOC s
 
 ## 🎵 Sons disponibles
 
-Bibliothèque de sons de sorts en français générés avec TTS de haute qualité :
+Bibliothèque complète de **158 sons de sorts en français** générés avec TTS de haute qualité :
 
-### **Retail** : 158 sons
-- 📜 **Sorts** : 108 sorts pour les 13 classes
+- 📜 **Sorts** : 108 sorts pour toutes les classes WoW
 - ⚡ **Procs** : 42 procs (suffixe `_(proc)`)
 - 🔔 **Alertes** : 8 notifications générales (préfixe `alerte-`)
 
-### **Forever** : 124 sons
-- 📜 **Sorts** : 86 sorts pour les 9 classes Forever
-- ⚡ **Procs** : 38 procs (suffixe `_(proc)`)
-- 🔔 **Alertes** : 8 notifications générales (préfixe `alerte-`)
+**Note** : Sur Forever, seuls les sorts des 9 classes originales sont disponibles. Les sorts des classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) sont chargés mais non utilisables.
 
-**Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
-
-📄 Liste complète disponible dans `tts/alertes.txt`
+📄 Liste complète disponible dans `tools/tts/alertes.txt`
 
 ## 🛠️ Développement - Génération des sons
 
@@ -41,14 +35,14 @@ Bibliothèque de sons de sorts en français générés avec TTS de haute qualit�
 
 Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise** :
 
-1. **Modifier la liste** : Éditez `tts/alertes.txt`
+1. **Modifier la liste** : Éditez `tools/tts/alertes.txt`
    - Section `#SORTS` : Sorts de classe
    - Section `#PROCS` : Procs (ajoute `_(proc)` au fichier)
    - Section `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
 
 2. **Générer les MP3** :
    ```bash
-   cd tts
+   cd tools\tts
    generate_tts_luvvoice.bat
    ```
    - Nécessite un token API LuvVoice (plan payant)
@@ -57,7 +51,7 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
 
 3. **Régénérer les enregistrements** :
    ```bash
-   cd tools
+   cd tools\sound_registration
    sound_registration.bat
    ```
 
@@ -80,21 +74,20 @@ alerte-interrompre.mp3
 
 ```
 SharedMedia_FrenchSpells/
-├── SharedMedia_FrenchSpells.lua    # Fichier principal de l'addon
-├── SharedMedia_FrenchSpells.toc    # Table of contents WoW
-├── SoundRegistrations.lua          # Enregistrements auto-générés
-├── sounds/                         # Fichiers audio (.mp3, .ogg)
-├── tools/                          # Scripts de développement
-│   ├── sound_registration.ps1      # Script de génération
-│   └── sound_registration.bat      # Lanceur Windows
-├── tts/                            # Génération TTS (dev only)
-│   ├── generate_tts_luvvoice.ps1   # Script LuvVoice
-│   ├── generate_tts_luvvoice.bat   # Lanceur Windows
-│   ├── test_voix_francaises.ps1    # Test des voix
-│   ├── test_voix_francaises.bat    # Lanceur de test
-│   ├── alertes.txt                 # Liste des 158 éléments
-│   └── README.md                   # Documentation TTS
-├── .pkgmeta                        # Config CurseForge
+├── SharedMedia_FrenchSpells.lua         # Fichier principal de l'addon
+├── SharedMedia_FrenchSpells.toc         # TOC WoW Retail
+├── SharedMedia_FrenchSpells_Forever.toc # TOC WoW Forever
+├── SoundRegistrations.lua               # Enregistrements auto-générés (158 sons)
+├── sounds/                              # Fichiers audio MP3 (158 fichiers)
+├── tools/                               # Scripts de développement
+│   ├── sound_registration/
+│   │   ├── sound_registration.ps1       # Script de génération des registrations
+│   │   └── sound_registration.bat       # Lanceur Windows
+│   └── tts/                             # Génération TTS (dev only)
+│       ├── generate_tts_luvvoice.ps1    # Script LuvVoice
+│       ├── generate_tts_luvvoice.bat    # Lanceur Windows
+│       └── alertes.txt                  # Liste des 158 éléments
+├── .pkgmeta                             # Config CurseForge
 └── README.md
 ```
 

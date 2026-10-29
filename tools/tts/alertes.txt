@@ -1,5 +1,4 @@
-﻿# https://luvvoice.com/dashboard/text-to-speech
-# **************************************************
+﻿# **************************************************
 #SORTS
 # **************************************************
 Chaman:Ascendance
@@ -159,9 +158,13 @@ Voleur:Découverte de faiblesse
 # ALERTES
 # **************************************************
 Aggro
+Aggro élevée
+Aggro perdue
 Bouclier prêt
 Burst prêt[Beurstte prêt]
 Canalisation dangereuse
+Cible hors de portée
+Cible morte
 Clé de l'Arcantina prête
 Contrôle prêt
 Contrôle terminé
@@ -174,10 +177,12 @@ Déplacez-vous
 Dissipation prête
 Dissiper
 Écartez-vous
+En combat
 Familier absent
 Familier faible
 Familier hors de portée
 Familier mort
+Hors combat
 Hors de portée
 Immunité prête
 Immunité terminée
@@ -186,9 +191,11 @@ Interrompre
 Interruption impossible
 Interruption prête
 Interruption ratée
+Joueur mort
 Malediction expirée
 Mana faible
 Menace élevée
+Pandémie
 Pierre de foyer prête
 Pierre de soins prête
 Potion disponible

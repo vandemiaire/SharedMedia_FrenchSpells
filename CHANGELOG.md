@@ -1,5 +1,27 @@
 ﻿# Changelog
 
+## [1.3.0] - 2026-10-29
+
+### Added
+- **52 nouvelles alertes** (de 8 à 60 alertes)
+- Intonation alarmiste automatique avec "!" pour les alertes TTS
+- Syntaxe de prononciation personnalisée `[prononciation]` pour franciser les anglicismes
+- Sections de création incrémentale : ALERTES-A-CREER, SORTS-A-CREER, PROCS-A-CREER
+- Workflow de génération progressive documenté
+- Tri alphabétique de toutes les sections dans alertes.txt
+- Total : **210 sons** (113 sorts + 37 procs + 60 alertes)
+
+### Changed
+- Script TTS ajoute automatiquement "!" aux alertes pour une voix plus urgente
+- Documentation complète du workflow incrémental dans README.md
+- Section "Impact mémoire" ajoutée à CURSEFORGE.md (~34 KB RAM)
+- Amélioration de la prononciation avec syntaxe [Texte affiché[Prononciation TTS]]
+
+### Examples
+- `Trinket prêt[Trinequette prêt]` - Prononciation personnalisée
+- `Stop cast[Stop casste]` - Francisation des anglicismes
+- Toutes les alertes générées avec intonation exclamative
+
 ## [1.2.0] - 2026-10-29
 
 ### Added

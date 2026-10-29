@@ -1,7 +1,7 @@
 ﻿## Interface: 120105
 ## Title: SharedMedia: French Spells
 ## Notes: French spell sounds for SharedMedia (Retail)
-## Version: 1.2.0
+## Version: 1.3.0
 ## Author: Vandémiaire
 ## X-Category: Audio
 ## RequiredDeps: LibSharedMedia-3.0

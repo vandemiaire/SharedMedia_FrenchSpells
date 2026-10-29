@@ -1,13 +1,13 @@
 ﻿## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
-> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (201 sounds) and Forever (167 sounds). Documentation below is in French.
+> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
 
-Bibliothèque de **201 sons de sorts et alertes en français** pour LibSharedMedia.  
+Bibliothèque de **210 sons de sorts et alertes en français** pour LibSharedMedia.  
 Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
 
 ### 🎮 Support multi-version
-- **WoW Retail** : 201 sons (13 classes)
-- **WoW Forever** : 167 sons (9 classes Forever)
+- **WoW Retail** : 210 sons (13 classes)
+- **WoW Forever** : 176 sons (9 classes Forever)
 
 Le même package fonctionne pour les deux versions !
 
@@ -15,17 +15,17 @@ Le même package fonctionne pour les deux versions !
 
 ## 🎵 Sons disponibles
 
-### **Retail** : 201 sons (13 classes)
+### **Retail** : 210 sons (13 classes)
 - 🛡️ **Sorts** : 113 sorts défensifs, offensifs et utilitaires
 - ⚡ **Procs** : 37 procs importants (suffixe `_(proc)`)
-- 🔔 **Alertes** : 51 notifications générales (préfixe `Alerte:`)
+- 🔔 **Alertes** : 60 notifications générales (préfixe `Alerte:`)
 
 Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
 
-### **Forever** : 167 sons (9 classes Forever)
+### **Forever** : 176 sons (9 classes Forever)
 - 🛡️ **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
 - ⚡ **Procs** : 25 procs
-- 🔔 **Alertes** : 51 notifications générales
+- 🔔 **Alertes** : 60 notifications générales
 
 **Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
 
@@ -75,10 +75,10 @@ LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereU
 
 ## 💾 Impact mémoire
 
-**Empreinte RAM : Négligeable (~32 KB)**
+**Empreinte RAM : Négligeable (~34 KB)**
 
-- 📁 **Taille sur disque** : 2.5 MB (199 fichiers MP3)
-- 💾 **Consommation RAM** : ~0.03 MB (32 KB)
+- 📁 **Taille sur disque** : 2.6 MB (210 fichiers MP3)
+- 💾 **Consommation RAM** : ~0.03 MB (34 KB)
 
 ### ⚡ Comment ça fonctionne ?
 
@@ -89,7 +89,7 @@ Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMe
 2. Le son est joué
 3. Le son est déchargé automatiquement
 
-✅ **Aucun impact sur les performances** — les 199 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
+✅ **Aucun impact sur les performances** — les 210 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
 
 ---
 

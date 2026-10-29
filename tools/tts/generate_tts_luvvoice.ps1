@@ -184,6 +184,14 @@ foreach ($line in $lines) {
         }
     }
 
+    # Ajouter "!" pour les alertes en création (intonation alarmiste)
+    if ($currentSection -eq "ALERTES-A-CREER") {
+        # Ajouter "!" seulement si le texte n'en a pas déjà un
+        if (-not $ttsText.EndsWith("!")) {
+            $ttsText = "$ttsText !"
+        }
+    }
+
     $items += @{
         Text = $text
         TTSText = $ttsText

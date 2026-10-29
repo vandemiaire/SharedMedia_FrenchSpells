@@ -166,9 +166,11 @@ Clé de l'Arcantina prête
 Contrôle prêt
 Contrôle terminé
 Cooldown offensif prêt[Couldaonne offensif prêt]
+Danger
 Debuff expiré[Déboeuf expiré]
 Défensif disponible
 Défensif terminé
+Déplacez-vous
 Dissipation prête
 Dissiper
 Écartez-vous

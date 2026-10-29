@@ -1,6 +1,6 @@
 ﻿## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
-> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Supports both Retail (201 sounds) and Forever (167 sounds). Documentation below is in French.
+> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (201 sounds) and Forever (167 sounds). Documentation below is in French.
 
 Bibliothèque de **201 sons de sorts et alertes en français** pour LibSharedMedia.  
 Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.

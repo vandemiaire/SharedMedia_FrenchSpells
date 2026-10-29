@@ -158,7 +158,7 @@ Guerrier:Exécution
 # ALERTES
 # **************************************************
 Interrompre
-Debuff expiré
+Debuff expiré[Déboeuf expiré]
 Malediction expirée
 Soigner le familier
 Interruption prête

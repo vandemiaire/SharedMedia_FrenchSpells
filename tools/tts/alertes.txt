@@ -1,4 +1,5 @@
-﻿# **************************************************
+﻿# https://luvvoice.com/dashboard/text-to-speech
+# **************************************************
 #SORTS
 # **************************************************
 Chaman:Ascendance
@@ -161,6 +162,7 @@ Aggro
 Bouclier prêt
 Burst prêt[Beurstte prêt]
 Canalisation dangereuse
+Clé de l'Arcantina prête
 Contrôle prêt
 Contrôle terminé
 Cooldown offensif prêt[Couldaonne offensif prêt]
@@ -185,6 +187,7 @@ Interruption ratée
 Malediction expirée
 Mana faible
 Menace élevée
+Pierre de foyer prête
 Pierre de soins prête
 Potion disponible
 Purge prête

@@ -54,6 +54,10 @@ foreach ($file in $soundFiles | Sort-Object Name) {
 	# Replace _ with spaces
 	$displayName = $baseName -replace '_', ' '
 
+	# Replace curly apostrophes with straight ones
+	$displayName = $displayName -replace [char]0x2019, [char]0x0027  # right single quotation mark
+	$displayName = $displayName -replace [char]0x2018, [char]0x0027  # left single quotation mark
+
 	# Capitalize first letter of each word
 	$textInfo = (Get-Culture).TextInfo
 	$displayName = $textInfo.ToTitleCase($displayName.ToLower())

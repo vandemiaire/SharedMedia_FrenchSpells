@@ -1,7 +1,7 @@
-## Interface: 11504
+## Interface: 16001
 ## Title: SharedMedia: French Spells
 ## Notes: French spell sounds for SharedMedia (Forever)
-## Version: 1.3.0
+## Version: 1.2.0
 ## Author: Vandémiaire
 ## X-Category: Audio
 ## RequiredDeps: LibSharedMedia-3.0

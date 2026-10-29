@@ -1,25 +1,39 @@
-# SharedMedia_FrenchSpells
+﻿# SharedMedia_FrenchSpells
 
 Addon World of Warcraft qui ajoute des sons de sorts en français pour LibSharedMedia.
 
 ## 📥 Installation
 
 1. Téléchargez l'addon depuis [CurseForge](https://www.curseforge.com/) ou [GitHub Releases](https://github.com/vandemiaire/SharedMedia_FrenchSpells/releases)
-2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
+2. Extrayez dans le dossier AddOns approprié :
+   - **Retail** : `World of Warcraft\_retail_\Interface\AddOns\`
+   - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
 3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, EllesmereUI, etc.)
 
-## 🎵 Sons disponibles (158 éléments)
+### 🎮 Support multi-version
 
-Bibliothèque complète de sons de sorts en français générés avec TTS de haute qualité :
+Cet addon supporte **WoW Retail** et **WoW Forever** (Classic) :
 
-### 📜 Sorts de classe (108 sorts)
-Sorts défensifs, offensifs et utilitaires majeurs pour toutes les classes WoW
+- **Retail** : 158 sons (toutes les 13 classes)
+- **Forever** : 124 sons (9 classes Forever uniquement)
 
-### ⚡ Procs (42 procs)
-Notifications pour les procs importants de chaque classe (suffixe `_(proc)`)
+Le même package ZIP fonctionne pour les deux versions grâce aux fichiers TOC séparés.
 
-### 🔔 Alertes (8 notifications)
-Notifications générales : Interruption, Debuff expiré, Potion prête, etc. (préfixe `alerte-`)
+## 🎵 Sons disponibles
+
+Bibliothèque de sons de sorts en français générés avec TTS de haute qualité :
+
+### **Retail** : 158 sons
+- 📜 **Sorts** : 108 sorts pour les 13 classes
+- ⚡ **Procs** : 42 procs (suffixe `_(proc)`)
+- 🔔 **Alertes** : 8 notifications générales (préfixe `alerte-`)
+
+### **Forever** : 124 sons
+- 📜 **Sorts** : 86 sorts pour les 9 classes Forever
+- ⚡ **Procs** : 38 procs (suffixe `_(proc)`)
+- 🔔 **Alertes** : 8 notifications générales (préfixe `alerte-`)
+
+**Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
 
 📄 Liste complète disponible dans `tts/alertes.txt`
 

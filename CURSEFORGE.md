@@ -1,47 +1,46 @@
-## 🇫🇷 Sons de sorts en français pour LibSharedMedia
+﻿## 🇫🇷 Sons de sorts en français pour LibSharedMedia
 
-> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Documentation below is in French.
+> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, and other addons. Supports both Retail (158 sounds) and Forever (124 sounds). Documentation below is in French.
 
-Bibliothèque complète de **158 sons de sorts et alertes en français** pour LibSharedMedia.  
+Bibliothèque de **sons de sorts et alertes en français** pour LibSharedMedia.  
 Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
+
+### 🎮 Support multi-version
+- **WoW Retail** : 158 sons (13 classes)
+- **WoW Forever** : 124 sons (9 classes Forever)
+
+Le même package fonctionne pour les deux versions !
 
 ---
 
-## 🎵 158 sons disponibles
+## 🎵 Sons disponibles
 
-### 🛡️ Sorts de classe (108 sorts)
+### **Retail** : 158 sons (13 classes)
+- 🛡️ **Sorts** : 108 sorts défensifs, offensifs et utilitaires
+- ⚡ **Procs** : 42 procs importants (suffixe `_(proc)`)
+- 🔔 **Alertes** : 8 notifications générales (préfixe `Alerte:`)
 
-Sons TTS de haute qualité pour les sorts majeurs de toutes les classes WoW :
-- **Sorts défensifs** : Bouclier divin, Bloc de glace, Dispersion, etc.
-- **Sorts offensifs** : Combustion, Avatar, Vendetta, Métamorphose, etc.
-- **Sorts utilitaires** : Tranquillité, Hymne divin, Ascendance, etc.
+Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
 
-Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Sérénité • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
+### **Forever** : 124 sons (9 classes Forever)
+- 🛡️ **Sorts** : 86 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
+- ⚡ **Procs** : 38 procs
+- 🔔 **Alertes** : 8 notifications générales
 
-### ⚡ Procs (42 procs)
-
-Notifications pour les procs importants (identifiables par le suffixe `_(proc)`) :
-- **Procs de dégâts** : Machine à tuer, Fulgurance, Toucher de Rancora, etc.
-- **Procs de ressources** : Présage de clarté, Main brûlante, etc.
-- **Procs de buffs** : Art de la guerre, Dessein divin, etc.
-
-Exemples : _Machine à tuer • Danse avec le destin • Présage de clarté • Surcharge • Doigts de givre • Frappes combo • Dessein divin • Sursis • Découverte de faiblesse • Arme du Maelström • Cœur démoniaque • Fulgurance_
-
-### 🔔 Alertes générales (8 notifications)
-
-Notifications d'actions et d'événements (préfixe `Alerte:`) :
-- Interrompre • Interruption prête • Debuff expiré • Malédiction expirée • Pierre de soins • Potion prête • Soigner le familier • Soin du familier disponible
+**Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
 
 ---
 
 ## 📥 Installation
 
 ### Installation automatique (recommandé)
-Installez via **CurseForge App** — l'addon sera automatiquement placé au bon endroit et les sons seront immédiatement disponibles !
+Installez via **CurseForge App** — l'addon sera automatiquement placé au bon endroit selon votre version de WoW !
 
 ### Installation manuelle
 1. Téléchargez le fichier ZIP
-2. Extrayez dans `World of Warcraft\_retail_\Interface\AddOns\`
+2. Extrayez dans le dossier AddOns approprié :
+   - **Retail** : `World of Warcraft\_retail_\Interface\AddOns\`
+   - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
 3. Redémarrez WoW
 
 ✅ Les sons apparaîtront automatiquement dans tous les addons compatibles LibSharedMedia.

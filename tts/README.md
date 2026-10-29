@@ -1,4 +1,4 @@
-# Génération TTS avec LuvVoice
+﻿# Génération TTS avec LuvVoice
 
 Ce script génère automatiquement les fichiers MP3 pour tous les sorts et alertes listés dans `alertes.txt` en utilisant l'API LuvVoice avec la voix française "Vivienne".
 

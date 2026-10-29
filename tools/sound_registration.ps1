@@ -1,9 +1,27 @@
 # Script to generate SharedMedia sound registrations from files in sounds folder
 
+param(
+	[string]$soundsDir = "",
+	[string]$outputFile = "",
+	[string]$addonName = "SharedMedia_FrenchSpells",
+	[string]$soundsSubPath = "sounds"
+)
+
 # Script is in tools/, so go up one level to find sounds/ and root
 $rootFolder = Split-Path $PSScriptRoot -Parent
-$soundsFolder = Join-Path $rootFolder "sounds"
-$outputFile = Join-Path $rootFolder "SoundRegistrations.lua"
+
+# Use provided paths or defaults
+if ([string]::IsNullOrEmpty($soundsDir)) {
+	$soundsFolder = Join-Path $rootFolder "sounds"
+} else {
+	$soundsFolder = Join-Path $rootFolder $soundsDir
+}
+
+if ([string]::IsNullOrEmpty($outputFile)) {
+	$outputFile = Join-Path $rootFolder "SoundRegistrations.lua"
+} else {
+	$outputFile = Join-Path $rootFolder $outputFile
+}
 
 # Check if sounds folder exists
 if (-not (Test-Path $soundsFolder)) {
@@ -81,7 +99,7 @@ $soundEntries = $soundEntries | Sort-Object DisplayName
 
 # Second pass: generate Lua registrations
 foreach ($entry in $soundEntries) {
-	$relativePath = "Interface\AddOns\SharedMedia_FrenchSpells\sounds\$($entry.FileName)"
+	$relativePath = "Interface\AddOns\$addonName\$soundsSubPath\$($entry.FileName)"
 	$luaContent += "LSM:Register(`"sound`", `"$($entry.DisplayName)`", [[$relativePath]])`r`n"
 	Write-Host "  + $($entry.DisplayName)" -ForegroundColor Cyan
 }

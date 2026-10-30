@@ -1,6 +1,6 @@
 ## Interface: 16001
-## Title: SharedMedia: French Spells
-## Notes: French spell sounds for SharedMedia (Forever)
+## Title: French Spells (SharedMedia)
+## Notes: French sounds for SharedMedia (Forever)
 ## Version: 1.3.2
 ## Author: Vandémiaire
 ## X-Category: Audio

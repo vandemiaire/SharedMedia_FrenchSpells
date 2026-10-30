@@ -1,10 +1,10 @@
 ## Interface: 16001
-## Title: SharedMedia: French Spells
-## Notes: French spell sounds for SharedMedia (Forever)
+## Title: French Spells (SharedMedia)
+## Notes: French sounds for SharedMedia (Forever)
 ## Version: 1.3.2
 ## Author: Vandémiaire
 ## X-Category: Audio
-## IconTexture: logo_128.jpg
+## IconTexture: Interface\AddOns\SharedMedia_FrenchSpells\logo_64.blp
 ## OptionalDeps: LibSharedMedia-3.0
 
 SharedMedia_FrenchSpells.lua

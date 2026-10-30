@@ -105,7 +105,7 @@ Prêtre:Radiance
 Prêtre:Saut de foi
 Prêtre:Suppression de la douleur
 Voleur:Bombe fumigène
-Voleur:Cape d’ombre
+Voleur:Cape d'ombre
 Voleur:Cécité
 Voleur:Danse de l’ombre
 Voleur:Disparition
@@ -130,6 +130,7 @@ Chevalier de la mort:Machine à tuer
 Chevalier de la mort:Malédiction soudaine
 Démoniste:Âme succulente
 Démoniste:Appel démoniaque
+Démoniste:Chancre des languages
 Démoniste:Coeur démoniaque
 Démoniste:Échos de Sargeras
 Démoniste:Rituel diabolique
@@ -198,7 +199,7 @@ Menace élevée
 Pandémie
 Pierre de foyer prête
 Pierre de soins prête
-Potion disponible
+Potion prête
 Purge prête
 Purger
 Racial prêt
@@ -223,7 +224,6 @@ Vie faible
 # **************************************************
 # SORTS-A-CREER
 # **************************************************
-Démoniste:Chancre des languages
 # **************************************************
 # PROCS-A-CREER
 # **************************************************

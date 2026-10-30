@@ -1,21 +1,21 @@
 ﻿> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
 
-## Bibliothèque de phrases en français pour EllesmereUI, DBM, Weaksauras, etc.
+## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
 
 Bibliothèque de **210 sons de sorts et alertes en français**.
 
 Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details! Damage Meter**, **BigWigs**, **ElvUI** et tous les addons utilisant LibSharedMedia pour jouer les sons adéquats lors des moments clés de votre aventure.
 
-⚠ Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module LibSharedMedia.
+⚠️ Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module LibSharedMedia.
 
-## Quelques exemples avec EllesmereUI
+## 📺 Quelques exemples avec EllesmereUI
 
 * Vous êtes chasseur, le temps de recharge de _Courroux Bestial_ (30 secondes) arrive à zéro, une voix annonce "Courroux Bestial".
 * Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "Debuff expiré".
 * Vous êtes chasseur de démons, la proc _Machine à tuer_ se déclenche, une voix annonce "Machine à tuer".
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "Potion prête".
 
-## Sons disponibles
+## 📋 Sons disponibles
 
 >La liste complète des phrases est disponible en bas de cette page.
 
@@ -33,7 +33,7 @@ Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details! Damage Meter
 
 **Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez mettre en place une alerte vocale dès ils sont à nouveau disponibles.
 
-## Installation
+## 📦 Installation
 
 ### Installation automatique (recommandé)
 
@@ -53,7 +53,7 @@ Les sons apparaîtront automatiquement dans tous les addons compatibles LibShare
 
 LibSharedMedia est déjà inclus dans la plupart des addons (WeakAuras, DBM, BigWigs, EllesmereUI, etc). Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
 
-## Impact mémoire
+## 💾 Impact mémoire
 
 **Empreinte RAM : Négligeable (~28-34 KB selon la version)**
 
@@ -63,7 +63,7 @@ LibSharedMedia est déjà inclus dans la plupart des addons (WeakAuras, DBM, Big
 
 **Aucun impact sur les performances** — les 210 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
 
-## Contribution
+## 🤝 Contribution
 
 Le projet est **open-source** ! Les contributions ou suggestions sont les bienvenues :
 
@@ -71,7 +71,7 @@ Le projet est **open-source** ! Les contributions ou suggestions sont les bienve
 - [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
 - [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
-## Liste complète des sons
+## 📚 Liste complète des sons
 
 ### Chaman
 **Sorts**: "Ascendance", "Élémentaire de feu", "Élémentaire de terre", "Esprit farouche", "Furie sanguinaire", "Grâce du marcheur des esprits", "Lien d'esprit", "Totem condensateur", "Totem de marée de soins", "Totem de mur terrestre"

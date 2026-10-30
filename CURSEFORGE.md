@@ -1,27 +1,28 @@
-﻿> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in WeakAuras, DBM, EllesmereUI and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
+﻿> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
 
-## 🇫🇷 Bibliothèque de sons de sorts en français pour EllesmereUI, DBM, Weaksauras, etc.
+## Bibliothèque de sons de sorts en français pour EllesmereUI, DBM, Weaksauras, etc.
 
 Bibliothèque de **210 sons de sorts et alertes en français**.
-Compatible avec **WeakAuras**, **DBM**, **BigWigs**, **EllesmereUI**, et tous les addons utilisant LibSharedMedia.
+
+Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, et tous les addons utilisant LibSharedMedia.
 
 ---
 
 ## 🎵 Sons disponibles
 
 ### **Retail** : 210 sons (13 classes)
-- 🛡️ **Sorts** : 113 sorts défensifs, offensifs et utilitaires
-- ⚡ **Procs** : 37 procs importants (suffixe `_(proc)`)
-- 🔔 **Alertes** : 60 notifications générales (préfixe `Alerte:`)
+
+- **Sorts** : 113 sorts défensifs, offensifs et utilitaires
+- **Procs** : 37 procs importants (suffixe `_(proc)`)
+- **Alertes** : 60 notifications générales (préfixe `Alerte:`)
 
 Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
 
 ### **Forever** : 176 sons (9 classes Forever)
-- 🛡️ **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
-- ⚡ **Procs** : 25 procs
-- 🔔 **Alertes** : 60 notifications générales
 
-**Classes Retail uniquement** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
+- **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
+- **Procs** : 25 procs
+- **Alertes** : 60 notifications générales
 
 **Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez avoir une alerte quand ils sont disponibles.
 
@@ -30,9 +31,13 @@ Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle pr
 ## 📥 Installation
 
 ### Installation automatique (recommandé)
-Installez via **CurseForge App** — l'addon sera automatiquement placé au bon endroit selon votre version de WoW !
+
+Installez via **CurseForge App**
+
+✅ Les sons apparaîtront automatiquement dans tous les addons compatibles LibSharedMedia.
 
 ### Installation manuelle
+
 1. Téléchargez le fichier ZIP
 2. Extrayez dans le dossier AddOns approprié :
    - **Retail** : `World of Warcraft\_retail_\Interface\AddOns\`
@@ -48,20 +53,20 @@ Installez via **CurseForge App** — l'addon sera automatiquement placé au bon 
 **Aucune dépendance manuelle requise !**
 LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
 
-### 🎯 Avec WeakAuras
+### Avec WeakAuras
 
 1. Créez ou éditez une **WeakAura**
 2. Onglet **Actions** → **Sound**
 3. Type : **SharedMedia**
 4. Sélectionnez un son français (ex: _"Chasseur: Courroux Bestial"_)
 
-### ⚔️ Avec DBM / BigWigs
+### Avec DBM / BigWigs
 
 1. Ouvrez les **Options** de DBM/BigWigs
 2. Section **Sons personnalisés**
 3. Sélectionnez un son de la catégorie **SharedMedia**
 
-### 🎨 Avec EllesmereUI
+### Avec EllesmereUI
 
 Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
 
@@ -71,9 +76,9 @@ Les sons sont automatiquement disponibles dans tous les modules EllesmereUI util
 
 **Empreinte RAM : Négligeable (~28-34 KB selon la version)**
 
-- 📁 **Taille sur disque** : 2.6 MB (210 fichiers MP3)
-- 💾 **Consommation RAM Retail** : ~0.03 MB (34 KB)
-- 💾 **Consommation RAM Forever** : ~0.03 MB (28 KB)
+- **Taille sur disque** : 2.6 MB (210 fichiers MP3)
+- **Consommation RAM Retail** : ~0.03 MB (34 KB)
+- **Consommation RAM Forever** : ~0.03 MB (28 KB)
 
 ### ⚡ Comment ça fonctionne ?
 
@@ -96,9 +101,9 @@ Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMe
 
 **Besoin d'aide ou envie de proposer des sorts ?**
 
-- 💬 [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
-- 🐛 [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
-- ⭐ [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
+- [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
+- [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
+- [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
 ---
 
@@ -106,9 +111,8 @@ Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMe
 
 Le projet est **open-source** ! Les contributions ou suggestions sont les bienvenues :
 
-- ✨ Proposer de nouveaux sorts
-- 🎵 Améliorer la qualité audio
-- 📝 Corriger des erreurs
-- 🌍 Aider à la documentation
+- Proposer de nouveaux sorts
+- Proposer des améliorations
+- Corriger des erreurs
 
-👉 **GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
+**GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)

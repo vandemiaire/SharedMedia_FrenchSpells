@@ -1,4 +1,6 @@
-﻿> **English speakers**: This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
+﻿> ☝️ **English speakers**:
+> 
+> This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons. Supports both Retail (210 sounds) and Forever (176 sounds). Documentation below is in French.
 
 ## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
 
@@ -6,7 +8,9 @@ Bibliothèque de **210 sons de sorts et alertes en français**.
 
 Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details! Damage Meter**, **BigWigs**, **ElvUI** et tous les addons utilisant LibSharedMedia pour jouer les sons adéquats lors des moments clés de votre aventure.
 
-⚠️ Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module LibSharedMedia.
+> ⚠️ **Attention** :
+>
+> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module LibSharedMedia.
 
 ## 📺 Quelques exemples avec EllesmereUI
 

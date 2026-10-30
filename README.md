@@ -25,7 +25,7 @@ Bibliothèque complète de **210 sons de sorts en français** générés avec TT
 - ⚡ **Procs** : 37 procs (suffixe `_(proc)`)
 - 🔔 **Alertes** : 60 notifications générales (préfixe `alerte-`)
 
-**Note** : Sur Forever, seuls les sorts des 9 classes originales sont disponibles. Les sorts des classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) sont chargés mais non utilisables.
+**Note** : Chaque version (Retail/Forever) charge automatiquement son propre fichier de registrations optimisé. Forever exclut les 4 classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) pour un chargement plus léger.
 
 **Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez avoir une alerte quand ils sont disponibles.
 
@@ -99,7 +99,10 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    cd tools\sound_registration
    sound_registration.bat
    ```
-   - Met à jour `SoundRegistrations.lua` avec tous les MP3 du dossier `sounds/`
+   - Génère automatiquement 2 fichiers :
+     - `SoundRegistrations_Retail.lua` : 210 sons (toutes les classes)
+     - `SoundRegistrations_Forever.lua` : 176 sons (9 classes Forever uniquement)
+   - Les fichiers .toc chargent automatiquement le bon fichier selon la version
 
 ### Convention de nommage des fichiers
 
@@ -115,6 +118,21 @@ chevalier_de_la_mort-carapace_anti-magie.mp3
 chevalier_de_la_mort-machine_a_tuer_(proc).mp3
 alerte-interrompre.mp3
 ```
+
+### Architecture technique multi-version
+
+L'addon utilise deux fichiers de registrations séparés pour optimiser les performances :
+
+- **`SoundRegistrations_Retail.lua`** (28 KB) : 210 sons, 13 classes
+- **`SoundRegistrations_Forever.lua`** (23 KB) : 176 sons, 9 classes
+
+**Chargement automatique via .toc** :
+- `SharedMedia_FrenchSpells.toc` → charge `SoundRegistrations_Retail.lua`
+- `SharedMedia_FrenchSpells_Forever.toc` → charge `SoundRegistrations_Forever.lua`
+
+**Classes exclues de Forever** : Évocateur, Chasseur de démons, Moine, Chevalier de la mort
+
+Cette séparation évite de charger des références à des sons de classes inexistantes dans Forever.
 
 ## 📝 Licence
 

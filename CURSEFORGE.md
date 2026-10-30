@@ -49,29 +49,37 @@ Installez via **CurseForge App** — l'addon sera automatiquement placé au bon 
 LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
 
 ### 🎯 Avec WeakAuras
+
 1. Créez ou éditez une **WeakAura**
 2. Onglet **Actions** → **Sound**
 3. Type : **SharedMedia**
 4. Sélectionnez un son français (ex: _"Chasseur: Courroux Bestial"_)
 
 ### ⚔️ Avec DBM / BigWigs
+
 1. Ouvrez les **Options** de DBM/BigWigs
 2. Section **Sons personnalisés**
 3. Sélectionnez un son de la catégorie **SharedMedia**
 
 ### 🎨 Avec EllesmereUI
+
 Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
 
 ---
 
 ## 💾 Impact mémoire
 
-**Empreinte RAM : Négligeable (~34 KB)**
+**Empreinte RAM : Négligeable (~28-34 KB selon la version)**
 
 - 📁 **Taille sur disque** : 2.6 MB (210 fichiers MP3)
-- 💾 **Consommation RAM** : ~0.03 MB (34 KB)
+- 💾 **Consommation RAM Retail** : ~0.03 MB (34 KB)
+- 💾 **Consommation RAM Forever** : ~0.03 MB (28 KB)
 
 ### ⚡ Comment ça fonctionne ?
+
+L'addon utilise **deux fichiers de registrations optimisés** :
+- **Retail** : `SoundRegistrations_Retail.lua` (210 sons)
+- **Forever** : `SoundRegistrations_Forever.lua` (176 sons, exclut 4 classes modernes)
 
 Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMedia enregistre uniquement les **chemins** des fichiers (~160 bytes par son).
 

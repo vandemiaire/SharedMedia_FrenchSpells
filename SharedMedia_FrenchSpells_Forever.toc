@@ -7,4 +7,4 @@
 ## OptionalDeps: LibSharedMedia-3.0
 
 SharedMedia_FrenchSpells.lua
-SoundRegistrations.lua
+SoundRegistrations_Forever.lua

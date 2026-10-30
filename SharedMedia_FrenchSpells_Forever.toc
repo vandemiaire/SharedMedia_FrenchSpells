@@ -5,6 +5,7 @@
 ## Author: Vandémiaire
 ## X-Category: Audio
 ## X-Flavor: Forever
+## X-Curse-Project-ID: 1770819
 ## IconTexture: Interface\AddOns\SharedMedia_FrenchSpells\logo_64.blp
 ## OptionalDeps: LibSharedMedia-3.0
 

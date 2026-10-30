@@ -24,6 +24,7 @@ Bibliothèque complète de **210 sons de sorts en français** générés avec TT
 - 📜 **Sorts** : 113 sorts pour toutes les classes WoW
 - ⚡ **Procs** : 37 procs (suffixe `_(proc)`)
 - 🔔 **Alertes** : 60 notifications générales (préfixe `alerte-`)
+- 🔢 **Nombres** : Nombres de 1 à 30 (préfixe `nombre-`)
 
 **Note** : Chaque version (Retail/Forever) charge automatiquement son propre fichier de registrations optimisé. Forever exclut les 4 classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) pour un chargement plus léger.
 
@@ -47,11 +48,13 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    - `#SORTS` : Sorts de classe
    - `#PROCS` : Procs (ajoute `_(proc)` au fichier)
    - `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
+   - `#NOMBRES` : Nombres de 1 à 30 (ajoute préfixe `nombre-`)
 
    **Sections de création (pour nouveaux sons)** :
    - `#ALERTES-A-CREER` : Nouvelles alertes à générer (préfixe `alerte-`)
    - `#SORTS-A-CREER` : Nouveaux sorts à générer
    - `#PROCS-A-CREER` : Nouveaux procs à générer (suffixe `_(proc)`)
+   - `#NOMBRES-A-CREER` : Nouveaux nombres à générer (préfixe `nombre-`)
 
    ⚠️ *Le script génère **uniquement** les sons dans les sections `*-A-CREER`*
 

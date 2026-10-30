@@ -4,15 +4,15 @@
 
 ## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
 
-Bibliothèque de **210 sons de sorts et alertes en français**.
+Bibliothèque de **223 sons de sorts, alertes et nombres en français**, tous créés avec une voix TTS féminine de haute qualité.
 
-Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details! Damage Meter**, **BigWigs**, **ElvUI** et tous les addons utilisant LibSharedMedia pour jouer les sons adéquats lors des moments clés de votre aventure.
+Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs**, **ElvUI** et tous les addons utilisant la librairie _LibSharedMedia_ pour jouer les sons adéquats lors des moments clés de votre aventure.
 
 > ⚠️ **Attention** :
 >
-> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module LibSharedMedia.
+> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
 
-## 📺 Quelques exemples avec EllesmereUI
+## 📺 Quelques exemples d'utilisation avec l'addon EllesmereUI
 
 * Vous êtes chasseur, le temps de recharge de _Courroux Bestial_ (30 secondes) arrive à zéro, une voix annonce "Courroux Bestial".
 * Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "Debuff expiré".
@@ -23,17 +23,19 @@ Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details! Damage Meter
 
 >La liste complète des phrases est disponible en bas de cette page.
 
-### **Retail** : 210 sons (13 classes)
+### **Retail** : 223 sons (13 classes)
 
 - **Sorts** : 113 sorts défensifs, offensifs et utilitaires (Exemples : _"Tempête de lames", "Métamorphose", "Combustion", "Disparition"_)
 - **Procs** : 37 procs importants (Exemples: _"Coeur démoniaque", "Frappe de cobra", "Idées claires"_)
 - **Alertes** : 60 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue"_)
+- **Nombres** : Nombres de 1 à 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-### **Forever** : 176 sons (9 classes Forever)
+### **Forever** : 189 sons (9 classes)
 
 - **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
 - **Procs** : 25 procs
 - **Alertes** : 60 notifications générales
+- **Nombres** : Nombres de 1 à 30 pour les timers et annonces
 
 **Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez mettre en place une alerte vocale dès ils sont à nouveau disponibles.
 
@@ -53,19 +55,19 @@ Installez via **CurseForge App**
 
 ### Et ensuite ?
 
-Les sons apparaîtront automatiquement dans tous les addons compatibles LibSharedMedia.
+Les sons apparaîtront automatiquement dans tous les addons compatibles _LibSharedMedia_.
 
-LibSharedMedia est déjà inclus dans la plupart des addons (WeakAuras, DBM, BigWigs, EllesmereUI, etc). Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
+La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme WeakAuras, DBM, BigWigs, EllesmereUI, etc. Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
 
 ## 💾 Impact mémoire
 
 **Empreinte RAM : Négligeable (~28-34 KB selon la version)**
 
-- **Taille sur disque** : 2.6 MB (210 fichiers MP3)
+- **Taille sur disque** : 2.8 MB (223 fichiers MP3)
 - **Consommation RAM Retail** : ~0.03 MB (34 KB)
 - **Consommation RAM Forever** : ~0.03 MB (28 KB)
 
-**Aucun impact sur les performances** — les 210 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
+**Aucun impact sur les performances** — les 223 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
 
 ## 🤝 Contribution
 
@@ -98,7 +100,7 @@ Le projet est **open-source** ! Les contributions ou suggestions sont les bienve
 **Procs**: "Frimas", "Machine à tuer", "Malédiction soudaine"
 
 ### Démoniste
-**Sorts**: "Cataclysme", "Cercle démoniaque", "Garde funeste", "Infernal", "Pluie de feu", "Porte démoniaque", "Ravageur gangrené", "Résolution interminable", "Seigneur des diablotins", "Sombre pacte", "Tyran démoniaque"
+**Sorts**: "Cataclysme", "Cercle démoniaque", "Garde funeste", "Infernal", "Pluie de feu", "Porte démoniaque", "Ravageur gangrené", "Résolution interminable", "Seigneur des diablotins", "Sombre pacte", "Tyran démoniaque", "Siphon de puissance"
 
 **Procs**: "Âme succulente", "Appel démoniaque", "Chancre des languages", "Coeur démoniaque", "Échos de Sargeras", "Rituel diabolique", "Toucher de Rancora"
 
@@ -144,3 +146,6 @@ Le projet est **open-source** ! Les contributions ou suggestions sont les bienve
 
 ### Alertes générales
 "Aggro", "Aggro élevée", "Aggro perdue", "Bouclier prêt", "Burst prêt", "Canalisation dangereuse", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dissipation prête", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Menace élevée", "Pandémie", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Purge prête", "Purger", "Racial prêt", "Regroupez-vous", "Silence prêt", "Soigner le familier", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Soin du familier prêt", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Vie faible"
+
+### Nombres
+"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20", "30"

@@ -121,6 +121,12 @@ foreach ($line in $lines) {
     } elseif ($line -match "#\s*ALERTES") {
         $currentSection = "ALERTES"
         continue
+    } elseif ($line -match "#\s*NOMBRES-A-CREER") {
+        $currentSection = "NOMBRES-A-CREER"
+        continue
+    } elseif ($line -match "#\s*NOMBRES") {
+        $currentSection = "NOMBRES"
+        continue
     }
 
     # Ignorer les lignes vides, commentaires (#) et lignes avec @
@@ -129,7 +135,7 @@ foreach ($line in $lines) {
     }
 
     # NE TRAITER QUE LES SECTIONS *-A-CREER
-    if ($currentSection -notin @("ALERTES-A-CREER", "SORTS-A-CREER", "PROCS-A-CREER")) {
+    if ($currentSection -notin @("ALERTES-A-CREER", "SORTS-A-CREER", "PROCS-A-CREER", "NOMBRES-A-CREER")) {
         continue
     }
 
@@ -157,6 +163,8 @@ foreach ($line in $lines) {
             $filename = "$classeNormalized-$sortNormalized`_(proc).mp3"
         } elseif ($currentSection -in @("ALERTES", "ALERTES-A-CREER")) {
             $filename = "alerte-$classeNormalized-$sortNormalized.mp3"
+        } elseif ($currentSection -in @("NOMBRES", "NOMBRES-A-CREER")) {
+            $filename = "nombre-$classeNormalized-$sortNormalized.mp3"
         } else {
             $filename = "$classeNormalized-$sortNormalized.mp3"
         }
@@ -179,6 +187,8 @@ foreach ($line in $lines) {
             $filename = "$textNormalized`_(proc).mp3"
         } elseif ($currentSection -in @("ALERTES", "ALERTES-A-CREER")) {
             $filename = "alerte-$textNormalized.mp3"
+        } elseif ($currentSection -in @("NOMBRES", "NOMBRES-A-CREER")) {
+            $filename = "nombre-$textNormalized.mp3"
         } else {
             $filename = "$textNormalized.mp3"
         }

@@ -92,7 +92,15 @@ foreach ($file in $soundFiles | Sort-Object Name) {
 	if ($prefix) {
 		$prefixWithSpaces = $prefix -replace '_', ' '
 		$prefixCapitalized = $textInfo.ToTitleCase($prefixWithSpaces.ToLower())
-		$displayName = "$prefixCapitalized`: $displayName"
+
+		# Special handling for "alerte" and "nombre" prefixes
+		if ($prefixCapitalized -eq "Alerte") {
+			$displayName = "Alerte: $displayName"
+		} elseif ($prefixCapitalized -eq "Nombre") {
+			$displayName = "Nombre: $displayName"
+		} else {
+			$displayName = "$prefixCapitalized`: $displayName"
+		}
 	}
 
 	# Store the entry
@@ -119,9 +127,36 @@ foreach ($file in $soundFiles | Sort-Object Name) {
 	}
 }
 
-# Sort by display name alphabetically
-$soundEntries = $soundEntries | Sort-Object DisplayName
-$soundEntriesForever = $soundEntriesForever | Sort-Object DisplayName
+# Sort entries with custom logic for "Nombre: X" entries (numeric sort)
+# and alphabetic sort for others
+function Sort-Entries {
+	param([array]$entries)
+
+	$nombreEntries = @()
+	$otherEntries = @()
+
+	foreach ($entry in $entries) {
+		# Check if DisplayName starts with "Nombre: " and is followed by a number
+		if ($entry.DisplayName -match '^Nombre: \d+$') {
+			$nombreEntries += $entry
+		} else {
+			$otherEntries += $entry
+		}
+	}
+
+	# Sort Nombre entries numerically
+	$nombreEntries = $nombreEntries | Sort-Object { [int]($_.DisplayName -replace '^Nombre: (\d+)$', '$1') }
+
+	# Sort other entries alphabetically
+	$otherEntries = $otherEntries | Sort-Object DisplayName
+
+	# Combine: Nombre entries first (numerically sorted), then others (alphabetically sorted)
+	return @($nombreEntries) + @($otherEntries)
+}
+
+# Sort by display name (with custom logic for numbers)
+$soundEntries = Sort-Entries -entries $soundEntries
+$soundEntriesForever = Sort-Entries -entries $soundEntriesForever
 
 # Function to generate Lua content
 function Generate-LuaContent {

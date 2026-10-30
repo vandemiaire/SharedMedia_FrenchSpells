@@ -4,9 +4,9 @@
 
 ## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
 
-Bibliothèque de **223 sons de sorts, alertes et nombres en français**, tous créés avec une voix TTS féminine de haute qualité.
+Bibliothèque de **223 sons de sorts, alertes et nombres en français**, tous créés avec une voix artificielle féminine de haute qualité.
 
-Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs**, **ElvUI** et tous les addons utilisant la librairie _LibSharedMedia_ pour jouer les sons adéquats lors des moments clés de votre aventure.
+Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs**, **ElvUI** ainsi que tous les autres addons utilisant la librairie _LibSharedMedia_, pour jouer les sons adéquats lors des moments clés de votre aventure.
 
 > ⚠️ **Attention** :
 >
@@ -15,13 +15,13 @@ Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs
 ## 📺 Quelques exemples d'utilisation avec l'addon EllesmereUI
 
 * Vous êtes chasseur, le temps de recharge de _Courroux Bestial_ (30 secondes) arrive à zéro, une voix annonce "Courroux Bestial".
-* Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "Debuff expiré".
+* Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "Malédiction expirée".
 * Vous êtes chasseur de démons, la proc _Machine à tuer_ se déclenche, une voix annonce "Machine à tuer".
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "Potion prête".
 
 ## 📋 Sons disponibles
 
->La liste complète des phrases est disponible en bas de cette page.
+>La liste complète des sons est disponible en bas de cette page.
 
 ### **Retail** : 223 sons (13 classes)
 
@@ -37,7 +37,7 @@ Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs
 - **Alertes** : 60 notifications générales
 - **Nombres** : Nombres de 1 à 30 pour les timers et annonces
 
-**Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, ceci afin que vous puissiez mettre en place une alerte vocale dès ils sont à nouveau disponibles.
+**Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas être spammé de messages vocaux ni alourdir la taille de cet addon.
 
 ## 📦 Installation
 
@@ -57,7 +57,7 @@ Installez via **CurseForge App**
 
 Les sons apparaîtront automatiquement dans tous les addons compatibles _LibSharedMedia_.
 
-La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme WeakAuras, DBM, BigWigs, EllesmereUI, etc. Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
+La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme EllesmereUI, WeakAuras, DBM, BigWigs, etc. Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
 
 ## 💾 Impact mémoire
 
@@ -71,11 +71,14 @@ La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons
 
 ## 🤝 Contribution
 
-Le projet est **open-source** ! Les contributions ou suggestions sont les bienvenues :
+Le projet est **open-source** !
+
+- [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
+
+Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 
 - [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
 - [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
-- [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
 ## 📚 Liste complète des sons
 

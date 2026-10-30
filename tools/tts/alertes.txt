@@ -45,6 +45,7 @@ Démoniste:Porte démoniaque
 Démoniste:Ravageur gangrené
 Démoniste:Résolution interminable
 Démoniste:Seigneur des diablotins
+Démoniste:Siphon de puissance
 Démoniste:Sombre pacte
 Démoniste:Tyran démoniaque
 Druide:Célérité
@@ -218,6 +219,25 @@ Tank en danger
 Tank mort
 Trinket prêt[Trinequette prêt]
 Vie faible
+# **************************************************
+# NOMBRES
+# **************************************************
+30
+20
+15
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+# **************************************************
+# NOMBRES-A-CREER
+# **************************************************
 # **************************************************
 # ALERTES-A-CREER
 # **************************************************

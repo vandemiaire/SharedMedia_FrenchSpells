@@ -1,5 +1,14 @@
 ﻿# Changelog
 
+## [1.4.0] - 2026-10-31
+
+### Added
+- 13 sons de numérotation pour les timers et annonces (1 à 30)
+
+### Changed
+- Nouvel icone pour l'addon dans le menu des addons
+- Documentation mise à jour avec la liste complète des sons et instructions d'installation
+
 ## [1.3.0] - 2026-10-29
 
 ### Added

@@ -4,7 +4,7 @@
 ## Version: 1.3.2
 ## Author: Vandémiaire
 ## X-Category: Audio
-## IconTexture: logo_128.tga
+## IconTexture: Interface\AddOns\SharedMedia_FrenchSpells\logo_64.blp
 ## OptionalDeps: LibSharedMedia-3.0
 
 SharedMedia_FrenchSpells.lua

@@ -53,6 +53,10 @@ Installez via **CurseForge App**
 **Aucune dépendance manuelle requise !**
 LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereUI. Si vous utilisez l'un de ces addons, vous êtes prêt !
 
+### Avec EllesmereUI
+
+Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
+
 ### Avec WeakAuras
 
 1. Créez ou éditez une **WeakAura**
@@ -65,10 +69,6 @@ LibSharedMedia-3.0 est déjà inclus dans WeakAuras, DBM, BigWigs, et EllesmereU
 1. Ouvrez les **Options** de DBM/BigWigs
 2. Section **Sons personnalisés**
 3. Sélectionnez un son de la catégorie **SharedMedia**
-
-### Avec EllesmereUI
-
-Les sons sont automatiquement disponibles dans tous les modules EllesmereUI utilisant des notifications audio.
 
 ---
 

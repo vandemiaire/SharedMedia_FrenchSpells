@@ -13,7 +13,7 @@ Compatible avec **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, et tous le
 ### **Retail** : 210 sons (13 classes)
 
 - **Sorts** : 113 sorts défensifs, offensifs et utilitaires
-- **Procs** : 37 procs importants (suffixe `_(proc)`)
+- **Procs** : 37 procs importants (suffixe `(proc)`)
 - **Alertes** : 60 notifications générales (préfixe `Alerte:`)
 
 Exemples : _Carapace anti-magie • Métamorphose • Célérité • Souffle profond • Combustion • Bouclier divin • Dispersion • Vendetta • Ascendance • Infernal • Avatar_
@@ -80,30 +80,7 @@ Les sons sont automatiquement disponibles dans tous les modules EllesmereUI util
 - **Consommation RAM Retail** : ~0.03 MB (34 KB)
 - **Consommation RAM Forever** : ~0.03 MB (28 KB)
 
-### ⚡ Comment ça fonctionne ?
-
-L'addon utilise **deux fichiers de registrations optimisés** :
-- **Retail** : `SoundRegistrations_Retail.lua` (210 sons)
-- **Forever** : `SoundRegistrations_Forever.lua` (176 sons, exclut 4 classes modernes)
-
-Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMedia enregistre uniquement les **chemins** des fichiers (~160 bytes par son).
-
-**Lors de la lecture d'un son :**
-1. WoW charge le MP3 temporairement
-2. Le son est joué
-3. Le son est déchargé automatiquement
-
 ✅ **Aucun impact sur les performances** — les 210 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
-
----
-
-## 🐛 Support & Suggestions
-
-**Besoin d'aide ou envie de proposer des sorts ?**
-
-- [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
-- [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
-- [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
 
 ---
 
@@ -111,8 +88,6 @@ Les fichiers MP3 **ne sont pas chargés en mémoire** au démarrage. LibSharedMe
 
 Le projet est **open-source** ! Les contributions ou suggestions sont les bienvenues :
 
-- Proposer de nouveaux sorts
-- Proposer des améliorations
-- Corriger des erreurs
-
-**GitHub** : [vandemiaire/SharedMedia_FrenchSpells](https://github.com/vandemiaire/SharedMedia_FrenchSpells)
+- [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
+- [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
+- [GitHub Repository](https://github.com/vandemiaire/SharedMedia_FrenchSpells)

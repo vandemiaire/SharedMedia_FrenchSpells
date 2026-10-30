@@ -207,10 +207,11 @@ Racial prêt
 Regroupez-vous
 Silence prêt
 Soigner le familier
+Soigner le familier prêt
 Soigneur en danger
 Soigneur hors de portée
 Soigneur mort
-Soin du familier prêt
+Soigner le familier prêt
 Sort dangereux
 Stop cast[Stop casste]
 Stop DPS

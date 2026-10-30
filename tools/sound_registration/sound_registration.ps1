@@ -72,6 +72,11 @@ foreach ($file in $soundFiles | Sort-Object Name) {
 		$baseName = $matches[2]
 	}
 
+	# Replace apostrophes (straight and curly) with underscores in the filename
+	$baseName = $baseName -replace "'", "_"  # straight apostrophe
+	$baseName = $baseName -replace [char]0x2019, "_"  # right single quotation mark
+	$baseName = $baseName -replace [char]0x2018, "_"  # left single quotation mark
+
 	# Replace _ with spaces
 	$displayName = $baseName -replace '_', ' '
 

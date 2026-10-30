@@ -37,6 +37,7 @@ Chevalier de la mort:Sang vampirique
 Chevalier de la mort:Zone anti-magie
 Démoniste:Cataclysme
 Démoniste:Cercle démoniaque
+Démoniste:Chancre des languages
 Démoniste:Garde funeste
 Démoniste:Infernal
 Démoniste:Pluie de feu
@@ -107,7 +108,7 @@ Prêtre:Suppression de la douleur
 Voleur:Bombe fumigène
 Voleur:Cape d'ombre
 Voleur:Cécité
-Voleur:Danse de l’ombre
+Voleur:Danse de l'ombre
 Voleur:Disparition
 Voleur:Évasion
 Voleur:Lames de l’ombre
@@ -130,7 +131,6 @@ Chevalier de la mort:Machine à tuer
 Chevalier de la mort:Malédiction soudaine
 Démoniste:Âme succulente
 Démoniste:Appel démoniaque
-Démoniste:Chancre des languages
 Démoniste:Coeur démoniaque
 Démoniste:Échos de Sargeras
 Démoniste:Rituel diabolique
@@ -172,7 +172,7 @@ Contrôle terminé
 Cooldown offensif prêt[Couldaonne offensif prêt]
 Danger
 Debuff expiré[Déboeuf expiré]
-Défensif disponible
+Défensif prêt
 Défensif terminé
 Déplacez-vous
 Dissipation prête

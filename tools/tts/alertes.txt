@@ -21,6 +21,7 @@ Chasseur:Aspect de la tortue
 Chasseur:Courroux bestial
 Chasseur:Désengagement
 Chasseur:Détournement
+Chasseur:Dissimulation
 Chasseur:Salve
 Chasseur:Tir de la chimère
 Chasseur:Tir de lien
@@ -245,6 +246,7 @@ Vie faible
 # **************************************************
 # SORTS-A-CREER
 # **************************************************
+Chasseur:Dissimulation
 # **************************************************
 # PROCS-A-CREER
 # **************************************************

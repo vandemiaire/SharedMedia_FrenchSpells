@@ -243,6 +243,30 @@ Vie faible
 # **************************************************
 # ALERTES-A-CREER
 # **************************************************
+Fuis
+Rapproche-toi
+Dispersez-vous
+Dissipe l'effet
+Attention où tu marches
+Change de cible
+Provoque le boss
+CD défensif
+CD offensif
+CD heal[CD île]
+Ne bouge plus
+Bouge
+Reprends le DPS
+Full DPS[Foule DPS]
+Tuez les adds[Tuez les adsses]
+Tuez le boss
+Combat engagé
+Combat terminé
+Phase une
+Phase deux
+Phase trois
+Phase quatre
+Phase cinq
+Changement de phase
 # **************************************************
 # SORTS-A-CREER
 # **************************************************

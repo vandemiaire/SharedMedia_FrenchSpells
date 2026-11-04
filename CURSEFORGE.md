@@ -63,11 +63,11 @@ La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons
 
 **Empreinte RAM : Négligeable (~28-34 KB selon la version)**
 
-- **Taille sur disque** : 3.4 MB (266 fichiers MP3)
+- **Taille sur disque** : 3.1 MB (250 fichiers MP3)
 - **Consommation RAM Retail** : ~0.03 MB (34 KB)
 - **Consommation RAM Forever** : ~0.03 MB (28 KB)
 
-**Aucun impact sur les performances** — les 266 sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
+**Aucun impact sur les performances** — les sons n'ajoutent que quelques dizaines de KB en RAM, comparable à un petit addon de configuration.
 
 ## 🤝 Contribution
 
@@ -88,7 +88,7 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 **Procs**: "Afflux de tempête", "Arme du Maelström", "Déferlante de lave", "Main brûlante"
 
 ### Chasseur
-**Sorts**: "Appel du maître", "Aspect de la tortue", "Courroux bestial", "Désengagement", "Détournement", "Salve", "Tir de la chimère", "Tir de lien", "Tir explosif", "Tir tranquillisant"
+**Sorts**: "Appel du maître", "Aspect de la tortue", "Courroux bestial", "Désengagement", "Détournement", "Dissimulation", "Salve", "Tir de la chimère", "Tir de lien", "Tir explosif", "Tir tranquillisant"
 
 **Procs**: "Frappes de cobra", "Tirs mortels"
 

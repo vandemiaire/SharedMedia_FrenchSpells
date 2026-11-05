@@ -1,17 +1,16 @@
 ﻿# Changelog
 
-## [1.5.0] - 2026-11-04
+## [1.5.0] - 2026-11-05
 
 ### Added
-- **43 nouvelles alertes** (de 60 à 103 alertes)
+- **46 nouvelles alertes**
 - Alertes de combat avancées : "Combat engagé", "Combat terminé", "Changement de phase"
 - Alertes de phases numérotées : "Phase une" à "Phase cinq"
 - Alertes de mouvement : "Fuis", "Rapproche-toi", "Dispersez-vous", "Ne bouge plus"
 - Alertes d'action : "Change de cible", "Provoque le boss", "Tuez le boss", "Tuez les adds"
 - Alertes de cooldowns simplifiées : "CD défensif", "CD offensif", "CD heal"
 - Alertes DPS : "Full DPS", "Reprends le DPS"
-- Alertes diverses : "Attention où tu marches", "Dissipe l'effet"
-- Total : **266 sons** (113 sorts + 37 procs + 103 alertes + 13 nombres)
+- Alertes diverses : "Attention où tu marches", "Dissipe l'effet", "Aura manquant", "Quête terminée", "Objectif terminé"
 
 ### Changed
 - Documentation mise à jour dans Curseforge.md avec le nouveau total de sons

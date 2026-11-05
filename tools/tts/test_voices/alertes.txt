@@ -245,6 +245,9 @@ Phase trois
 Phase quatre
 Phase cinq
 Changement de phase
+Aura manquante
+Objectif terminé
+Quête terminée
 # **************************************************
 # NOMBRES
 # **************************************************
@@ -267,9 +270,6 @@ Changement de phase
 # **************************************************
 # ALERTES-A-CREER
 # **************************************************
-Aura manquant
-Objectif terminé
-Quête terminée
 # **************************************************
 # SORTS-A-CREER
 # **************************************************

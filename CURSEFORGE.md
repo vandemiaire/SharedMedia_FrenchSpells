@@ -24,18 +24,18 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**
 
 >La liste complète des sons est disponible en bas de cette page.
 
-### **Retail** : 253 sons (13 classes)
+### **Retail** : 254 sons
 
 - **Sorts** : 113 sorts défensifs, offensifs et utilitaires (Exemples : _"Tempête de lames", "Métamorphose", "Combustion", "Disparition"_)
 - **Procs** : 37 procs importants (Exemples: _"Coeur démoniaque", "Frappe de cobra", "Idées claires"_)
-- **Alertes** : 103 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
+- **Alertes** : 104 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : Nombres de 1 à 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-### **Forever** : 219 sons (9 classes)
+### **Forever** : 220 sons
 
 - **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
 - **Procs** : 25 procs
-- **Alertes** : 103 notifications générales
+- **Alertes** : 104 notifications générales
 - **Nombres** : Nombres de 1 à 30 pour les timers et annonces
 
 **Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas être spammé de messages vocaux ni alourdir la taille de cet addon.
@@ -109,7 +109,7 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 **Procs**: "Âme succulente", "Appel démoniaque", "Chancre des languages", "Coeur démoniaque", "Échos de Sargeras", "Rituel diabolique", "Toucher de Rancora"
 
 ### Druide
-**Sorts**: "Célérité", "Écorce", "Force de la nature", "Incarnation", "Innervation", "Météores", "Renaissance", "Ruée rugissante", "Tranquillité"
+**Sorts**: "Célérité", "Écorce", "Force de la nature", "Incarnation", "Innervation", "Météores", "Renaissance", "Ruée rugissante", "Tranquillité", "Sonner"
 
 **Procs**: "Éclipse lunaire", "Éclipse solaire", "Idées claires", "Présage de clarté"
 
@@ -149,7 +149,7 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 **Procs**: "Découverte de faiblesse"
 
 ### Alertes générales
-"Aggro", "Aggro élevée", "Aggro perdue", "Attention où tu marches", "Bouge", "Bouclier prêt", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Full DPS", "Fuis", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Menace élevée", "Ne bouge plus", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible", "Aura manquante", "Quête terminée", "Objectif terminé"
+"Aggro", "Aggro élevée", "Aggro perdue", "Attention où tu marches", "Bouge", "Bouclier prêt", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Full DPS", "Fuis", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Menace élevée", "Ne bouge plus", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible", "Aura manquante", "Quête terminée", "Objectif atteint"
 
 ### Nombres
 "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20", "30"

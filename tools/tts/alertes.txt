@@ -247,7 +247,7 @@ Phase quatre
 Phase cinq
 Changement de phase
 Aura manquante
-Objectif terminé
+Objectif atteint
 Quête terminée
 # **************************************************
 # NOMBRES

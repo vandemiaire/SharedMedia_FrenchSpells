@@ -198,7 +198,13 @@ foreach ($line in $lines) {
     if ($currentSection -eq "ALERTES-A-CREER") {
         # Ajouter "!" seulement si le texte n'en a pas déjà un
         if (-not $ttsText.EndsWith("!")) {
-            $ttsText = "$ttsText !"
+            $ttsText = "$ttsText!"
+        }
+    }
+    if ($currentSection -eq "SORTS-A-CREER") {
+        # Ajouter "!" seulement si le texte n'en a pas déjà un
+        if (-not $ttsText.EndsWith("!")) {
+            $ttsText = "$ttsText."
         }
     }
 

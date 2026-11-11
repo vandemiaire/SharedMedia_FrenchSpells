@@ -1,4 +1,4 @@
-﻿> ☝️ **English speakers**:
+﻿> ☝ **English speakers**:
 > 
 > This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons.
 > Documentation below is in French.
@@ -7,14 +7,14 @@
 
 Bibliothèque de **sons de sorts, alertes et nombres en français**, tous créés avec une voix artificielle féminine de haute qualité.
 
-Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **ElvUI**, **Plater**, **QuestProgressSound**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
+Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **ElvUI**, **Plater**, **QuestProgressSound**, **Manners**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
 
 > ⚠️ **Important** :
 >
 > Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile.
 > Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
 
-## 📺 Quelques exemples d'utilisation avec l'addon EllesmereUI
+## 🧾 Exemples d'utilisation avec l'addon EllesmereUI
 
 * Vous êtes chasseur, le temps de recharge de _Courroux Bestial_ (30 secondes) arrive à zéro, une voix annonce "Courroux Bestial".
 * Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "Malédiction expirée".
@@ -22,9 +22,13 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "Potion prête".
 * Vous terminez une quête sur Forever, une voix annonce "Quête terminée".
 
+## 🧾 Exemple d'utilisation avec l'addon Manners
+
+* Vous recevez un buff d'un passant, l'addon Manners envoie un /merci automatique et dit "Buff reçu" ou "Manners".
+
 ## 📋 Sons disponibles
 
-254 sons pour Retail, 220 sons pour Forever (car moins de classes disponibles dans Forever).
+257 sons pour Retail, 223 sons pour Forever (car moins de classes disponibles dans Forever).
 
 >La liste complète des sons est disponible en bas de cette page.
 
@@ -139,7 +143,7 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 **Procs**: "Découverte de faiblesse"
 
 ### Alertes générales
-"Aggro", "Aggro élevée", "Aggro perdue", "Attention où tu marches", "Bouge", "Bouclier prêt", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Full DPS", "Fuis", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Menace élevée", "Ne bouge plus", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible", "Aura manquante", "Quête terminée", "Objectif atteint"
+"Aggro", "Aggro élevée", "Aggro perdue", "Attention où tu marches", "Bouge", "Bouclier prêt", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Full DPS", "Fuis", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Menace élevée", "Ne bouge plus", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible", "Aura manquante", "Quête terminée", "Objectif atteint", "Buff reçu", "Manners", "Coéquipier mort"
 
 ### Nombres
 "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20", "30"

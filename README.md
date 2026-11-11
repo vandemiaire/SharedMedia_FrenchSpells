@@ -12,18 +12,18 @@ Addon World of Warcraft qui ajoute des sons de sorts en français pour LibShared
 
 Cet addon supporte **WoW Retail** et **WoW Forever** :
 
-- **Retail** : 210 sons (toutes les 13 classes)
-- **Forever** : 176 sons (9 classes Forever uniquement)
+- **Retail** : 253 sons (toutes les 13 classes)
+- **Forever** : 219 sons (9 classes Forever uniquement)
 
 Le même package ZIP fonctionne pour les deux versions grâce aux fichiers TOC séparés.
 
 ## 🎵 Sons disponibles
 
-Bibliothèque complète de **210 sons de sorts en français** générés avec TTS de haute qualité :
+Bibliothèque complète de **253 sons de sorts en français** générés avec TTS de haute qualité :
 
-- 📜 **Sorts** : 113 sorts pour toutes les classes WoW
-- ⚡ **Procs** : 37 procs (suffixe `_(proc)`)
-- 🔔 **Alertes** : 60 notifications générales (préfixe `alerte-`)
+- 📜 **Sorts** : Plus de 100 sorts pour toutes les classes WoW
+- ⚡ **Procs** : ENviron 50 procs (suffixe `_(proc)`)
+- 🔔 **Alertes** : Une centaine de notifications générales (préfixe `alerte-`)
 - 🔢 **Nombres** : Nombres de 1 à 30 (préfixe `nombre-`)
 
 **Note** : Chaque version (Retail/Forever) charge automatiquement son propre fichier de registrations optimisé. Forever exclut les 4 classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) pour un chargement plus léger.

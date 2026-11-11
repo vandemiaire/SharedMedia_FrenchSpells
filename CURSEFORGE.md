@@ -1,6 +1,7 @@
 ﻿> ☝️ **English speakers**:
 > 
-> This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons. Supports both Retail (266 sounds) and Forever (232 sounds). Documentation below is in French.
+> This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons.
+> Documentation below is in French.
 
 ## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
 
@@ -10,7 +11,8 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**
 
 > ⚠️ **Important** :
 >
-> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
+> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile.
+> Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
 
 ## 📺 Quelques exemples d'utilisation avec l'addon EllesmereUI
 
@@ -31,7 +33,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**
 - **Alertes** : Plus de 100 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : Nombres de 1 à 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-**Important** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas être spammé de messages vocaux ni alourdir la taille de cet addon.
+**Important** : Sauf rares exceptions, seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas être spammé de messages vocaux ni alourdir la taille de cet addon.
 
 ## 📦 Installation
 
@@ -49,16 +51,14 @@ Installez via **CurseForge App**
 
 ### Et ensuite ?
 
-Les sons apparaîtront automatiquement dans tous les addons compatibles _LibSharedMedia_.
+La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme EllesmereUI, WeakAuras, DBM, BigWigs, etc.
+Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt!
 
-La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme EllesmereUI, WeakAuras, DBM, BigWigs, etc. Si vous utilisez l'un de ces addons, vous êtes déjà prêt !
+## 💾 Impact
 
-## 💾 Impact mémoire
-
-- **Empreinte RAM** : Négligeable (~40 KB)
-- **Taille sur disque** : 3.5 MO
-
-**Aucun impact sur les performances** : les  sons ne prennent que quelques dizaines de KO en mémoire, comparable à un petit addon de configuration.
+- Empreinte mémoire: ~50 KO (négligeable)
+- Taille sur disque: 3.5 MO
+- Aucun impact sur les performances
 
 ## 🤝 Contribution
 

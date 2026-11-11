@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## [1.5.2] - 2026-11-12
+
+### Nouveau
+- Deux sons pour l'addon Manners: "Manners" et "Buff reçu"
+- Un son "Coéquipier mort" (on vait déjà "Tank mort" et "Soigneur mort")
+
 ## [1.5.1] - 2026-11-11
 
 ### Nouveau

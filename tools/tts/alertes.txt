@@ -248,6 +248,9 @@ Phase trois
 Phase quatre
 Phase cinq
 Changement de phase
+Coéquipier mort
+Manners[Manneursse]
+Buff reçu[Boeuf reçu]
 # **************************************************
 # NOMBRES
 # **************************************************

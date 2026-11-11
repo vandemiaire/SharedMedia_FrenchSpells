@@ -7,7 +7,7 @@
 
 Bibliothèque de **sons de sorts, alertes et nombres en français**, tous créés avec une voix artificielle féminine de haute qualité.
 
-Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**, **BigWigs**, **ElvUI** ainsi que tous les autres addons utilisant la librairie _LibSharedMedia_, pour jouer les sons adéquats lors des moments clés de votre aventure.
+Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **ElvUI**, **Plater**, **QuestProgressSound**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
 
 > ⚠️ **Important** :
 >

@@ -4,7 +4,7 @@
 
 ### Nouveau
 - Deux sons pour l'addon Manners: "Manners" et "Buff reçu"
-- Un son "Coéquipier mort" (on vait déjà "Tank mort" et "Soigneur mort")
+- Un son "Coéquipier mort" (on avait déjà "Tank mort" et "Soigneur mort")
 
 ## [1.5.1] - 2026-11-11
 

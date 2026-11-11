@@ -1,7 +1,7 @@
 ﻿## Interface: 120105
 ## Title: French Spells (SharedMedia)
 ## Notes: French sounds for SharedMedia (Retail)
-## Version: 1.5.0
+## Version: 1.5.1
 ## Author: Vandémiaire
 ## X-Category: Audio
 ## X-Flavor: Mainline

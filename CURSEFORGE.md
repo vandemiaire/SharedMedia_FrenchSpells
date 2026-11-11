@@ -24,14 +24,14 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **Details!**
 
 >La liste complète des sons est disponible en bas de cette page.
 
-### **Retail** : 253 sons (13 classes)
+### **Retail** : 254 sons (13 classes)
 
 - **Sorts** : 113 sorts défensifs, offensifs et utilitaires (Exemples : _"Tempête de lames", "Métamorphose", "Combustion", "Disparition"_)
 - **Procs** : 37 procs importants (Exemples: _"Coeur démoniaque", "Frappe de cobra", "Idées claires"_)
 - **Alertes** : 103 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : Nombres de 1 à 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-### **Forever** : 219 sons (9 classes)
+### **Forever** : 220 sons (9 classes)
 
 - **Sorts** : 91 sorts pour Druide, Chasseur, Mage, Paladin, Prêtre, Voleur, Chaman, Démoniste, Guerrier
 - **Procs** : 25 procs

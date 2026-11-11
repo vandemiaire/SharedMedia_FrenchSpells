@@ -1,5 +1,13 @@
 ﻿# Changelog
 
+## [1.5.1] - 2026-11-11
+
+### Nouveau
+- Un son pour le druide ("Sonner")
+
+### Corrections
+- Un son mal prononcé corrigé
+
 ## [1.5.0] - 2026-11-05
 
 ### Added

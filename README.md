@@ -1,30 +1,32 @@
 ﻿# SharedMedia_FrenchSpells
 
-Addon World of Warcraft qui ajoute des sons de sorts en français pour LibSharedMedia.
+Addon World of Warcraft qui ajoute des sons de sorts, d'alertes et de nombres en français pour LibSharedMedia.
+
+Version actuelle : **1.5.2** (voir [CHANGELOG.md](CHANGELOG.md)).
 
 ## 📥 Installation
 
 1. Téléchargez l'addon depuis [CurseForge](https://www.curseforge.com/) ou [GitHub Releases](https://github.com/vandemiaire/SharedMedia_FrenchSpells/releases)
 2. Extrayez dans le dossier AddOns approprié
-3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, EllesmereUI, etc.)
+3. Les sons seront disponibles dans tous les addons utilisant LibSharedMedia (WeakAuras, DBM, BigWigs, EllesmereUI, Manners, etc.)
 
 ### 🎮 Support multi-version
 
 Cet addon supporte **WoW Retail** et **WoW Forever** :
 
-- **Retail** : 253 sons (toutes les 13 classes)
-- **Forever** : 219 sons (9 classes Forever uniquement)
+- **Retail** : 258 sons (toutes les 13 classes)
+- **Forever** : 224 sons (9 classes Forever uniquement)
 
 Le même package ZIP fonctionne pour les deux versions grâce aux fichiers TOC séparés.
 
 ## 🎵 Sons disponibles
 
-Bibliothèque complète de **253 sons de sorts en français** générés avec TTS de haute qualité :
+Bibliothèque complète de **258 sons en français** générés avec TTS de haute qualité :
 
-- 📜 **Sorts** : Plus de 100 sorts pour toutes les classes WoW
-- ⚡ **Procs** : ENviron 50 procs (suffixe `_(proc)`)
-- 🔔 **Alertes** : Une centaine de notifications générales (préfixe `alerte-`)
-- 🔢 **Nombres** : Nombres de 1 à 30 (préfixe `nombre-`)
+- 📜 **Sorts** : Plus de 110 sorts pour toutes les classes WoW
+- ⚡ **Procs** : Environ 40 procs (suffixe `_(proc)`)
+- 🔔 **Alertes** : Environ 90 notifications générales (préfixe `alerte-`)
+- 🔢 **Nombres** : 13 nombres : 1 à 10, 15, 20 et 30 (préfixe `nombre-`)
 
 **Note** : Chaque version (Retail/Forever) charge automatiquement son propre fichier de registrations optimisé. Forever exclut les 4 classes modernes (Évocateur, Chasseur de démons, Moine, Chevalier de la mort) pour un chargement plus léger.
 
@@ -48,7 +50,7 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    - `#SORTS` : Sorts de classe
    - `#PROCS` : Procs (ajoute `_(proc)` au fichier)
    - `#ALERTES` : Alertes générales (ajoute préfixe `alerte-`)
-   - `#NOMBRES` : Nombres de 1 à 30 (ajoute préfixe `nombre-`)
+   - `#NOMBRES` : Nombres (ajoute préfixe `nombre-`)
 
    **Sections de création (pour nouveaux sons)** :
    - `#ALERTES-A-CREER` : Nouvelles alertes à générer (préfixe `alerte-`)
@@ -103,8 +105,8 @@ Les sons sont générés via l'API **LuvVoice** avec la voix française **Denise
    sound_registration.bat
    ```
    - Génère automatiquement 2 fichiers :
-     - `SoundRegistrations_Retail.lua` : 210 sons (toutes les classes)
-     - `SoundRegistrations_Forever.lua` : 176 sons (9 classes Forever uniquement)
+     - `SoundRegistrations_Retail.lua` : 258 sons (toutes les classes)
+     - `SoundRegistrations_Forever.lua` : 224 sons (9 classes Forever uniquement)
    - Les fichiers .toc chargent automatiquement le bon fichier selon la version
 
 ### Convention de nommage des fichiers
@@ -126,8 +128,8 @@ alerte-interrompre.mp3
 
 L'addon utilise deux fichiers de registrations séparés pour optimiser les performances :
 
-- **`SoundRegistrations_Retail.lua`** (28 KB) : 210 sons, 13 classes
-- **`SoundRegistrations_Forever.lua`** (23 KB) : 176 sons, 9 classes
+- **`SoundRegistrations_Retail.lua`** (34 KB) : 258 sons, 13 classes
+- **`SoundRegistrations_Forever.lua`** (29 KB) : 224 sons, 9 classes
 
 **Chargement automatique via .toc** :
 - `SharedMedia_FrenchSpells.toc` → charge `SoundRegistrations_Retail.lua`

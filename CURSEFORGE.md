@@ -75,6 +75,11 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 - [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
 - [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
 
+## 🤖 Avertissement relatif à l'IA
+
+L'auteur de cet addon est développeur professionnel, toutefois l'IA a été utilisée afin d'accélérer et faciliter une partie du développement.
+Toutes les voix ont été générées par une IA payante, aux frais du développeur principal.
+
 ## 📚 Liste complète des sons
 
 ### Chaman

@@ -165,6 +165,7 @@ Aggro
 Aggro élevée
 Aggro perdue
 Aura manquante
+Amélioration reçue
 Bouclier prêt
 Burst prêt[Beurstte prêt]
 Canalisation dangereuse

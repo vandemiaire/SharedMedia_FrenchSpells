@@ -22,6 +22,7 @@ LSM:Register("sound", "Nombre: 30", [[Interface\AddOns\SharedMedia_FrenchSpells\
 LSM:Register("sound", "Alerte: Aggro", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro.mp3]])
 LSM:Register("sound", "Alerte: Aggro Elevee", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro_elevee.mp3]])
 LSM:Register("sound", "Alerte: Aggro Perdue", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aggro_perdue.mp3]])
+LSM:Register("sound", "Alerte: Amelioration Recue", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-amelioration_recue.mp3]])
 LSM:Register("sound", "Alerte: Attention Ou Tu Marches", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-attention_ou_tu_marches.mp3]])
 LSM:Register("sound", "Alerte: Aura Manquant", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-aura_manquant.mp3]])
 LSM:Register("sound", "Alerte: Bouclier Pret", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-bouclier_pret.mp3]])

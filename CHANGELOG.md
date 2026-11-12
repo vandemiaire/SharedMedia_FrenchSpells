@@ -3,8 +3,8 @@
 ## [1.5.2] - 2026-11-13
 
 ### Nouveau
-- Trois sons pour l'addon Manners: "Manners", "Buff reçu" et "Amélioration reçue".
-- Un son "Coéquipier mort" (on avait déjà "Tank mort" et "Soigneur mort").
+- Trois sons utiles pour l'addon Manners: "Manners", "Buff reçu" et "Amélioration reçue".
+- Un son "Coéquipier mort" (plus explicite car on avait déjà "Joueur mort", "Tank mort" et "Soigneur mort").
 
 ## [1.5.1] - 2026-11-11
 

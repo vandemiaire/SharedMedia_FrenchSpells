@@ -55,8 +55,8 @@ Installez via **CurseForge App**
 
 ### Et ensuite ?
 
-La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, etc.
-Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt!
+La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, etc.
+Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque.
 
 ## 💾 Impact
 

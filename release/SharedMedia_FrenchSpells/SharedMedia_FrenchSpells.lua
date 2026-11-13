@@ -1,2 +1,0 @@
--- SharedMedia French Spells
--- Main addon file

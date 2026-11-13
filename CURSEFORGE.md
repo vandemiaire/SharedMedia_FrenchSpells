@@ -72,7 +72,7 @@ Le projet est **open-source** !
 
 Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 
-- [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-frenchspells)
+- [Commentaires CurseForge](https://www.curseforge.com/wow/addons/sharedmedia-french-spells/comments)
 - [GitHub Issues](https://github.com/vandemiaire/SharedMedia_FrenchSpells/issues)
 
 ## 🤖 Avertissement relatif à l'IA

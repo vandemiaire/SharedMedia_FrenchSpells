@@ -15,3 +15,5 @@ Desktop.ini
 # Release files
 releases/
 *.zip
+
+release/

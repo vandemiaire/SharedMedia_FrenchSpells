@@ -53,6 +53,9 @@ Installez via **CurseForge App**
    - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
 3. Redémarrez WoW
 
+
+Il faudra alors faire la mise à jour manuelle à chaque nouvelle version.
+
 ## ⚔️ Utilisation
 
 La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, etc.

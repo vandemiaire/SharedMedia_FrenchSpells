@@ -39,23 +39,6 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 
 **Important** : Sauf rares exceptions, seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas alourdir la taille de cet addon.
 
-## 📦 Installation
-
-### Installation automatique (recommandé)
-
-Installez via **CurseForge App**
-
-### Installation manuelle
-
-1. Téléchargez le fichier ZIP
-2. Extrayez dans le dossier AddOns approprié :
-   - **Retail** : `World of Warcraft\_retail_\Interface\AddOns\`
-   - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
-3. Redémarrez WoW
-
-
-Il faudra alors faire la mise à jour manuelle à chaque nouvelle version.
-
 ## ⚔️ Utilisation
 
 La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, etc.

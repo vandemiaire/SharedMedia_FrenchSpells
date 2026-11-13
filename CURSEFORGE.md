@@ -17,7 +17,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 ## 🧾 Exemples d'utilisation avec l'addon EllesmereUI
 
 * Vous êtes chasseur, le temps de recharge de _Courroux Bestial_ (30 secondes) arrive à zéro, une voix annonce "_Courroux Bestial_".
-* Vous êtes démoniste, le buff de malédiction appliqué sur votre cible se dissipe, une voix annonce "_Malédiction expirée_".
+* Vous êtes démoniste, le debuff de malédiction appliqué sur votre cible se dissipe, une voix annonce "_Malédiction expirée_".
 * Vous êtes chasseur de démons, la proc _Machine à tuer_ se déclenche, une voix annonce "_Machine à tuer_".
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "_Potion prête_".
 * Vous terminez une quête sur Forever, une voix annonce "_Quête terminée_".
@@ -53,10 +53,11 @@ Installez via **CurseForge App**
    - **Forever** : `World of Warcraft\_forever_\Interface\AddOns\`
 3. Redémarrez WoW
 
-### Et ensuite ?
+## ⚔️ Utilisation
 
 La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, etc.
-Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque.
+
+Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque, en plus des sons de base comme la cloche, le radar, etc.
 
 ## 💾 Impact
 

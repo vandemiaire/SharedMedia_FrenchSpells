@@ -11,11 +11,6 @@ Chaman:Lien d’esprit
 Chaman:Totem condensateur
 Chaman:Totem de marée de soins
 Chaman:Totem de mur terrestre
-Chasseur de démons:Métamorphose
-Chasseur de démons:Obscurité
-Chasseur de démons:Rayon accablant
-Chasseur de démons:Sigil de chaînes
-Chasseur de démons:Sigil de misère
 Chasseur:Appel du maître
 Chasseur:Aspect de la tortue
 Chasseur:Courroux bestial
@@ -27,6 +22,11 @@ Chasseur:Tir de la chimère
 Chasseur:Tir de lien
 Chasseur:Tir explosif
 Chasseur:Tir tranquillisant
+Chasseur de démons:Métamorphose
+Chasseur de démons:Obscurité
+Chasseur de démons:Rayon accablant
+Chasseur de démons:Sigil de chaînes
+Chasseur de démons:Sigil de misère
 Chevalier de la mort:Apocalypse
 Chevalier de la mort:Arme runique dansante
 Chevalier de la mort:Armée des morts
@@ -50,8 +50,10 @@ Démoniste:Siphon de puissance
 Démoniste:Sombre pacte
 Démoniste:Tyran démoniaque
 Druide:Célérité
+Druide:Déchirure
 Druide:Écorce
 Druide:Force de la nature
+Druide:Griffure
 Druide:Incarnation
 Druide:Innervation
 Druide:Météores
@@ -59,8 +61,6 @@ Druide:Renaissance
 Druide:Ruée r ugissante
 Druide:Sonner
 Druide:Tranquillité
-Druide:Griffure
-Druide:Déchirure
 Évocateur:Éternité
 Évocateur:Frappe écrasante
 Évocateur:Renaissance
@@ -127,10 +127,10 @@ Chaman:Afflux de tempête
 Chaman:Arme du Maelström
 Chaman:Déferlante de lave
 Chaman:Main brûlante
-Chasseur de démons:Danse avec le destin
-Chasseur de démons:Dévastation
 Chasseur:Frappes de cobra
 Chasseur:Tirs mortels
+Chasseur de démons:Danse avec le destin
+Chasseur de démons:Dévastation
 Chevalier de la mort:Frimas
 Chevalier de la mort:Machine à tuer
 Chevalier de la mort:Malédiction soudaine
@@ -166,14 +166,25 @@ Voleur:Découverte de faiblesse
 Aggro
 Aggro élevée
 Aggro perdue
-Aura manquante
 Amélioration reçue
+Attention où tu marches
+Aura manquante
 Bouclier prêt
+Bouge
+Buff reçu[Boeuf reçu]
 Burst prêt[Beurstte prêt]
 Canalisation dangereuse
+CD défensif
+CD heal[CD île]
+CD offensif
+Change de cible
+Changement de phase
 Cible hors de portée
 Cible morte
 Clé de l'Arcantina prête
+Coéquipier mort
+Combat engagé
+Combat terminé
 Contrôle prêt
 Contrôle terminé
 Cooldown offensif prêt[Couldaonne offensif prêt]
@@ -182,7 +193,9 @@ Debuff expiré[Déboeuf expiré]
 Défensif prêt
 Défensif terminé
 Déplacez-vous
+Dispersez-vous
 Dissipation prête
+Dissipe l'effet
 Dissiper
 Écartez-vous
 En combat
@@ -190,6 +203,8 @@ Familier absent
 Familier faible
 Familier hors de portée
 Familier mort
+Fuis
+Full DPS[Foule DPS]
 Hors combat
 Hors de portée
 Immunité prête
@@ -202,17 +217,27 @@ Interruption ratée
 Joueur mort
 Malediction expirée
 Mana faible
+Manners[Manneursse]
 Menace élevée
+Ne bouge plus
 Objectif atteint
-Quête terminée
 Pandémie
+Phase cinq
+Phase deux
+Phase quatre
+Phase trois
+Phase une
 Pierre de foyer prête
 Pierre de soins prête
 Potion prête
+Provoque le boss
 Purge prête
 Purger
+Quête terminée
 Racial prêt
+Rapproche-toi
 Regroupez-vous
+Reprends le DPS
 Silence prêt
 Soigner le familier
 Soigner le familier prêt
@@ -226,50 +251,25 @@ Stun prêt[Stonne prêt]
 Tank en danger
 Tank mort
 Trinket prêt[Trinequette prêt]
-Vie faible
-Fuis
-Rapproche-toi
-Dispersez-vous
-Dissipe l'effet
-Attention où tu marches
-Change de cible
-Provoque le boss
-CD défensif
-CD offensif
-CD heal[CD île]
-Ne bouge plus
-Bouge
-Reprends le DPS
-Full DPS[Foule DPS]
-Tuez les adds[Tuez les hadsse]
 Tuez le boss
-Combat engagé
-Combat terminé
-Phase une
-Phase deux
-Phase trois
-Phase quatre
-Phase cinq
-Changement de phase
-Coéquipier mort
-Manners[Manneursse]
-Buff reçu[Boeuf reçu]
+Tuez les adds[Tuez les hadsse]
+Vie faible
 # **************************************************
 # NOMBRES
 # **************************************************
-30
-20
-15
-10
-9
-8
-7
-6
-5
-4
-3
-2
 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+15
+20
+30
 # **************************************************
 # NOMBRES-A-CREER
 # **************************************************

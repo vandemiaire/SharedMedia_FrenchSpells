@@ -14,8 +14,8 @@ Version actuelle : **1.5.2** (voir [CHANGELOG.md](CHANGELOG.md)).
 
 Cet addon supporte **WoW Retail** et **WoW Forever** :
 
-- **Retail** : 258 sons (toutes les 13 classes)
-- **Forever** : 224 sons (9 classes Forever uniquement)
+- **Retail** : 260 sons (toutes les 13 classes)
+- **Forever** : 226 sons (9 classes Forever uniquement)
 
 Le même package ZIP fonctionne pour les deux versions grâce aux fichiers TOC séparés.
 

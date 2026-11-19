@@ -59,6 +59,8 @@ Druide:Renaissance
 Druide:Ruée r ugissante
 Druide:Sonner
 Druide:Tranquillité
+Druide:Griffure
+Druide:Déchirure
 Évocateur:Éternité
 Évocateur:Frappe écrasante
 Évocateur:Renaissance

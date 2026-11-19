@@ -28,7 +28,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 
 ## 📋 Sons disponibles
 
-258 sons pour Retail, 224 sons pour Forever (car moins de classes disponibles dans Forever).
+260 sons pour Retail, 226 sons pour Forever (car moins de classes disponibles dans Forever).
 
 >La liste complète des sons est disponible en bas de cette page.
 
@@ -37,7 +37,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 - **Alertes** : Environ 90 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : 1 à 10, 15, 20 et 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-**Important** : Sauf rares exceptions, seuls les sorts ayant un temps de recharge de plus de 20 secondes sont pris en charge, afin de ne pas alourdir la taille de cet addon.
+**Note** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont inclus, afin de ne pas alourdir la taille de cet addon. À ceux-ci sont ajoutés les sorts demandés par la communautés ou par l'auteur de cet addon.
 
 ## ⚔️ Utilisation
 
@@ -95,7 +95,7 @@ Toutes les voix ont été générées par une IA payante, aux frais du développ
 **Procs**: "Âme succulente", "Appel démoniaque", "Chancre des languages", "Coeur démoniaque", "Échos de Sargeras", "Rituel diabolique", "Toucher de Rancora"
 
 ### Druide
-**Sorts**: "Célérité", "Écorce", "Force de la nature", "Incarnation", "Innervation", "Météores", "Renaissance", "Ruée rugissante", "Tranquillité"
+**Sorts**: "Célérité", "Écorce", "Force de la nature", "Incarnation", "Innervation", "Météores", "Renaissance", "Ruée rugissante", "Tranquillité", "Griffure", "Déchirure"
 
 **Procs**: "Éclipse lunaire", "Éclipse solaire", "Idées claires", "Présage de clarté"
 

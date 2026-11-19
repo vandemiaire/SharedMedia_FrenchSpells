@@ -1,6 +1,6 @@
 ﻿# Changelog
 
-## [1.5.3] - 2026-11-XX
+## [1.5.3] - 2026-11-XX - NON PUBLIE !
 
 Ajout de 2 sorts pour le druide: Griffure et Déchirure
 

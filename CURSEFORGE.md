@@ -20,6 +20,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 * Vous êtes démoniste, le debuff de malédiction appliqué sur votre cible se dissipe, une voix annonce "_Malédiction expirée_".
 * Vous êtes chasseur de démons, la proc _Machine à tuer_ se déclenche, une voix annonce "_Machine à tuer_".
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "_Potion prête_".
+* Votre buff "Bien nourri" se dissipe, une voix annonce "_Aura manquante_".
 * Vous terminez une quête sur Forever, une voix annonce "_Quête terminée_".
 
 ## 🧾 Exemple d'utilisation avec l'addon Manners

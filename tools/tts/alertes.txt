@@ -58,7 +58,7 @@ Druide:Incarnation
 Druide:Innervation
 Druide:Météores
 Druide:Renaissance
-Druide:Ruée r ugissante
+Druide:Ruée rugissante
 Druide:Sonner
 Druide:Tranquillité
 Évocateur:Éternité

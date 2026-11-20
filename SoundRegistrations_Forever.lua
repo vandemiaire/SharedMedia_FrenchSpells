@@ -94,6 +94,7 @@ LSM:Register("sound", "Alerte: Racial Pret", [[Interface\AddOns\SharedMedia_Fren
 LSM:Register("sound", "Alerte: Rapproche-Toi", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-rapproche-toi.mp3]])
 LSM:Register("sound", "Alerte: Regroupez-Vous", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-regroupez-vous.mp3]])
 LSM:Register("sound", "Alerte: Reprends Le Dps", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-reprends_le_dps.mp3]])
+LSM:Register("sound", "Alerte: Sac De Couchage Pret", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-sac_de_couchage_pret.mp3]])
 LSM:Register("sound", "Alerte: Silence Pret", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-silence_pret.mp3]])
 LSM:Register("sound", "Alerte: Soigner Le Familier", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-soigner_le_familier.mp3]])
 LSM:Register("sound", "Alerte: Soigner Le Familier Pret", [[Interface\AddOns\SharedMedia_FrenchSpells\sounds\alerte-soigner_le_familier_pret.mp3]])

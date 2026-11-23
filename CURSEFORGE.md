@@ -1,18 +1,19 @@
 ﻿> ☝ **English speakers**:
 > 
-> This addon provides French spell sounds for LibSharedMedia. Perfect for French audio notifications in EllesmereUI, WeakAuras, DBM and other addons.
+> This addon provides French spell sounds for LibSharedMedia compatible addons. Perfect for French audio notifications in EllesmereUI, Questie, WeakAuras, and other addons.
 > Documentation below is in French.
 
-## 🎵 Bibliothèque de phrases en français pour EllesmereUI, DBM, WeakAuras, etc.
+## 🎵 Bibliothèque de phrases en français pour EllesmereUI, Questie, WeakAuras, etc.
 
 Bibliothèque de **sons de sorts, alertes et nombres en français**, tous créés avec une voix artificielle féminine de haute qualité.
 
-Compatible avec les addons **EllesmereUI**, **Manners**, **Questie**, **WeakAuras**, **ElvUI**, **QuestProgressSound**, **DBM**, **BigWigs**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
+Compatible avec les addons **EllesmereUI** • **Manners** • **Questie** • **WeakAuras** • **ElvUI** • **QuestProgressSound** • **DBM** • **BigWigs** ainsi que tous les autres addons qui incluent la librairie _LibSharedMedia_ pour gérer leurs sons.
 
-> ⚠️ **Important** :
->
-> Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile.
-> Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
+Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! 🎉
+
+Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque, en plus des sons de base comme la cloche, le radar, etc.
+
+>⚠️ Si vous n'utilisez pas un de ces addons alors cette bibliothèque de sons ne vous sera pas utile. Cet addon ne lit pas les sons, il les fournit juste aux autres addons qui utilisent le module _LibSharedMedia_.
 
 ## 🧾 Exemples d'utilisation avec l'addon EllesmereUI
 
@@ -33,27 +34,20 @@ Compatible avec les addons **EllesmereUI**, **Manners**, **Questie**, **WeakAura
 * Vous atteignez un objectif (par exemple 3/3 objets à ramasser), une voix annonce "_Objectif atteint_".
 * Vous terminez une quête, une voix annonce "_Quête terminée_".
 
-> Note:
-> Vous pouvez faire la même chose dans EllesmereUI.
+>💡Vous pouvez faire la même chose dans EllesmereUI.
 
 ## 📋 Sons disponibles
 
 261 sons pour Retail, 227 sons pour Forever (car moins de classes disponibles dans Forever).
 
->La liste complète des sons est disponible en bas de cette page.
+>💡La liste complète des sons est disponible en bas de cette page.
 
 - **Sorts** : Plus de 100 sorts défensifs, offensifs et utilitaires (Exemples : _"Tempête de lames", "Métamorphose", "Combustion", "Disparition"_)
 - **Procs** : De nombreuses procs importantes (Exemples: _"Coeur démoniaque", "Frappe de cobra", "Idées claires"_)
 - **Alertes** : Environ 90 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : 1 à 10, 15, 20 et 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-**Note** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont inclus, afin de ne pas alourdir la taille de cet addon. À ceux-ci sont ajoutés les sorts demandés par la communauté ou par l'auteur de cet addon.
-
-## ⚔️ Utilisation
-
-La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, **Questie**, etc.
-
-Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque, en plus des sons de base comme la cloche, le radar, etc.
+>☝️ Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont inclus, afin de ne pas alourdir la taille de cet addon. À ceux-ci sont ajoutés les sorts demandés par la communauté ou par l'auteur de cet addon.
 
 ## 💾 Impact
 

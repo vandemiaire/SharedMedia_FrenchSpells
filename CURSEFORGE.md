@@ -47,7 +47,7 @@ Compatible avec les addons **EllesmereUI**, **Manners**, **Questie**, **WeakAura
 - **Alertes** : Environ 90 notifications générales  (Exemples: _"Familier mort", "Mana faible", "Interruption prête", "Aggro perdue", "Phase 1"_)
 - **Nombres** : 1 à 10, 15, 20 et 30 pour les timers et annonces (Exemples : _"1", "5", "10", "30"_)
 
-**Note** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont inclus, afin de ne pas alourdir la taille de cet addon. À ceux-ci sont ajoutés les sorts demandés par la communautés ou par l'auteur de cet addon.
+**Note** : Seuls les sorts ayant un temps de recharge de plus de 20 secondes sont inclus, afin de ne pas alourdir la taille de cet addon. À ceux-ci sont ajoutés les sorts demandés par la communauté ou par l'auteur de cet addon.
 
 ## ⚔️ Utilisation
 

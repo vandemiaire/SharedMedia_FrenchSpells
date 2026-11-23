@@ -74,7 +74,7 @@ Les contributions, suggestions ou demandes de nouveaux sons sont les bienvenus :
 
 ## 🤖 Avertissement relatif à l'IA
 
-L'auteur de cet addon est développeur professionnel, toutefois l'IA a été utilisée afin d'accélérer et faciliter une partie du développement.
+L'auteur de cet addon est développeur professionnel depuis plus de 25 ans, toutefois l'IA a été utilisée afin d'accélérer et faciliter une partie du développement.
 Toutes les voix ont été générées par une IA payante, aux frais du développeur principal.
 
 ## 📚 Liste complète des sons

@@ -7,7 +7,7 @@
 
 Bibliothèque de **sons de sorts, alertes et nombres en français**, tous créés avec une voix artificielle féminine de haute qualité.
 
-Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **ElvUI**, **Plater**, **QuestProgressSound**, **Manners**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
+Compatible avec les addons **EllesmereUI**, **Manners**, **Questie**, **WeakAuras**, **ElvUI**, **QuestProgressSound**, **DBM**, **BigWigs**, ainsi que tous les autres addons qui utilisent la librairie _LibSharedMedia_ pour leurs sons.
 
 > ⚠️ **Important** :
 >
@@ -20,13 +20,21 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 * Vous êtes démoniste, le debuff de malédiction appliqué sur votre cible se dissipe, une voix annonce "_Malédiction expirée_".
 * Vous êtes chasseur de démons, la proc _Machine à tuer_ se déclenche, une voix annonce "_Machine à tuer_".
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "_Potion prête_".
-* Votre buff "Bien nourri" se dissipe, une voix annonce "_Aura manquante_".
-* Vous terminez une quête sur Forever, une voix annonce "_Quête terminée_".
-* Dans Forever votre sac de couchage est disponible après son temps de recharge, une voix annonce "_Sac de couchage prêt_" (l'ID du sort est 211527, ajoutez-le manuellement aux temps de recharges utilitaires dans EllesmereUI).
+* Votre amélioration "Bien nourri" se dissipe, une voix annonce "_Aura manquante_".
+* Dans Forever votre sac de couchage est disponible après son temps de recharge, une voix annonce "_Sac de couchage prêt_" (l'ID de l'objet est 211527, ajoutez-le manuellement aux temps de recharges utilitaires dans EllesmereUI).
+* Votre pierre de foyer est à nouveau disponible, une voix annonce "_Pierre de foyer prête_" (l'ID de l'objet est 6948, ajoutez-le manuellement aux temps de recharges utilitaires dans EllesmereUI)
 
 ## 🧾 Exemple d'utilisation avec l'addon Manners
 
-* Vous recevez une amélioration de la part d'un joueur passant près de vous, une voix annonce (au choix) "_Amélioration reçue_", "_Buff reçu_", ou "_Manners_".
+* Vous recevez une amélioration de la part d'un joueur passant près de vous, une voix annonce (au choix) "_Manners_", "_Amélioration reçue_" ou "_Buff reçu_".
+
+## 🧾 Exemple d'utilisation avec l'addon Questie
+
+* Vous atteignez un objectif (par exemple 3/3 objets à ramasser), une voix annonce "_Objectif atteint_".
+* Vous terminez une quête, une voix annonce "_Quête terminée_".
+
+> Note:
+> Vous pouvez faire la même chose dans EllesmereUI.
 
 ## 📋 Sons disponibles
 

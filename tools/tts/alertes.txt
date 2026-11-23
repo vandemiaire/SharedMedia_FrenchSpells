@@ -238,6 +238,7 @@ Racial prêt
 Rapproche-toi
 Regroupez-vous
 Reprends le DPS
+Sac de couchage prêt
 Silence prêt
 Soigner le familier
 Soigner le familier prêt

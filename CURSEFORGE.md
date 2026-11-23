@@ -22,6 +22,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 * Une de vos potions de soins est disponible après son temps de recharge, une voix annonce "_Potion prête_".
 * Votre buff "Bien nourri" se dissipe, une voix annonce "_Aura manquante_".
 * Vous terminez une quête sur Forever, une voix annonce "_Quête terminée_".
+* Dans Forever votre sac de couchage est disponible après son temps de recharge, une voix annonce "_Sac de couchage prêt_" (l'ID du sort est 211527, ajoutez-le manuellement aux temps de recharges utilitaires dans EllesmereUI).
 
 ## 🧾 Exemple d'utilisation avec l'addon Manners
 
@@ -29,7 +30,7 @@ Compatible avec les addons **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**,
 
 ## 📋 Sons disponibles
 
-260 sons pour Retail, 226 sons pour Forever (car moins de classes disponibles dans Forever).
+261 sons pour Retail, 227 sons pour Forever (car moins de classes disponibles dans Forever).
 
 >La liste complète des sons est disponible en bas de cette page.
 
@@ -136,7 +137,7 @@ Toutes les voix ont été générées par une IA payante, aux frais du développ
 **Procs**: "Découverte de faiblesse"
 
 ### Alertes générales
-"Aggro", "Aggro élevée", "Aggro perdue", "Amélioration reçue", "Attention où tu marches", "Aura manquante", "Bouclier prêt", "Bouge", "Buff reçu", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Coéquipier mort", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Fuis", "Full DPS", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Manners", "Menace élevée", "Ne bouge plus", "Objectif atteint", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Quête terminée", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible"
+"Aggro", "Aggro élevée", "Aggro perdue", "Amélioration reçue", "Attention où tu marches", "Aura manquante", "Bouclier prêt", "Bouge", "Buff reçu", "Burst prêt", "Canalisation dangereuse", "CD défensif", "CD heal", "CD offensif", "Change de cible", "Changement de phase", "Cible hors de portée", "Cible morte", "Clé de l'Arcantina prête", "Coéquipier mort", "Combat engagé", "Combat terminé", "Contrôle prêt", "Contrôle terminé", "Cooldown offensif prêt", "Danger", "Debuff expiré", "Défensif prêt", "Défensif terminé", "Déplacez-vous", "Dispersez-vous", "Dissipation prête", "Dissipe l'effet", "Dissiper", "Écartez-vous", "En combat", "Familier absent", "Familier faible", "Familier hors de portée", "Familier mort", "Fuis", "Full DPS", "Hors combat", "Hors de portée", "Immunité prête", "Immunité terminée", "Incantation dangereuse", "Interrompre", "Interruption impossible", "Interruption prête", "Interruption ratée", "Joueur mort", "Malediction expirée", "Mana faible", "Manners", "Menace élevée", "Ne bouge plus", "Objectif atteint", "Pandémie", "Phase cinq", "Phase deux", "Phase quatre", "Phase trois", "Phase une", "Pierre de foyer prête", "Pierre de soins prête", "Potion prête", "Provoque le boss", "Purge prête", "Purger", "Quête terminée", "Racial prêt", "Rapproche-toi", "Regroupez-vous", "Reprends le DPS", "Silence prêt", "Soigner le familier", "Soigner le familier prêt", "Soigneur en danger", "Soigneur hors de portée", "Soigneur mort", "Sort dangereux", "Stop cast", "Stop DPS", "Stun prêt", "Tank en danger", "Tank mort", "Trinket prêt", "Tuez le boss", "Tuez les adds", "Vie faible", "Sac de couchage prêt"
 
 ### Nombres
 "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "15", "20", "30"

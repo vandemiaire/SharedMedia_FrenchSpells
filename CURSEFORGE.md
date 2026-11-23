@@ -51,7 +51,7 @@ Compatible avec les addons **EllesmereUI**, **Manners**, **Questie**, **WeakAura
 
 ## ⚔️ Utilisation
 
-La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, etc.
+La librairie _LibSharedMedia_ est déjà incluse dans certains célèbres addons comme **EllesmereUI**, **WeakAuras**, **DBM**, **BigWigs**, **Manners**, **Questie**, etc.
 
 Si vous utilisez l'un de ces addons, alors vous êtes déjà prêt! Allez dans les paramètres de ces addons, et dans les listes des sons proposés vous devriez retrouver tous ceux de cette bibliothèque, en plus des sons de base comme la cloche, le radar, etc.
 
